@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { NavBar } from './components/NavBar';
+import "./styles/custom.scss"
+import Video from './video';
+import JakeLogo  from './images/JakeLogo.svg'
+import { Footer } from './components/footer';
 
-function App() {
+
+
+
+
+
+
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      
+      <div className="jake-container"><NavBar /></div>
+      <div className="container">
+        <img className="jakelogo" src={JakeLogo} alt="C51"></img>
+        <Video classname="video"/>
+      </div>
+      
+      <Footer/>
+      
+    </>
   );
 }
 
-export default App;

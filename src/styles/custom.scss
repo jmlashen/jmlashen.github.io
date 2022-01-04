@@ -1,0 +1,46 @@
+// C51 Website Color palette
+$mainblue: #121212;
+$mainpurp: #706993;
+$mainyellow: #F4E8C1;
+$darkpurp: #331E38;
+$maingreen: #A0C1B9;
+// *************************
+
+@import "./_colors.scss";
+@import "bootstrap/scss/bootstrap.scss";
+@import "./App.scss";
+@import "./main.scss";
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@300;400;500;600;700;800&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+//Main styling =========================
+body {
+  background-color: $mainpurp;
+  // background-image: linear-gradient(#706993,#4f4775,#706993);
+  margin: 0;
+
+}
+
+// Text
+h1 {font-family: cubano,sans-serif;
+  // font-weight: 400;
+  color: $maingreen;
+  font-size: xx-large;
+}
+h2 {
+  font-family: "Space Mono";
+  font-weight: bold;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
