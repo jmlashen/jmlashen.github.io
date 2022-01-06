@@ -1,52 +1,31 @@
-
-
-.navlist {
-    display: flex;
-    flex-direction: row;
-}
+// NAV SECTION =========================
 
 .nav {
+    background-color: #706993;
     
-    padding-top: 50px;
-    padding-bottom: 100px;
 }
 
-.navcontainer {
-    display: flex;
-    flex-direction: row;
+.navresume {
+    width: 70px;
 }
-
 .navhome {
-    
-    padding-right: 90px;
-    padding-top: 2px;
-    // width: 200px;
+    width: 70px;
 }
 
 .navwork {
-   
-    padding-right: 100px;
-    padding-top: 5px;
-    // width: 200px;
+   width: 70px;
 }  
 
 .navabout {
-    
-    padding-left: 50px;
-    padding-top: 6px;
-    // width: 165px;
+    width: 70px;
+
 } 
 
-.navresume {
-    
-    padding-right: 10px;
-    padding-top: 6px;
-    // width: 125px;
-    
+.navboxes {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
 }
-
-/* mouse over link */
- 
   
  
 

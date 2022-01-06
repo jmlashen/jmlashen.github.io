@@ -1,11 +1,12 @@
-import "./App.css";
+
 import useVideoPlayer from './hooks/useVideoPlayer';
 import { useRef } from 'react';
+import "./styles/video.scss";
 
 
 
 
-const Video = () => {
+const Video = ({VideoSource}) => {
   const videoElement = useRef(null);
   const {
     playerState,
@@ -16,10 +17,10 @@ const Video = () => {
     toggleMute,
   } = useVideoPlayer(videoElement);
   return (
-    <div className="container">
+    <div className="container-video">
       <div className="video-wrapper">
         <video
-          // src={'https://res.cloudinary.com/djnk0ey5p/video/upload/v1641309929/My_Movie_3_xcxtif.mp4'}
+          src={VideoSource}
           ref={videoElement}
           onTimeUpdate={handleOnTimeUpdate}
         />
