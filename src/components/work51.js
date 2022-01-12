@@ -1,5 +1,5 @@
 import React from "react"
-import C51 from "../images/C51.svg"
+
 import { Button } from "react-bootstrap"
 import Video from "../video"
 
@@ -10,29 +10,33 @@ import Video from "../video"
 export const Work51 = () => {
     return (
         <>
-            <div className="worksection">
-                <div className="workbox">
-                    
-                    <div className="content">
-
-                        <div><h1>Cohort Website Group Project</h1></div>
-                        <div><img className="c51" src={C51} alt="c51 logo" /></div>
-                        <div><h6>Description</h6></div>
-                        <div>
-                        <Video VideoSource="https://res.cloudinary.com/djnk0ey5p/video/upload/v1641318963/Card_Caddie_Demo_ofstlb.mp4"/>
-                        </div>
-                        <div className="workbuttons">
-                        <div><Button>Try It Out!</Button></div>
-                        <div><Button>View Repo</Button></div>
-                    </div>
-                    </div>
-                   
-                    <div className="workcontainer"></div>
-                </div>
-            </div>
+     
 
 
 
         </>
     )
 }
+
+{/* <div className="c51-container">
+<div><img className="c51" src={C51} alt="C51-logo" /></div>
+<div className="C51-title"><h4>Cohort-51 Website Group Project</h4></div>
+
+<div className="C51-description"><h6>This was the best group project I have ever been apart of. Our goal was to help showcase our Cohort's software development skills with personality to facilitate getting hired quickly by an employer that is a good fit. Everyone contribtued greatly and we had so much fun!</h6></div>
+
+<div>
+</div>
+
+
+
+<div className="workbuttons">
+    <div><a target="_blank" href="https://card-caddie.herokuapp.com/"><Button>Try It Out</Button></a></div>
+
+    <div><a target="_blank" href="https://github.com/nss-day-cohort-51/nss-day-cohort-51.github.io"><Button>View Repo</Button></a>
+    </div>
+</div>
+
+
+
+<Video VideoSource="https://res.cloudinary.com/djnk0ey5p/video/upload/v1641503245/My_Movie_2_hghfez.mp4" />
+</div> */}

@@ -16,18 +16,95 @@
 
 .footer-icons {
     display: flex;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
     
 }
 
 .github {
     
-    width: 50px;
+    width: 100px;
+    padding: 15px;
     
     
+    
+}
+
+// .github:hover {
+//     transform: scale(1.5);
+//     transition: 250ms;
+//     color: $mainyellow;
+// }
+
+.linkedin {
+    width: 100px;
+    padding: 15px;
+
+}
+
+
+// .linkedin:hover {
+//     transform: scale(1.5);
+//     transition: 250ms;
+//     color: $mainyellow;
+// }
+
+
+@media only screen and (min-width: 361px ) {
+    // LANDING PAGE
+
+.landcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 170px;
+    padding-bottom: 45px;
+}
+
+.jakelogo {
+    width: 600px;
+    padding-top: 180px;
+    
+    
+}
+
+.jake-logo-containter {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 150px;
+
+}
+// FOOTER
+
+.footer-icons {
+    display: flex;
+    padding-bottom: 40px;
+    
+    
+}
+
+.github {
+    
+    width: 90px;
+    padding: 15px;
+    
+    
+    
+}
+
+.github:hover {
+    transform: scale(1.1);
+    transition: 2ms;
+}
+
+.linkedin:hover {
+    transform: scale(1.1);
+    transition: 2ms;
 }
 
 .linkedin {
-    width: 50px;
+    width: 90px;
+    padding: 15px;
 
 }
-
+}

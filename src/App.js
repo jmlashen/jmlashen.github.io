@@ -22,22 +22,23 @@ export const App = () => {
         <NavBarBS id="App"/>
       </div>
 
-
+      <div className='landcontainer'>
       <div className='jake-logo-containter'>
         <img className="jakelogo" src={JakeLogo} alt="C51"></img>
       </div>
       <div className='main-video-container'>
         <Video VideoSource="https://res.cloudinary.com/djnk0ey5p/video/upload/v1641309929/My_Movie_3_xcxtif.mp4" />
       </div>
+      </div>
       <div className='footer-container'>
         <Footer />
       </div>
-      <div className="workcontainer">
+      {/* <div className="workcontainer">
         <Work51 className="workarea" />
-      </div>
-      <div className="caddie-container">
+      </div> */}
+      
         <Work className="workarea" />
-      </div>
+      
 
       <div>
         <About />
