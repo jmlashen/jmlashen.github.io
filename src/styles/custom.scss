@@ -56,6 +56,24 @@ h6 {
 
 // WORK SECTION =========================
 
+.prototype {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+ 
+
+}
+.desktop {
+  width: 200px;
+}
+
+.mobile {
+  width: 80px;
+
+
+}
+
 .C51-description {
   display: flex;
   flex-direction: column;
