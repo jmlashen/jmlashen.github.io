@@ -1,46 +1,799 @@
-// C51 Website Color palette
-$mainblue: #121212;
-$mainpurp: #706993;
-$mainyellow: #F4E8C1;
-$darkpurp: #331E38;
-$maingreen: #A0C1B9;
-// *************************
+//IMPORTS *************************
 
 @import "./_colors.scss";
 @import "bootstrap/scss/bootstrap.scss";
-@import "./App.scss";
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+@import "./video.scss";
 @import "./main.scss";
 
 
-
-
-@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@300;400;500;600;700;800&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
-
-//Main styling =========================
+//MAIN STYLING =========================
 body {
   background-color: $mainpurp;
   // background-image: linear-gradient(#706993,#4f4775,#706993);
-  margin: 0;
+  margin: 0px;
 
 }
 
-// Text
-h1 {font-family: cubano,sans-serif;
-  // font-weight: 400;
-  color: $maingreen;
+// TEXT =========================
+h1 {
+  font-family: cubano,sans-serif;
+  color: $darkpurp;
   font-size: xx-large;
 }
 h2 {
-  font-family: "Space Mono";
-  font-weight: bold;
+  font-family: europa,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: $darkpurp;
 }
 
-h3,
-h4,
-h5,
+h3 {
+  font-family: europa,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h4 {
+  font-family: cubano,sans-serif;
+  color: $darkpurp;
+  font-size: large;
+}
+h5 {
+
+  font-family: europa,sans-serif;
+  font-weight: 400;
+  color: $darkpurp;
+  font-size: x-large;
+
+}
 h6 {
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
+  font-family: europa,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: $darkpurp;
+}
+
+// WORK SECTION =========================
+
+.prototype {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+ 
+
+}
+.desktop {
+  width: 200px;
+}
+
+.mobile {
+  width: 80px;
+
+
+}
+
+.C51-description {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: left;
+  
+  
+}
+
+.caddie-description {
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.C51-title {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.worksection {
+  display: flex;
+  justify-content: space-evenly;
+  
+
+  .workbox {
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      // flex-direction: column;
+      
+      
+      .content {
+        background-color: $mainblue ;
+        width: 350px;
+        max-height: 1200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-style: solid;
+        border-color: $mainblue;
+        
+      }
+
+      .caddie-content {
+        background-color: $mainblue ;
+        width: 350px;
+        min-height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        // border-style: solid;
+        
+        // border-radius: 1%;
+      }
+  }
+
+ 
+    
+
+// BUTTONS =========================
+  .workbuttons {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+}
+    
+  .btn-primary {
+    color: $darkpurp;
+    background-color: $mainyellow;
+    border-color: $mainblue;
+    font-family: europa,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+  }
+
+  .btn {
+    margin: 5px;
+  }
+}
+
+
+
+.workcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-top: 100px;
+  
+  
+}
+
+
+.mainworkcontainer {
+  display: flex;
+  flex-direction: column;
+}
+.caddie-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-top: 300px;
+  padding-bottom: 10px;
+  
+ 
+  
+  
+}
+
+.workhead-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  
+}
+
+
+// WORK SECTION IMAGES =========================
+
+
+.c51 {
+  padding-top: 20px;
+  width: 200px;
+  
+}
+
+.c51logo-top {
+
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.c51logo-top-caddie {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.caddie {
+  width: 300px;
+  padding-top: 20px;
+}
+
+
+.aboutgroup-img {
+  width: 300px;
+  
+}
+
+.aboutgroup {
+  display: flex;
+  justify-content: center;
+}
+// ABOUT SECTION =========================
+.JakeAbout {
+  width: 300px;
+  margin-left: auto;
+ margin-right: auto;
+ padding-left: 0.75rem;
+ padding-right: 0.75rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.about-text {
+  display: flex;
+  align-items: flex-start;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: left;
+  color: $darkpurp;
+
+}
+.about-section {
+  display: flex;
+  justify-content: center;
+  
+ 
+  
+  
+
+  .about-box {
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+      
+      .about-content {
+        background-color: $mainblue ;
+        width: 350px;
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-style: solid;
+        border-color: $mainblue;
+        // border-radius: 1%;
+        
+      
+      }
+
+      .about-content2 {
+        background-color: $mainblue ;
+        width: 350px;
+        height: 800px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-style: solid;
+        border-color: $mainblue;
+        // border-radius: 1%;
+        
+      
+      }
+  }
+
+
+
+}
+.jakeguitar {
+  display: flex;
+  justify-content: center;
+  padding-left: 95px;
+  margin-top: -50px;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: center;
+  
+  
+
+}
+
+.aboutme-img {
+ width: 150px;
+ padding-top: 20px;
+}
+
+.jakeAbout-img {
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+// SCROLL SECTIONS =========================
+
+#work {
+  scroll-margin-top: 95px;
+}
+
+#about {
+  scroll-margin-top: 70px;
+}
+
+// WORK MEDIA QUERY=========================
+
+@media only screen and (min-width: 361px ) {
+
+   .c51logo-top {
+     
+     display: flex;
+     justify-content: center;
+     padding-top: 30px;
+     
+     
+
+}
+
+.c51logo-top-caddie {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  
+
+}
+  .workmain-left {
+    display: flex;
+    flex-direction: column;
+  
+    
+    
+  }
+  .workcontain-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 100px;
+    
+    
+  }
+
+  .c51-container {
+    display: flex;
+    
+    
+  }
+
+  .workmaincontain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+  }
+
+.c51logotext-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 300px;
+  
+  
+}
+
+  .C51-description { 
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 110px;
+    // padding-top: 70px;
+    padding-bottom: 50px;
+    text-align: left;
+
+    
+    
+  }
+
+
+ .h4 {
+   font-size: xxx-large;
+   padding-bottom: 20px;
+   
+ }
+
+ .h6 {
+   font-size: x-large;
+   padding-top: 20px;
+ }
+ 
+  
+  .caddie-description {
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: left;
+    
+  }
+
+  
+  .C51-title {
+    margin-top: 0px;
+    margin-bottom: 5px;
+    
+  }
+  
+  .worksection {
+    display: flex;
+    justify-content: space-evenly;
+  
+    .workbox {
+      
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // flex-direction: column;
+        
+        
+        .content {
+          background-color: $mainblue ;
+          width: 1300px;
+          max-height: 1200px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          border-style: solid;
+          border-color: $mainblue;
+          // border-radius: 1%;
+        }
+  
+        .caddie-content {
+          background-color: $mainblue ;
+          width: 1300px;
+          max-height: 3500px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          border-style: solid;
+          border-color: $mainblue;
+          padding-bottom: 20px;
+          // border-radius: 10px;
+        }
+    }
+  
+   
+      
+  
+  // BUTTONS =========================
+    .workbuttons {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    
+    
+  }
+      
+    .btn-primary {
+      color: $darkpurp;
+      background-color: $mainyellow;
+      border-color: $mainblue;
+      font-family: europa,sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      
+    }
+  
+    .btn {
+      margin: 5px;
+    }
+  }
+  
+  
+  
+  .workcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+    
+    
+    
+  }
+  
+  
+  .mainworkcontainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .caddie-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    
+   
+    
+    
+  }
+
+  
+  .workhead-container {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    justify-content: center;
+    display: flex;
+  }
+  
+  
+  // WORK SECTION IMAGES =========================
+  
+  
+  .c51 {
+    
+    width: 300px;
+    
+    
+  }
+  
+  .caddie {
+    width: 500px;
+    padding-top: 5px;
+    
+  }
+
+  .first-box {
+    background-color: $maingreen ;
+        width: 1200px;
+        
+        
+        border-style: solid $maingreen;
+        border-radius:0px;
+        margin-top: 50px;
+        border-style: solid;
+        border-color: $mainyellow;
+        
+  }
+
+  .proto-head {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .planning {
+    padding-top: 30px;
+    padding-left: 20px;
+  }
+
+  // .first-box-video {
+  //   background-color: $maingreen;
+  //       width: 1200px;
+  //       height: 380px;
+  //       display: flex;
+  //       justify-content: center;
+  //       padding-top: 18px;
+  //       border-style: solid;
+  //       border-color: $mainyellow;
+  //       border-radius: 0px;
+  //       // border-radius:50px;
+        
+
+        
+        
+  // }
+  
+
+}
+// ABOUT ME MEDIA QUERY
+@media only screen and (min-width: 361px ) {
+  // ABOUT SECTION =========================
+  .aboutgroup {
+    display: flex;
+    justify-content: center;
+  }
+  .aboutgroup-img {
+    width: 700px;
+    
+  }
+
+.JakeAbout {
+  width: 300px;
+//   margin-left: auto;
+//  margin-right: auto;
+ padding-left: 0.75rem;
+ padding-right: 0.75rem;
+ 
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.about-green-box {
+  display: flex;
+  justify-content: center;
+}
+.about-text {
+  display: flex;
+  align-items: flex-start;
+ 
+  padding-left: 40px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: left;
+  font-size: x-large;
+  
+  
+}
+.about-section {
+  display: flex;
+  justify-content: center;
+  
+  
+ 
+  
+  
+
+  .about-box {
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      
+      
+      .about-content {
+        background-color: $mainblue ;
+        width: 1300px;
+        display: flex;
+        flex-direction: row;
+        border-style: solid;
+        border-color: $mainblue;
+        padding-top: 50px;
+        // border-radius: 1%;
+        
+      
+      }
+  }
+
+  .about-content2 {
+    background-color: $mainblue ;
+    min-width: 1300px;
+    min-height: 1500px;
+    display: flex;
+    border-style: solid;
+    border-color: $mainblue;
+    // padding-left: 50px;
+    
+    
+    // border-radius: 1%;
+  
+  }
+
+
+  .about-text2 {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: x-large;
+    
+    
+  }
+
+
+}
+.jakeguitar {
+  display: flex;
+  justify-content: center;
+  padding-left: 95px;
+  margin-top: -50px;
+}
+
+.aboutme {
+  display: flex;
+  justify-content: center;
+  
+  
+
+}
+
+.aboutme-img {
+ width: 150px;
+ padding-top: 20px;
+}
+
+.jakeAbout-img {
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+
+
+}
+
+//SCROLL MEDIA QUERY
+@media only screen and (min-width: 361px ) {
+  // ABOUT SECTION =========================
+
+#work {
+  scroll-margin-top: 50px;
+}
+
+#about {
+  scroll-margin-top: 138px;
+}}
+
+
+@media only screen and (min-width: 361px ) {
+  // PROTOTYPES SECTION =========================
+.prototype {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 50px;
+ 
+
+}
+.logo-prototype-desktop {
+  padding-top: 10px;
+}
+.desktop {
+  width: 600px;
+}
+
+.mobile {
+  width: 200px;
+
+
+}
+
+.mobile:hover {
+  transform: scale(1.05);
+  transition: 2ms;
+}
+
+.desktop:hover {
+  transform: scale(1.05);
+  transition: 10ms;
+}
+
 }
