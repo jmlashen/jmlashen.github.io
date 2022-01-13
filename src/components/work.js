@@ -42,7 +42,7 @@ export const Work = () => {
                         <div className="C51-description">
                         <div ><h4 className="h4">Cohort-51 Webiste</h4></div>
                         
-                                <h6 className="h6">This was the best group project I have ever been apart of. Our goal was to help showcase our Cohort's software development skills with personality to facilitate getting hired quickly by an employer that is a good fit. Everyone contribtued greatly and we had so much fun!</h6>
+                                <p className="h6">This group project was the most rewarding project I've ever had the pleasure of working on. Our goal was to showcase our software development and UI/UX skills with a personality and flair to facilitate getting hired quickly by an employer that is a good fit. With significant group planning, data collection, and user testing, we learned a lot about UX and the processes that precede the launch of the final product. We even revealed a pain point in the School curriculum relating to graduation requirements during the process!  <p className="h6">Everyone in the group made significant contributions. Logo design, writing a conditional for the split-cohort colored ring skill type specificity, prototypes, and contributing to the styling of the developer cards we just a few of my main contributions. We had such a terrific time creating this website together!</p></p>
                             </div>
                             </div>
                             
@@ -82,7 +82,7 @@ export const Work = () => {
                         <div className="c51logo-top-caddie"><img className="caddie" src={caddie} alt="Card Caddie logo" /></div>
                         <div ><h4 className="h4">Card Caddie</h4></div>
                         
-                                <h6 className="h6">This app helps golfers keep track of their scores as well as reflections from the rounds and the courses they play. App has full CRUD capability (React, API fetch calls, React-Routing, and JSON server) Styling was achieved through CSS, Cloudinary and reactstrap for an approachable user experience.</h6>
+                                <h6 className="h6">This user-specific app helps golfers keep track of scores and reflections from their rounds. Users can also add a new course and crowdsource courses from other users. Card Caddie has full CRUD capability (React, API fetch calls, React-Routing, and JSON server) with styling achieved through CSS, Cloudinary, and Reactstrap for an approachable user experience.</h6>
                             </div>
                             </div>
                             
@@ -113,8 +113,10 @@ export const Work = () => {
                             <div className="logo-prototype-mobile"><a target="_blank" href="https://www.figma.com/proto/5TqtET6dRZyc1YjqgODj0X/C-51-Prototype---Mobile?page-id=0%3A1&node-id=2%3A818&viewport=241%2C48%2C0.34&scaling=scale-down&starting-point-node-id=2%3A818"><img className="mobile" src={mobile} alt="prototype mobile" /></a></div>
                             <div className="logo-prototype-desktop"><a target="_blank" href="https://www.figma.com/proto/RjPnJ4xrvjgEBBPvwayI9M/C-51-Prototype---Desktop?page-id=0%3A1&node-id=54%3A700&viewport=241%2C48%2C0.18&scaling=scale-down&starting-point-node-id=54%3A700&show-proto-sidebar=1"><img className="desktop" src={desktop} alt="prototype desktop" /></a></div>
                             </div>
-                            <div ><h4 className="h4">Prototypes</h4></div>
-                                <h6 className="h6">This app helps golfers keep track of their scores as well as reflections from the rounds and the courses they play. App has full CRUD capability (React, API fetch calls, React-Routing, and JSON server) Styling was achieved through CSS, Cloudinary and reactstrap for an approachable user experience.</h6>
+                            
+                            <div className="proto-head" ><h4 className="h4">Prototypes</h4> <div className="planning"><h6>view all planning resources for the Cohort-51 Website Group Project  <a target="_blank" href="https://github.com/nss-day-cohort-51/nss-day-cohort-51.github.io">here.</a></h6></div></div>
+                            
+                                <h6 className="h6">Based on user data and group planning for the Cohort-51 Website, I created mobile and desktop prototypes for the project using Figma. Prototyping is one of my favorite processes that precede the launch of the final product and helps present a clear vision.</h6>
                             </div>
                             </div>
 

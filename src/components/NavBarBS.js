@@ -24,7 +24,7 @@ export const NavBarBS = () => {
                     <div>
                         <a href="#about"><img className="navabout" src={about} alt="about" /></a>
                     </div>
-                
+
                     <div>
                         <a target="_blank" href="https://drive.google.com/file/d/1qWfI4xuKsbo4cv1dX5e9IHmsA8XTs-Q3/view?usp=sharing"><img className="navresume" src={resumenav} alt="resume" /></a>
                     </div>

@@ -6,7 +6,7 @@ import "./styles/video.scss";
 
 
 
-const Video = ({VideoSource}) => {
+const Video = ({ VideoSource }) => {
   const videoElement = useRef(null);
   const {
     playerState,
