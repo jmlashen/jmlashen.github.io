@@ -302,7 +302,7 @@ h6 {
         width: 350px;
         height: 800px;
         display: flex;
-        justify-content: center;
+        // justify-content: center;
         align-items: center;
         flex-direction: column;
         border-style: solid;
@@ -426,7 +426,7 @@ h6 {
 
  .h4 {
    font-size: xxx-large;
-   padding-bottom: 20px;
+  //  padding-bottom: 20px;
    
  }
 
@@ -591,12 +591,12 @@ h6 {
 
   .proto-head {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
 
   .planning {
-    padding-top: 30px;
-    padding-left: 20px;
+    // padding-top: 30px;
+    // padding-left: 20px;
   }
 
   // .first-box-video {
@@ -673,7 +673,7 @@ h6 {
   .about-box {
     
       display: flex;
-      justify-content: center;
+      // justify-content: center;
       align-items: center;
       flex-direction: column;
       
@@ -695,7 +695,7 @@ h6 {
   .about-content2 {
     background-color: $mainblue ;
     min-width: 1300px;
-    min-height: 1500px;
+    height: 900px;
     display: flex;
     border-style: solid;
     border-color: $mainblue;
@@ -731,7 +731,7 @@ h6 {
 
 .aboutme {
   display: flex;
-  justify-content: center;
+  // justify-content: center;
   
   
 
