@@ -1,3 +1,5 @@
+//Purpose: Creates and displays the WORK sections
+
 import React from "react"
 import { Button } from "react-bootstrap"
 import caddie from "../images/caddie.png"

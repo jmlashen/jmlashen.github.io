@@ -1,3 +1,5 @@
+//Purpose: Creates and displays the ABOUT ME sections
+
 import React from "react"
 import JakeAbout from "../images/JakeAbout.png"
 import JakeGuitar from "../images/JakeGuitar.svg"
@@ -23,15 +25,15 @@ export const About = () => {
                                 </h6>
                                 </div>
                             </div>
-                            
-                            {/* ABOUT SECTION PART 2 */}
+
+                            {/* ABOUT SECTION PART 2
                             <div className="jakeAbout-img"><img className="JakeAbout" src={art1} alt="c51 logo" /></div>
                             <div>
                                 <h6 className="about-text2">
                                     <a target="_blank" href="https://ballpitmag.com/portfolio/jake_diggity/">Ball Pit Magazine</a>
                                 </h6>
                             </div>
-                            <div className="aboutgroup"><img className="aboutgroup-img" src={group} alt="c51 logo" /></div>
+                            <div className="aboutgroup"><img className="aboutgroup-img" src={group} alt="c51 logo" /></div> */}
                         </div>
                     </div>
                 </div>
