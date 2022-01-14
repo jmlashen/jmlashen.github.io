@@ -8,6 +8,7 @@ import C51 from "../images/C51.svg"
 import workhead from "../images/workhead.svg"
 import mobile from "../images/mobile.svg"
 import desktop from "../images/desktop.svg"
+import { WorkButton } from "./butttons"
 
 
 
@@ -42,9 +43,9 @@ export const Work = () => {
                        
                         
                         <div className="C51-description">
-                        <div ><h4 className="h4">Cohort-51 Webiste</h4></div>
+                        <div ><h4 className="h4">Cohort-51 Website</h4></div>
                         
-                                <p className="h6">This group project was the most rewarding project I've ever had the pleasure of working on. Our goal was to showcase our software development and UI/UX skills with a personality and flair to facilitate getting hired quickly by an employer that is a good fit. With significant group planning, data collection, and user testing, we learned a lot about UX and the processes that precede the launch of the final product. We even revealed a pain point in the School curriculum relating to graduation requirements during the process!  <p className="h6">Everyone in the group made significant contributions. Logo design, writing a conditional for the split-cohort colored ring skill type specificity, prototypes, and contributing to the styling of the developer cards we just a few of my main contributions. We had such a terrific time creating this website together!</p></p>
+                                <h6 className="h6">This group project was the most rewarding project I've ever had the pleasure of working on. Our goal was to showcase our software development and UI/UX skills with a personality and flair to facilitate getting hired quickly by an employer that is a good fit. With significant group planning, data collection, and user testing, we learned a lot about UX and the processes that precede the launch of the final product. We even revealed a pain point in the School curriculum relating to graduation requirements during the process!<h6 className="h6">Everyone in the group equally made significant contributions. My key contributions include logo design, the design and styling of the developer section, and prototyping. One favorite piece of code was the helper function I wrote that changes the colored ring around a developer's photo. The color-coordinated conditional was to help distinguish between one of two developer types. We had such a terrific time creating this website together!</h6></h6>
                             </div>
                             </div>
                             
