@@ -1,4 +1,4 @@
-//Purpose: Creates and displays the ABOUT ME sections
+//Purpose: Creates and displays the ABOUT section
 
 import React from "react"
 import JakeGuitar from "../images/JakeGuitar.svg"
@@ -61,10 +61,8 @@ export const About = () => {
                                 <div className="jakeAbout-img"><img className="artabout" src={techTools} alt="c51 logo" /></div>
                                 <div><h1 className="about-text-art">Tech and Tools</h1>
                                     <h6 className="about-text2">
-                                        I enjoy the challenge and ongoing learning process of being a developer. I have established a solid foundation with the language and framework of JavaScript and the use of State, Props, and the browser-independent DOM system of React. My styling and design skills are achieved through my knowledge using CSS, SASS, Figma, and Photoshop. I also have experience with data and building a Back-End using JSON server with fetch calls and testing APIs using Postman. Other tools included Cloudinary for image and video hosting and the best use and practices when using Git.
+                                        My favorite thing about being a developer is the ongoing learning process. I have established a solid foundation with the language and framework of JavaScript and the use of State, Props, and the browser-independent DOM system of React. My styling and design skills are achieved through my knowledge using CSS, SASS, Figma, and Photoshop. I also have experience building REST APIs with JSON Server using fetch calls and testing APIs using Postman. Other tools included Cloudinary for image and video hosting and the best use and practices when using Git.
                                     </h6>
-                                    <div className="h6-about">
-                                        <h6 className="h6-about-text">Check out some of my artwork <a target="_blank" href="https://www.instagram.com/jake_diggity/?hl=en">here</a> on Instagram.</h6></div>
                                 </div>
                             </div>
 

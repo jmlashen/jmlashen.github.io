@@ -1,4 +1,4 @@
-//Purpose: Creates and displays the ABOUT ME sections
+//Purpose: Creates and displays the ICONS at the top of the page
 
 import React from "react"
 import git from '../images/git.svg'
@@ -10,7 +10,7 @@ import "../styles/main.scss";
 
 
 
-export const FooterTop = () => {
+export const IconsTop = () => {
     return (
         <>
             <div className="footer-container-top">
@@ -23,7 +23,7 @@ export const FooterTop = () => {
             </div>
             <div>
                 <h3>
-                    this website is not a template - designed and developed by me, for you!
+                    This website is not a template. Designed and developed by me, for you!
                 </h3>
             </div>
             </div>

@@ -1,4 +1,4 @@
-//Purpose: Creates and displays the ABOUT ME sections
+//Purpose: Creates and displays the FOOTER section
 
 import React from "react"
 import git from '../images/git.svg'
@@ -23,7 +23,7 @@ export const Footer = () => {
             </div>
             <div>
                 <h3>
-                    this website is not a template - designed and developed by me, for you!
+                    This website is not a template. Designed and developed by me, for you!
                 </h3>
             </div>
             </div>
