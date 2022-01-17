@@ -19,8 +19,8 @@
     padding-top: 20px;
     
     
-    
 }
+
 
 .github {
     
@@ -125,6 +125,13 @@
 }
 }
 .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.footer-container-bottom {
     display: flex;
     flex-direction: column;
     align-items: center;
