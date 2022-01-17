@@ -5,6 +5,7 @@ import JakeLogo from './images/JakeLogo.svg'
 import { Footer } from './components/footer';
 import { Work } from './components/work';
 import { About } from './components/about';
+import { FooterTop } from './components/footer-top';
 
 
 
@@ -30,7 +31,7 @@ export const App = () => {
         </div>
       </div>
       <div className='footer-container'>
-        <Footer />
+        <FooterTop />
       </div>
 
 
