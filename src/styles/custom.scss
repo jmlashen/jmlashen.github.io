@@ -241,6 +241,7 @@ h6 {
 .aboutgroup {
   display: flex;
   justify-content: center;
+  
 }
 // ABOUT SECTION =========================
 .JakeAbout {
@@ -614,8 +615,18 @@ h6 {
         border-style: solid;
         border-color: $mainyellow;
         
+        
   }
-
+  .first-box-about {
+    background-color: $mainyellow ;
+        width: 1200px;
+        
+        
+        border: solid 5px $maingreen;
+        
+        margin-top: 50px;
+        
+  }
   .proto-head {
     display: flex;
     flex-direction: column;
@@ -653,20 +664,21 @@ h6 {
   .aboutgroup {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    padding-right: 50px;
+    margin-top: -40px;
+        
     
     
     
   }
   .aboutgroup-img {
-    width: 300px;
+    width: 400px;
     
   }
 
 .JakeAbout {
   width: 400px;
-//  margin-left: 0.75rem;
-//  margin-right: 0.75rem;
+  margin-right: 50px;
 
  
 }
@@ -729,6 +741,20 @@ h6 {
   .about-content2 {
     background-color: $mainblue ;
     min-width: 1300px;
+    min-height: 1890px;
+    display: flex;
+    border-style: solid;
+    border-color: $mainblue;
+    // padding-left: 50px;
+    
+    
+    // border-radius: 1%;
+  
+
+
+  .about-content-new {
+    background-color: $mainblue ;
+    min-width: 1300px;
     min-height: 1800px;
     display: flex;
     border-style: solid;
@@ -739,6 +765,8 @@ h6 {
     // border-radius: 1%;
   
   }
+  }
+  
 
 
   .about-text2 {
@@ -787,9 +815,9 @@ h6 {
 }
 
 .artabout {
-  width: 400px;
-  margin-right: 40px;
-  box-shadow: 10px 0px 20px;
+  width: 375px;
+  margin-right: 68px;
+  // box-shadow: 10px 0px 20px;
 }
 
 .about-text-art{

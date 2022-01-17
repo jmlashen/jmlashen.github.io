@@ -6,6 +6,8 @@ import JakeGuitar from "../images/JakeGuitar.svg"
 import AboutMe from "../images/AboutMe.svg"
 import group from "../images/group.svg"
 import art2 from "../images/art2.PNG"
+import aboutPro from "../images/aboutPro.jpg"
+import techTools from "../images/techTools.svg"
 
 
 
@@ -17,13 +19,13 @@ export const About = () => {
                 <div className="about-box">
                     <div className="amoutme"><img className="aboutme-img" src={AboutMe} alt="c51 logo" /></div>
                     <div className="about-content2">
-                    <div className="aboutgroup"><img className="aboutgroup-img" src={group} alt="c51 logo" /></div>
-                        <div className="first-box">
+                    
+                        <div className="first-box-about">
                         
                             <div className="about-green-box">
                             
                             
-                                <div className="jakeAbout-img"><img className="JakeAbout" src={JakeAbout} alt="c51 logo" /></div>
+                                <div className="jakeAbout-img"><img className="JakeAbout" src={aboutPro} alt="c51 logo" /></div>
                                 <div className="about-text-main"><h1>
                                 My colleagues have described me as:</h1>
                                
@@ -55,24 +57,24 @@ export const About = () => {
                                 </ul>
                                 
                                 
-                                </div>
+                                <div className="aboutgroup"><img className="aboutgroup-img" src={group} alt="c51 logo" /></div>
                             </div>
                         </div>
-                        <div className="first-box">
+                        
                             <div className="about-green-box">
-                                <div className="jakeAbout-img"><img className="artabout" src={art2} alt="c51 logo" /></div>
+                                <div className="jakeAbout-img"><img className="artabout" src={techTools} alt="c51 logo" /></div>
                                 <div><h1 className="about-text-art">Tech and Tools</h1><h6 className="about-text2">
                                 
-                                My background in design comes from working as a freelance graphic designer. Most of my work is designing album art for several musical artists, including Jason Wade, of Lifehouse. I also have experience working with a diverse set of clients. I have worked with companies and clients ranging from beverage companies to TV shows. Through these interactions, I have gained experience passionately working with clients to best represent their ideas with a finished product we can both be proud of. 
+                                I enjoy the challenge and ongoing learning process of being a developer. I have established a solid foundation with the language and framework of JavaScript and the use of State, Props, and the browser-independent DOM system of React. My styling and design skills are achieved through my knowledge using CSS, SASS, Figma, and Photoshop. I also have experience with data and building a Back-End using JSON server with fetch calls and testing APIs using Postman. Other tools included Cloudinary for image and video hosting and the best use and practices when using Git. 
                                 </h6>
                                 <div className="h6-about">
                                 <h6 className="h6-about-text">Check out some of my artwork <a target="_blank" href="https://www.instagram.com/jake_diggity/?hl=en">here</a> on Instagram.</h6></div>
                                 </div>
-                            </div>
-                        </div>
-
-                        <div className="first-box">
-                            <div className="about-green-box">
+                            
+                                </div>
+                       
+                       
+                                <div className="about-green-box">
                                 <div className="jakeAbout-img"><img className="artabout" src={art2} alt="c51 logo" /></div>
                                 <div><h1 className="about-text-art">Art and Design</h1><h6 className="about-text2">
                                 
@@ -80,8 +82,10 @@ export const About = () => {
                                 </h6>
                                 <div className="h6-about">
                                 <h6 className="h6-about-text">Check out some of my artwork <a target="_blank" href="https://www.instagram.com/jake_diggity/?hl=en">here</a> on Instagram.</h6></div>
+                               
+                                
                                 </div>
-                            </div>
+                                </div>
                         </div>
                     </div>
                 </div>
