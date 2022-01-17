@@ -8,7 +8,7 @@ import C51 from "../images/C51.svg"
 import workhead from "../images/workhead.svg"
 import mobile from "../images/mobile.svg"
 import desktop from "../images/desktop.svg"
-import { WorkButton } from "./butttons"
+
 
 
 
@@ -58,8 +58,8 @@ export const Work = () => {
                            
                       
                     <div className="workbuttons">
-                                <div><a target="_blank" href="https://nss-day-cohort-51.github.io/"><Button>Try It Out</Button></a></div>
-                                <div><a target="_blank" href="https://github.com/nss-day-cohort-51/nss-day-cohort-51.github.io"><Button>View Repo</Button></a></div>
+                                <div><a target="_blank" href="https://nss-day-cohort-51.github.io/"><Button size="lg">Try It Out</Button></a></div>
+                                <div><a target="_blank" href="https://github.com/nss-day-cohort-51/nss-day-cohort-51.github.io"><Button Button size="lg">View Repo</Button></a></div>
                             </div>
 
                        
@@ -96,8 +96,8 @@ export const Work = () => {
                            
                       
                     <div className="workbuttons">
-                                <div><a target="_blank" href="https://card-caddie.herokuapp.com/"><Button>Try It Out</Button></a></div>
-                                <div><a target="_blank" href="https://github.com/jmlashen/cardcaddie"><Button>View Repo</Button></a></div>
+                                <div><a target="_blank" href="https://card-caddie.herokuapp.com/"><Button Button size="lg">Try It Out</Button></a></div>
+                                <div><a target="_blank" href="https://github.com/jmlashen/cardcaddie"><Button Button size="lg">View Repo</Button></a></div>
                             </div>
 
                        

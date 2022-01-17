@@ -1,3 +1,4 @@
+//Purpose: Creates and displays the ABOUT ME sections
 
 import { useState, useEffect } from "react";
 
