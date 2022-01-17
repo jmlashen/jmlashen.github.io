@@ -32,7 +32,9 @@ h2 {
 h3 {
   font-family: europa,sans-serif;
   font-weight: 400;
+  font-size: small;
   font-style: normal;
+  color: $maingreen;
 }
 h4 {
   font-family: cubano,sans-serif;
@@ -239,6 +241,7 @@ h6 {
 .aboutgroup {
   display: flex;
   justify-content: center;
+  
 }
 // ABOUT SECTION =========================
 .JakeAbout {
@@ -355,6 +358,16 @@ h6 {
 
 @media only screen and (min-width: 361px ) {
 
+  .about-text-main {
+    display: flex;
+    flex-direction: column;
+    padding-left: 99px;
+  }
+
+  h1 {
+    font-size: xx-large;
+    padding-top: 20px;
+  }
    .c51logo-top {
      
      display: flex;
@@ -435,6 +448,21 @@ h6 {
    padding-top: 20px;
  }
  
+ .h6-about {
+   display: flex;
+   flex-direction: row;
+   padding-left: 99px;
+ }
+
+ .list-about {
+   display: flex;
+   flex-direction: column;
+ }
+
+ .h6-about-text {
+  
+  padding-top: 20px;
+ }
   
   .caddie-description {
     display: flex;
@@ -571,7 +599,7 @@ h6 {
   }
   
   .caddie {
-    width: 500px;
+    width: 800px;
     padding-top: 5px;
     
   }
@@ -587,17 +615,24 @@ h6 {
         border-style: solid;
         border-color: $mainyellow;
         
+        
   }
-
+  .first-box-about {
+    background-color: $mainyellow ;
+        width: 1200px;
+        
+        
+        border: solid 5px $maingreen;
+        
+        margin-top: 50px;
+        
+  }
   .proto-head {
     display: flex;
     flex-direction: column;
   }
 
-  .planning {
-    // padding-top: 30px;
-    // padding-left: 20px;
-  }
+ 
 
   // .first-box-video {
   //   background-color: $maingreen;
@@ -621,21 +656,30 @@ h6 {
 // ABOUT ME MEDIA QUERY
 @media only screen and (min-width: 361px ) {
   // ABOUT SECTION =========================
+  ul {
+    font-size: x-large;
+    padding-top: 20px;
+
+  }
   .aboutgroup {
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    padding-right: 50px;
+    margin-top: -40px;
+        
+    
+    
+    
   }
   .aboutgroup-img {
-    width: 700px;
+    width: 400px;
     
   }
 
 .JakeAbout {
-  width: 300px;
-//   margin-left: auto;
-//  margin-right: auto;
- padding-left: 0.75rem;
- padding-right: 0.75rem;
+  width: 400px;
+  margin-right: 50px;
+
  
 }
 
@@ -646,7 +690,9 @@ h6 {
 
 .about-green-box {
   display: flex;
-  justify-content: center;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  
 }
 .about-text {
   display: flex;
@@ -695,7 +741,21 @@ h6 {
   .about-content2 {
     background-color: $mainblue ;
     min-width: 1300px;
-    height: 900px;
+    min-height: 1890px;
+    display: flex;
+    border-style: solid;
+    border-color: $mainblue;
+    // padding-left: 50px;
+    
+    
+    // border-radius: 1%;
+  
+
+
+  .about-content-new {
+    background-color: $mainblue ;
+    min-width: 1300px;
+    min-height: 1800px;
     display: flex;
     border-style: solid;
     border-color: $mainblue;
@@ -705,6 +765,8 @@ h6 {
     // border-radius: 1%;
   
   }
+  }
+  
 
 
   .about-text2 {
@@ -745,9 +807,27 @@ h6 {
 .jakeAbout-img {
   margin-top: 30px;
   padding-bottom: 30px;
+  padding-left: 20px;
+  // box-shadow: 10px 0px 0px;
 }
 
 
+}
+
+.artabout {
+  width: 375px;
+  margin-right: 68px;
+  // box-shadow: 10px 0px 20px;
+}
+
+.about-text-art{
+  display: flex;
+    align-items: flex-start;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: left;
 }
 
 //SCROLL MEDIA QUERY
@@ -759,7 +839,7 @@ h6 {
 }
 
 #about {
-  scroll-margin-top: 138px;
+  scroll-margin-top: 120px;
 }}
 
 
