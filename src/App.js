@@ -5,7 +5,7 @@ import JakeLogo from './images/JakeLogo.svg'
 import { Footer } from './components/footer';
 import { Work } from './components/work';
 import { About } from './components/about';
-import { FooterTop } from './components/footer-top';
+import { IconsTop } from './components/icons-top';
 
 
 
@@ -31,7 +31,7 @@ export const App = () => {
         </div>
       </div>
       <div className='footer-container'>
-        <FooterTop />
+        <IconsTop />
       </div>
 
 

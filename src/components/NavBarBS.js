@@ -1,4 +1,4 @@
-//Purpose: Creates and displays the ABOUT ME sections
+//Purpose: Creates and displays the NAV BAR section
 
 import React from "react";
 import "../styles/nav.scss";
