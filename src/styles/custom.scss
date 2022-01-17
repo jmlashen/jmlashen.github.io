@@ -694,11 +694,19 @@ a:active {
   .aboutgroup {
     display: flex;
     flex-direction: row;
+
     padding-right: 30px;
   }
 
   .planning {
     padding-top: 20px;
+
+    padding-right: 150px;
+    margin-top: -40px;
+        
+    
+    
+
   }
   .aboutgroup-img {
     width: 400px;
@@ -722,7 +730,7 @@ a:active {
   flex-direction: row-reverse;
   justify-content: space-around;
   padding-top: 50px;
-  
+
 }
 .about-text {
   display: flex;
@@ -772,7 +780,11 @@ a:active {
   .about-content2 {
     background-color: $mainblue ;
     min-width: 1300px;
+
     min-height: 2060px;
+
+    min-height: 2140px;
+
     display: flex;
     border-style: solid;
     border-color: $mainblue;
@@ -849,6 +861,7 @@ a:active {
 .artabout {
   width: 375px;
   margin-right: 68px;
+  padding-bottom: 50px;
   // box-shadow: 10px 0px 20px;
 }
 
