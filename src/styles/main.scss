@@ -87,6 +87,8 @@
 .github {
     
     width: 95px;
+    margin-right: -10px;
+    margin-left: -15px;
     
     // padding: 15px;
     
@@ -111,9 +113,10 @@
 
 .linkedin {
     width: 90px;
-   
+    padding-top: 10px;
     padding: 15px;
-
+    margin-left: -10px;
+    
 }
 .mail {
     width: 90px;
@@ -128,11 +131,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    padding-bottom: 20px;
 }
 
-.footer-container-bottom {
+.footer-container-top {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 70px;
 }
+
