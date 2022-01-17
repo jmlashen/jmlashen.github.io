@@ -503,6 +503,7 @@ h6 {
           flex-direction: column;
           border-style: solid;
           border-color: $mainblue;
+          
           // border-radius: 1%;
         }
   
@@ -516,7 +517,7 @@ h6 {
           flex-direction: column;
           border-style: solid;
           border-color: $mainblue;
-          padding-bottom: 20px;
+          padding-bottom: 50px;
           // border-radius: 10px;
         }
     }
@@ -540,8 +541,15 @@ h6 {
       font-family: europa,sans-serif;
       font-weight: 700;
       font-style: normal;
+
       
     }
+
+    .btn-primary:hover {
+      transform: scale(1.05);
+    transition: 2ms;
+    }
+
   
     .btn {
       margin: 5px;

@@ -1,3 +1,5 @@
+//Purpose: Creates and displays the ABOUT ME sections
+
 import React from "react";
 import "../styles/nav.scss";
 import { Navbar } from "react-bootstrap"

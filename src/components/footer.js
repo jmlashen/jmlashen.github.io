@@ -1,3 +1,5 @@
+//Purpose: Creates and displays the ABOUT ME sections
+
 import React from "react"
 import git from '../images/git.svg'
 import linkedin from '../images/linkedin.svg'
