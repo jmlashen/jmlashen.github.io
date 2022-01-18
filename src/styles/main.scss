@@ -51,7 +51,7 @@
 // }
 
 
-@media only screen and (min-width: 361px ) {
+@media only screen and (min-width: 1300px ) {
     // LANDING PAGE
 
 .landcontainer {
@@ -139,5 +139,102 @@
     flex-direction: column;
     align-items: center;
     padding-top: 70px;
+    padding-bottom: 50px;
 }
+
+
+
+
+
+
+@media only screen and (max-width: 1025px ) {
+    // LANDING PAGE
+
+.landcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 200px;
+    padding-bottom: 0px;
+}
+
+.jakelogo {
+    width: 400px;
+    padding-top: 180px;
+    
+    
+}
+
+.jake-logo-containter {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 150px;
+
+}
+// FOOTER
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+
+.github {
+    
+    width: 95px;
+    margin-right: -10px;
+    margin-left: -15px;
+    
+    // padding: 15px;
+    
+    
+    
+}
+
+.github:hover {
+    transform: scale(1.1);
+    transition: 2ms;
+}
+
+.mail:hover {
+    transform: scale(1.1);
+    transition: 2ms;
+}
+
+.linkedin:hover {
+    transform: scale(1.1);
+    transition: 2ms;
+}
+
+.linkedin {
+    width: 90px;
+    padding-top: 10px;
+    padding: 15px;
+    margin-left: -10px;
+    
+}
+.mail {
+    width: 90px;
+    padding: 15px;
+    padding-top: 17px;
+    margin-right: -5px;
+    margin-left: -5px;
+
+}
+}
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.footer-container-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+}
+
 

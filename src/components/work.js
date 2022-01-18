@@ -7,6 +7,7 @@ import Video from "../video"
 import C51 from "../images/C51.svg"
 import workhead from "../images/workhead.svg"
 import mobile from "../images/mobile.svg"
+import JakeGuitar from "../images/JakeGuitar.svg"
 import desktop from "../images/desktop.svg"
 
 
@@ -136,7 +137,10 @@ export const Work = () => {
             </div>
 
 
-
+            <div onClick={() => {
+                        window.scrollTo({ top: 0, behavior: "smooth" });
+                    }}className="jakeguitar"><img src={JakeGuitar} alt="c51 logo" />
+            </div>
 
             
 

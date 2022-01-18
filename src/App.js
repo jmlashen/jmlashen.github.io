@@ -33,14 +33,15 @@ export const App = () => {
       <div className='footer-container'>
         <IconsTop />
       </div>
+      <div>
+        <About />
+      </div>
 
 
       <Work className="workarea" />
 
 
-      <div>
-        <About />
-      </div>
+     
       <div className='footer-container'>
         <Footer />
       </div>
