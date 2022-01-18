@@ -66,7 +66,7 @@ export const Work = () => {
                        
                             <div className="first-box-video">
                             <div className="caddie-video-container">
-                                <Video VideoSource="https://res.cloudinary.com/djnk0ey5p/video/upload/v1641503245/My_Movie_2_hghfez.mp4" />
+                                <Video VideoSource="https://res.cloudinary.com/djnk0ey5p/video/upload/v1642519654/c51demo_fjo5ic.mp4" />
                             </div>
                             </div>
                             

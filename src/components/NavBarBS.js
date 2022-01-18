@@ -32,8 +32,11 @@ export const NavBarBS = () => {
                     </div>
                 </div>
 
+                
+
 
             </Navbar>
+           
         </>
     );
 };

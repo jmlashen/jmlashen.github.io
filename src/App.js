@@ -21,7 +21,7 @@ export const App = () => {
       <div className='navbar-container'>
         <NavBarBS id="App" />
       </div>
-
+      <div className="disclaimer"><h6 className='disclaimer-text'>Check back soon for mobile view. Best viewed on desktop. Thanks for your paitence!</h6></div>
       <div className='landcontainer'>
         <div className='jake-logo-containter'>
           <img className="jakelogo" src={JakeLogo} alt="C51"></img>

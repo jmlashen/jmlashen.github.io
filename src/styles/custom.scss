@@ -382,6 +382,7 @@ a:active {
 
 @media only screen and (min-width: 1300px ) {
 
+
   .about-text-main {
     display: flex;
     flex-direction: column;
@@ -785,7 +786,7 @@ a:active {
 
     
 
-    min-height: 2600px;
+    min-height: 2640px;
 
     display: flex;
     border-style: solid;
@@ -939,6 +940,20 @@ a:active {
 // WORK MEDIA QUERY===========1024==============
 
 @media only screen and (max-width: 1025px) {
+
+  .disclaimer {
+    display: block;
+    background-color: $mainyellow;
+    width:1200px;
+    height: 1200px;
+    padding-top: 300px;
+
+  }
+
+  .disclaimer-text {
+    display: block;
+    font-size: xx-large;
+  }
 
   .about-text-main {
     display: flex;
