@@ -382,6 +382,20 @@ a:active {
 
 @media only screen and (min-width: 1300px ) {
 
+  .disclaimer {
+    display: none;
+    background-color: $mainyellow;
+    width:1200px;
+    height: 1200px;
+    padding-top: 300px;
+
+  }
+
+  .disclaimer-text {
+    display: none;
+    font-size: xxx-large;
+  }
+
 
   .about-text-main {
     display: flex;
@@ -939,7 +953,7 @@ a:active {
 
 // WORK MEDIA QUERY===========1024==============
 
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1299px) {
 
   .disclaimer {
     display: block;
@@ -952,7 +966,7 @@ a:active {
 
   .disclaimer-text {
     display: block;
-    font-size: xx-large;
+    font-size: xxx-large;
   }
 
   .about-text-main {
@@ -1251,7 +1265,7 @@ a:active {
 
 }
 // ABOUT ME MEDIA QUERY
-@media only screen and (max-width: 1025px ) {
+@media only screen and (max-width: 1299px ) {
   // ABOUT SECTION =========================
   ul {
     font-size: x-large;
@@ -1448,7 +1462,7 @@ a:active {
 }
 
 //SCROLL MEDIA QUERY
-@media only screen and (max-width: 1025px ) {
+@media only screen and (max-width: 1299px ) {
   // ABOUT SECTION =========================
 
 #work {
@@ -1460,7 +1474,7 @@ a:active {
 }}
 
 
-@media only screen and (max-width: 1025px ) {
+@media only screen and (max-width: 1299px ) {
   // PROTOTYPES SECTION =========================
 .prototype {
   display: flex;
