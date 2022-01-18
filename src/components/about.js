@@ -51,9 +51,6 @@ export const About = () => {
                                         <li>
                                             good with challenges
                                         </li>
-                                        <li>
-                                            very tall (6'7")
-                                        </li>
                                     </ul>
                                     <div className="aboutgroup"><img className="aboutgroup-img" src={group} alt="c51 logo" /></div>
                                 </div>
@@ -78,7 +75,7 @@ export const About = () => {
                                 <div><h1 className="about-text-art">UI/UX</h1>
                                     <h6 className="about-text2">
 
-                                        I enjoy the challenge and ongoing learning process of being a developer. I have established a solid foundation with the language and framework of JavaScript and the use of State, Props, and the browser-independent DOM system of React. My styling and design skills are achieved through my knowledge using CSS, SASS, Figma, and Photoshop. 
+                                    I find myself naturally drawn to the user experience and client-side. With my experiences in collaboration and leadership as an educator, I have always enjoyed the intrinsic rewards of helping others achieve their goals and overcome challenges. The Nashville Software School program challenged our small group to create the Cohort's website. We gained valuable experience learning the principles and processes of UI/UX. From wireframes to prototypes, user testing, informational architecture, and visual hierarchy–we got our hands dirty with every step.  
 
                                     </h6>
                                 </div>
