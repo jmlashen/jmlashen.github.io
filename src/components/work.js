@@ -7,6 +7,7 @@ import Video from "../video"
 import C51 from "../images/C51.svg"
 import workhead from "../images/workhead.svg"
 import mobile from "../images/mobile.svg"
+import JakeGuitar from "../images/JakeGuitar.svg"
 import desktop from "../images/desktop.svg"
 
 
@@ -65,7 +66,7 @@ export const Work = () => {
                        
                             <div className="first-box-video">
                             <div className="caddie-video-container">
-                                <Video VideoSource="https://res.cloudinary.com/djnk0ey5p/video/upload/v1641503245/My_Movie_2_hghfez.mp4" />
+                                <Video VideoSource="https://res.cloudinary.com/djnk0ey5p/video/upload/v1642519654/c51demo_fjo5ic.mp4" />
                             </div>
                             </div>
                             
@@ -136,7 +137,10 @@ export const Work = () => {
             </div>
 
 
-
+            <div onClick={() => {
+                        window.scrollTo({ top: 0, behavior: "smooth" });
+                    }}className="jakeguitar"><img src={JakeGuitar} alt="c51 logo" />
+            </div>
 
             
 

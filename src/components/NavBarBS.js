@@ -14,13 +14,9 @@ export const NavBarBS = () => {
             <Navbar fixed="top" className=" nav d-flex justify-content-center">
                 <div className="navcontain">
                     <div onClick={() => {
-                        window.scrollTo({ top: 0, behavior: "smooth" });
+                        window.scrollTo({ top: 0, behavior: "smooth"});
                     }}>
                         <img className="navhome" src={home} alt="home" />
-                    </div>
-
-                    <div>
-                        <a href="#work"><img className="navwork" src={work} alt="work" /></a>
                     </div>
 
                     <div>
@@ -28,12 +24,19 @@ export const NavBarBS = () => {
                     </div>
 
                     <div>
+                        <a href="#work"><img className="navwork" src={work} alt="work" /></a>
+                    </div>
+
+                    <div>
                         <a target="_blank" href="https://drive.google.com/file/d/1qWfI4xuKsbo4cv1dX5e9IHmsA8XTs-Q3/view?usp=sharing"><img className="navresume" src={resumenav} alt="resume" /></a>
                     </div>
                 </div>
 
+                
+
 
             </Navbar>
+           
         </>
     );
 };
