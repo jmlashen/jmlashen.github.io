@@ -122,8 +122,21 @@ input[type="range"]::-moz-range-progress {
 
 
 @media only screen and (min-width: 1300px ) {
+  .aboutdesktop {
+    display: block;
+  }
 
-  /* VIDEO PLAYER */
+  .aboutmobile {
+    display: none;
+  }
+
+  .workdesktop {
+    display: block;
+  }
+
+  .workmobile {
+    display: none;
+  }
 
 .main-video-container {
   display: flex;
@@ -257,6 +270,21 @@ input[type="range"]::-moz-range-progress {
 // VIDEO PLAYER MEDIA QUERY 1024
 
 @media only screen and (min-width: 1299px) {
+  .aboutdesktop {
+    display: none;
+  }
+
+  .aboutmobile {
+    display: block;
+  }
+
+  .workdesktop {
+    display: none;
+  }
+
+  .workmobile {
+    display: block;
+  }
 
   /* VIDEO PLAYER */
 

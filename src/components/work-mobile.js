@@ -16,10 +16,10 @@ import desktop from "../images/desktop.svg"
 
 
 
-export const Work = () => {
+export const WorkMobile = () => {
     return (
         <>
-<div id="workdesktop"  className="content"></div>
+<div id="workmobile" className="content"></div>
             <div className="mainworkcontainer">
                 <div className="workhead-container"><img className="workhead" src={workhead} alt="Card Caddie logo" /></div>
                 
@@ -31,7 +31,7 @@ export const Work = () => {
                 
                     <div className="workbox">
                     
-                        <div className="caddie-content">
+                        <div className="about-content-new">
                             
                         
                     <div className="workmain-left" >
@@ -139,7 +139,7 @@ export const Work = () => {
 
             <div onClick={() => {
                         window.scrollTo({ top: 0, behavior: "smooth" });
-                    }}className="jakeguitar"><img src={JakeGuitar} alt="c51 logo" />
+                    }}className="jakeguitar"><img src={JakeGuitar} alt="c51 logo" ></img>
             </div>
 
             
