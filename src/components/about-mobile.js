@@ -5,7 +5,7 @@ import AboutMe from "../images/AboutMe.svg"
 import group from "../images/group.svg"
 import art2 from "../images/art2.PNG"
 import aboutPro from "../images/aboutPro.jpg"
-import techTools from "../images/techTools.svg"
+import techToolsMobile from "../images/techToolsMobile.svg"
 import uiux from "../images/uiux.svg"
 
 
@@ -63,7 +63,7 @@ export const AboutMobile = () => {
                                     <div className="jakeAbout-img"><img className="JakeAbout" src={aboutPro} alt="c51 logo" /></div>
                                     <div className="about-green-box">
                                 
-                                <div><img className="artabout-mobile" src={techTools} alt="c51 logo" /></div>
+                                <div><img className="artabout-mobile" src={techToolsMobile} alt="c51 logo" /></div>
                                 <div className="tech-text-box"><h1 className="about-text-art">Tech and Tools</h1></div>
                                     <h6 className="about-text2">
 
@@ -91,14 +91,19 @@ export const AboutMobile = () => {
 
                             <div className="about-green-box">
                                 <div><img className="artabout-mobile" src={art2} alt="c51 logo" /></div>
-                                <div><h1 className="about-text-art">Art and Design</h1></div><h6 className="about-text2">
-
-                                    My background in design comes from working as a freelance graphic designer. Most of my work is designing album art for several musical artists, including Jason Wade, of Lifehouse. I also have experience working with a diverse set of clients. I have worked with companies and clients ranging from beverage companies to TV shows. Through these interactions, I have gained experience passionately working with clients to best represent their ideas with a finished product we can both be proud of.
-                                </h6>
-                                    <div className="h6-about">
-                                        <h6 className="h6-about-text">Check out some of my artwork <a target="_blank" href="https://www.instagram.com/jake_diggity/?hl=en">here</a> on Instagram.</h6></div>
+                                <div><h1 className="about-text-art">Art and Design</h1></div>
                                 
-                            </div>
+                                <p className="proto-head">
+
+                                    
+
+                                    My background in design comes from working as a freelance graphic designer. I mostly design album art for several musical artists, including Jason Wade, of Lifehouse. I also have experience working with a diverse set of clients. I have worked with companies and clients ranging from beverage companies to TV shows. Through these interactions, I have gained experience passionately working with clients to best represent their ideas with a finished product we can both be proud of. <a target="_blank" href="https://www.instagram.com/jake_diggity/?hl=en">Check out some of my artwork here.</a>
+                                </p>
+                                
+                                
+                                
+                                </div>
+                         
 
 
 
@@ -106,6 +111,7 @@ export const AboutMobile = () => {
 
                                 </div>
                             </div>
+                            
             {/* ABOUT SECTION - TECH AND TOOLS*/}
 
                         

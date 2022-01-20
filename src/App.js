@@ -8,6 +8,7 @@ import { About } from './components/about';
 import { IconsTop } from './components/icons-top';
 import { AboutMobile } from './components/about-mobile';
 import { WorkMobile } from './components/work-mobile';
+import { NavBarMobile } from './components/NavBar-Mobile';
 
 
 
@@ -23,6 +24,10 @@ export const App = () => {
       <div className='navbar-container'>
         <NavBarBS id="App" />
       </div>
+
+      {/* <div className='navbar-container-mobile'>
+        <NavBarMobile id="App" />
+      </div> */}
 
       <div className="disclaimer"><h6 className='disclaimer-text'>Check back soon for mobile view. Best viewed on desktop. Thanks for your paitence!</h6></div>
 
@@ -45,19 +50,19 @@ export const App = () => {
 
       <div className="disclaimer"><h6 className='disclaimer-text'>Check back soon for mobile view. Best viewed on desktop. Thanks for your paitence!</h6></div>
 
-      <div className='aboutdesktop'>
-        <About />
+      <div className='aboutdesktop' >
+        <About className='about'/>
       </div>
 
       <div className='aboutmobile'>
-        <AboutMobile />
+        <AboutMobile className='aboutmobile' />
       </div>
 
       <div className="disclaimer"><h6 className='disclaimer-text'>Check back soon for mobile view. Best viewed on desktop. Thanks for your paitence!</h6></div>
 
       <div className='workdesktop'>
 
-        <Work className="workdesktop" />
+        <Work className="work" />
 
       </div>
 

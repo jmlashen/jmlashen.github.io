@@ -19,7 +19,7 @@ import desktop from "../images/desktop.svg"
 export const Work = () => {
     return (
         <>
-<div id="workdesktop"  className="content"></div>
+<div id="work"  className="content"></div>
             <div className="mainworkcontainer">
                 <div className="workhead-container"><img className="workhead" src={workhead} alt="Card Caddie logo" /></div>
                 

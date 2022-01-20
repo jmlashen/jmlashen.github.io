@@ -54,12 +54,14 @@ h6 {
   font-weight: 400;
   font-style: normal;
   color: $darkpurp;
+  font-size: medium;
+  
 }
 
 a:link {
   color: $darkpurp;
   background-color: transparent;
-  text-decoration: none;
+  // text-decoration: none;
 }
 
 a:visited {
@@ -711,6 +713,7 @@ a:active {
   .proto-head {
     display: flex;
     flex-direction: column;
+    
   }
   
 
@@ -919,8 +922,8 @@ a:active {
 .about-text-art{
   display: flex;
     align-items: flex-start;
-    padding-left: 100px;
-    padding-right: 50px;
+    // padding-left: 100px;
+    // padding-right: 50px;
     // padding-top: 50px;
     padding-bottom: 10px;
     text-align: left;
@@ -1008,6 +1011,13 @@ a:active {
 
 }
 
+#work {
+  scroll-margin-top: 95px;
+}
+
+#about {
+  scroll-margin-top: 70px;
+}
 
 
 
@@ -1104,6 +1114,11 @@ a:active {
     
   }
 
+  .c51-media {
+    display: flex;
+    flex-direction: column;
+  }
+
   .workmaincontain {
     display: flex;
     flex-direction: row;
@@ -1138,6 +1153,8 @@ a:active {
    font-size: x-large;
   //  padding-bottom: 20px;
   line-height: 32px;
+  display: flex;
+  justify-content: center;
    
  }
 
@@ -1145,6 +1162,8 @@ a:active {
    font-size: large;
    padding-top: 20px;
    line-height: 32px;
+   padding-left: 20px;
+   padding-right: 20px;
  }
  
  .h6-about {
@@ -1231,6 +1250,7 @@ a:active {
     padding-top: 30px;
     padding-bottom: 30px;
     display: flex;
+    justify-content: center;
     
     
   }
@@ -1262,6 +1282,10 @@ a:active {
     }
   }
   
+  .first-box-video {
+    display: flex;
+    justify-content: center;
+  }
   
   
   .workcontainer {
@@ -1348,6 +1372,8 @@ a:active {
   .proto-head {
     display: flex;
     flex-direction: column;
+    padding-left: 35px;
+    padding-right: 50px;
   }
   
 
@@ -1518,10 +1544,10 @@ a:active {
 
   .about-text2 {
     display: flex;
-    flex-wrap: wrap;
+    // flex-wrap: wrap;
     align-items: center;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
     // padding-top: 50px;
     padding-bottom: 10px;
     text-align: left;
@@ -1575,6 +1601,7 @@ img.jakeguitar-img {
   width: 300px;
   display: flex;
   align-items: center;
+  padding-bottom: 20px;
   
   
   // box-shadow: 10px 0px 20px;
@@ -1582,6 +1609,7 @@ img.jakeguitar-img {
 
 .about-text-art{
   display: flex;
+  justify-content: center;
   
     // align-items: flex-start;
     // padding-left: 100px;
@@ -1612,17 +1640,19 @@ img.jakeguitar-img {
   }
   // ABOUT SECTION =========================
 
-#work {
-  scroll-margin-top: 50px;
-}
-
-#about {
-  scroll-margin-top: 120px;
-}}
+  #workmobile {
+    scroll-margin-top: 50px;
+  }
+  
+  #aboutmobile {
+    scroll-margin-top: 120px;
+  }}
 
 
 @media only screen and (max-width: 1299px ) {
   // PROTOTYPES SECTION =========================
+
+  
   .aboutdesktop {
     display: none;
   }
@@ -1651,11 +1681,12 @@ img.jakeguitar-img {
   padding-top: 10px;
 }
 .desktop {
-  width: 200px;
+  width: 300px;
+  padding-top: 35px;
 }
 
 .mobile {
-  width: 70px;
+  width: 140px;
 
 
 }

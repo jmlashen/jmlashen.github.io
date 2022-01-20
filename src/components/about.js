@@ -15,7 +15,7 @@ export const About = () => {
         <>
             {/* ABOUT SECTION - ME*/}
 
-            <div id="aboutdesktop" id="aboutmobile" className="about-section">
+            <div id="about" className="about-section">
                 <div className="about-box">
                     <div className="amoutme"><img className="aboutme-img" src={AboutMe} alt="c51 logo" /></div>
                     <div className="about-content2">
