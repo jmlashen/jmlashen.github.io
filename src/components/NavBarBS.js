@@ -19,12 +19,20 @@ export const NavBarBS = () => {
                         <img className="navhome" src={home} alt="home" />
                     </div>
 
-                    <div>
+                    <div className="noabout-desk">
                         <a href="#about"><img className="navabout" src={about} alt="about" /></a>
                     </div>
 
-                    <div>
+                    <div className="noabout">
+                        <a href="#aboutmobile"><img className="navabout" src={about} alt="about" /></a>
+                    </div>
+
+                    <div className="nowork-desk" > 
                         <a href="#work"><img className="navwork" src={work} alt="work" /></a>
+                    </div>
+
+                    <div className="nowork">
+                        <a href="#workmobile"><img className="navwork" src={work} alt="work" /></a>
                     </div>
 
                     <div>

@@ -54,12 +54,14 @@ h6 {
   font-weight: 400;
   font-style: normal;
   color: $darkpurp;
+  font-size: medium;
+  
 }
 
 a:link {
   color: $darkpurp;
   background-color: transparent;
-  text-decoration: none;
+  // text-decoration: none;
 }
 
 a:visited {
@@ -382,6 +384,23 @@ a:active {
 
 @media only screen and (min-width: 1300px ) {
 
+
+  .aboutdesktop {
+    display: block;
+  }
+
+  .aboutmobile {
+    display: none;
+  }
+
+  .workdesktop {
+    display: block;
+  }
+
+  .workmobile {
+    display: none;
+  }
+
   .disclaimer {
     display: none;
     background-color: $mainyellow;
@@ -694,6 +713,7 @@ a:active {
   .proto-head {
     display: flex;
     flex-direction: column;
+    
   }
   
 
@@ -701,6 +721,24 @@ a:active {
 // ABOUT ME MEDIA QUERY
 @media only screen and (min-width: 1300px ) {
   // ABOUT SECTION =========================
+
+  .aboutdesktop {
+    display: block;
+  }
+
+  .aboutmobile {
+    display: none;
+  }
+
+  .workdesktop {
+    display: block;
+  }
+
+  .workmobile {
+    display: none;
+  }
+
+
   ul {
     font-size: x-large;
     padding-top: 20px;
@@ -800,7 +838,7 @@ a:active {
 
     
 
-    min-height: 2640px;
+    min-height: 2750px;
 
     display: flex;
     border-style: solid;
@@ -875,7 +913,7 @@ a:active {
 }
 
 .artabout {
-  width: 375px;
+  width: 400px;
   margin-right: 68px;
   
   // box-shadow: 10px 0px 20px;
@@ -884,8 +922,8 @@ a:active {
 .about-text-art{
   display: flex;
     align-items: flex-start;
-    padding-left: 100px;
-    padding-right: 50px;
+    // padding-left: 100px;
+    // padding-right: 50px;
     // padding-top: 50px;
     padding-bottom: 10px;
     text-align: left;
@@ -895,6 +933,22 @@ a:active {
 //SCROLL MEDIA QUERY
 @media only screen and (min-width: 1300px ) {
   // ABOUT SECTION =========================
+  .aboutdesktop {
+    display: block;
+  }
+
+  .aboutmobile {
+    display: none;
+  }
+
+  .workdesktop {
+    display: block;
+  }
+
+  .workmobile {
+    display: none;
+  }
+
 
 #work {
   scroll-margin-top: 50px;
@@ -907,6 +961,23 @@ a:active {
 
 @media only screen and (min-width: 1300px ) {
   // PROTOTYPES SECTION =========================
+
+  .aboutdesktop {
+    display: block;
+  }
+
+  .aboutmobile {
+    display: none;
+  }
+
+  .workdesktop {
+    display: block;
+  }
+
+  .workmobile {
+    display: none;
+  }
+
 .prototype {
   display: flex;
   flex-direction: row;
@@ -940,6 +1011,13 @@ a:active {
 
 }
 
+#work {
+  scroll-margin-top: 95px;
+}
+
+#about {
+  scroll-margin-top: 70px;
+}
 
 
 
@@ -952,8 +1030,24 @@ a:active {
 
 @media only screen and (max-width: 1299px) {
 
-  .disclaimer {
+  .aboutdesktop {
+    display: none;
+  }
+
+  .aboutmobile {
     display: block;
+  }
+
+  .workdesktop {
+    display: none;
+  }
+
+  .workmobile {
+    display: block;
+  }
+
+  .disclaimer {
+    display: none;
     background-color: $mainyellow;
     width:1200px;
     height: 1200px;
@@ -962,20 +1056,23 @@ a:active {
   }
 
   .disclaimer-text {
-    display: block;
+    display: none;
     font-size: xxx-large;
   }
 
   .about-text-main {
     display: flex;
     flex-direction: column;
-    padding-left: 99px;
+    align-items: center;
+    // padding-left: 99px;
     line-height: 32px;
   }
 
   h1 {
-    font-size: xx-large;
+    font-size: x-large;
     padding-top: 20px;
+    // padding-left: 20px;
+    // padding-right: 20px;
   }
    .c51logo-top {
      
@@ -1017,6 +1114,11 @@ a:active {
     
   }
 
+  .c51-media {
+    display: flex;
+    flex-direction: column;
+  }
+
   .workmaincontain {
     display: flex;
     flex-direction: row;
@@ -1035,8 +1137,8 @@ a:active {
   .C51-description { 
     display: flex;
     flex-direction: column;
-    padding-left: 100px;
-    padding-right: 110px;
+    // padding-left: 100px;
+    // padding-right: 110px;
     // padding-top: 70px;
     padding-bottom: 50px;
     text-align: left;
@@ -1048,22 +1150,26 @@ a:active {
 
 
  .h4 {
-   font-size: xxx-large;
+   font-size: x-large;
   //  padding-bottom: 20px;
   line-height: 32px;
+  display: flex;
+  justify-content: center;
    
  }
 
  .h6 {
-   font-size: x-large;
+   font-size: large;
    padding-top: 20px;
    line-height: 32px;
+   padding-left: 20px;
+   padding-right: 20px;
  }
  
  .h6-about {
    display: flex;
    flex-direction: row;
-   padding-left: 99px;
+  //  padding-left: 99px;
  }
 
  .list-about {
@@ -1074,8 +1180,8 @@ a:active {
 
  .h6-about-text {
   
-  padding-top: 20px;
-  line-height: 32px;
+  // padding-top: 20px;
+  // line-height: 32px;
  }
   
   .caddie-description {
@@ -1121,19 +1227,19 @@ a:active {
           // border-radius: 1%;
         }
   
-        .caddie-content {
-          background-color: $mainblue ;
-          width: 1300px;
-          max-height: 3500px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-          border-style: solid;
-          border-color: $mainblue;
-          padding-bottom: 50px;
-          // border-radius: 10px;
-        }
+        // .caddie-content {
+        //   background-color: $mainblue ;
+        //   width: 500px;
+        //   max-height: 3500px;
+        //   display: flex;
+        //   justify-content: center;
+        //   align-items: center;
+        //   flex-direction: column;
+        //   border-style: solid;
+        //   border-color: $mainblue;
+        //   padding-bottom: 50px;
+        //   // border-radius: 10px;
+        // }
     }
   
    
@@ -1144,6 +1250,7 @@ a:active {
     padding-top: 30px;
     padding-bottom: 30px;
     display: flex;
+    justify-content: center;
     
     
   }
@@ -1175,6 +1282,10 @@ a:active {
     }
   }
   
+  .first-box-video {
+    display: flex;
+    justify-content: center;
+  }
   
   
   .workcontainer {
@@ -1220,20 +1331,21 @@ a:active {
   
   .c51 {
     
-    width: 300px;
+    width: 200px;
     
     
   }
   
   .caddie {
-    width: 800px;
+    width: 500px;
     padding-top: 5px;
     
   }
 
   .first-box {
     background-color: $maingreen ;
-        width: 1200px;
+        width: 550px;
+        max-height: 3000px;
         
         
         border-style: solid $maingreen;
@@ -1246,17 +1358,22 @@ a:active {
   }
   .first-box-about {
     background-color: $mainyellow ;
-        width: 1300px;
+        width: 550px;
         
         
         border: solid 5px $maingreen;
         
         margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         
   }
   .proto-head {
     display: flex;
     flex-direction: column;
+    padding-left: 35px;
+    padding-right: 50px;
   }
   
 
@@ -1264,20 +1381,40 @@ a:active {
 // ABOUT ME MEDIA QUERY
 @media only screen and (max-width: 1299px ) {
   // ABOUT SECTION =========================
+
+  .aboutdesktop {
+    display: none;
+  }
+
+  .aboutmobile {
+    display: block;
+  }
+
+  .workdesktop {
+    display: none;
+  }
+
+  .workmobile {
+    display: block;
+  }
+
+  
+
   ul {
-    font-size: x-large;
+    font-size: medium;
     padding-top: 20px;
 
   }
 
   .tech-text-box{
-    margin-bottom: -200px;
+    // margin-bottom: -200px;
   }
   .aboutgroup {
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    // padding-right: 100px;
 
-    padding-right: 30px;
+    
   }
 
   .planning {
@@ -1288,13 +1425,15 @@ a:active {
 
   }
   .aboutgroup-img {
-    width: 400px;
+    width: 280px;
     
   }
 
 .JakeAbout {
-  width: 400px;
-  margin-right: 50px;
+  width: 500px;
+  padding-left: 60px;
+  // margin-right: 50px;
+  
 
  
 }
@@ -1306,26 +1445,35 @@ a:active {
 
 .about-green-box {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
+  align-items: center;
+  // justify-content: center;
   padding-top: 40px;
+  flex-direction: column;
   
 
 }
 .about-text {
-  display: flex;
-  align-items: flex-start;
+  // display: flex;
+  // // align-items: center;
+  // // flex-direction: column;
  
-  padding-left: 40px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  text-align: left;
-  font-size: small;
-  line-height: 32px;
+  // // padding-left: 40px;
+  // padding-right: 100px;
+  // // padding-top: 5px;
+  // // padding-bottom: 10px;
+  // text-align: left;
+  // font-size: small;
+  // line-height: 32px;
   
   
 }
+
+// .about-text-main {
+//   display: flex;
+//   flex-direction: column;
+//   padding-left: 99px;
+//   line-height: 32px;
+// }
 .about-section {
   display: flex;
   justify-content: center;
@@ -1345,7 +1493,7 @@ a:active {
       
       .about-content {
         background-color: $mainblue ;
-        width: 1300px;
+        width: 500px;
         display: flex;
         flex-direction: row;
         border-style: solid;
@@ -1355,19 +1503,21 @@ a:active {
         
       
       }
+
   }
 
-  .about-content2 {
+  .about-content2-mobile {
     background-color: $mainblue ;
-    min-width: 1300px;
+    min-width: 310px;
 
     
 
-    min-height: 2600px;
+    min-height: 2200px;
 
     display: flex;
     border-style: solid;
     border-color: $mainblue;
+   
     // padding-left: 50px;
     
     
@@ -1394,13 +1544,14 @@ a:active {
 
   .about-text2 {
     display: flex;
-    align-items: flex-start;
-    padding-left: 100px;
-    padding-right: 50px;
-    padding-top: 50px;
+    // flex-wrap: wrap;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    // padding-top: 50px;
     padding-bottom: 10px;
     text-align: left;
-    font-size: x-large;
+    font-size: medium;
     line-height: 32px;
     
     
@@ -1409,11 +1560,17 @@ a:active {
 
 }
 .jakeguitar {
-  display: flex;
-  justify-content: center;
-  padding-left: 0px;
-  margin-top: -50px;
-  cursor: pointer;
+  // display: flex;
+  // justify-content: center;
+  // padding-left: 0px;
+  // // padding-top: 500px; 
+  // cursor: pointer;
+
+  display: none;
+}
+
+img.jakeguitar-img {
+  width: 100px;
 }
 
 .aboutme {
@@ -1431,53 +1588,92 @@ a:active {
 }
 
 .jakeAbout-img {
-  margin-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 20px;
+  display: flex;
+  padding-right: 50px;
+ 
   // box-shadow: 10px 0px 0px;
 }
 
 
 }
 
-.artabout {
-  width: 375px;
-  margin-right: 68px;
+.artabout-mobile {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  
   
   // box-shadow: 10px 0px 20px;
 }
 
 .about-text-art{
   display: flex;
-    align-items: flex-start;
-    padding-left: 100px;
-    padding-right: 50px;
+  justify-content: center;
+  
+    // align-items: flex-start;
+    // padding-left: 100px;
+    // padding-right: 50px;
     // padding-top: 50px;
-    padding-bottom: 10px;
-    text-align: left;
+    // padding-bottom: 10px;
+    // text-align: left;
     
 }
 
 //SCROLL MEDIA QUERY
 @media only screen and (max-width: 1299px ) {
+
+  .aboutdesktop {
+    display: none;
+  }
+
+  .aboutmobile {
+    display: block;
+  }
+
+  .workdesktop {
+    display: none;
+  }
+
+  .workmobile {
+    display: block;
+  }
   // ABOUT SECTION =========================
 
-#work {
-  scroll-margin-top: 50px;
-}
-
-#about {
-  scroll-margin-top: 120px;
-}}
+  #workmobile {
+    scroll-margin-top: 50px;
+  }
+  
+  #aboutmobile {
+    scroll-margin-top: 120px;
+  }}
 
 
 @media only screen and (max-width: 1299px ) {
   // PROTOTYPES SECTION =========================
+
+  
+  .aboutdesktop {
+    display: none;
+  }
+
+  .aboutmobile {
+    display: block;
+  }
+
+  .workdesktop {
+    display: none;
+  }
+
+  .workmobile {
+    display: block;
+  }
+
 .prototype {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-left: 50px;
+  // padding-left: 50px;
  
 
 }
@@ -1485,11 +1681,12 @@ a:active {
   padding-top: 10px;
 }
 .desktop {
-  width: 600px;
+  width: 300px;
+  padding-top: 35px;
 }
 
 .mobile {
-  width: 200px;
+  width: 140px;
 
 
 }
