@@ -2,7 +2,6 @@
 
 import React from "react"
 import { Button } from "react-bootstrap"
-import caddie from "../images/caddie.png"
 import Video from "../video"
 import C51 from "../images/C51.svg"
 import workhead from "../images/workhead.svg"
@@ -84,7 +83,7 @@ export const Work = () => {
                    
 
                         <div className="caddielogo-top">
-                            <img className="caddie" src={caddie} alt="Card Caddie logo" />
+                            {/* <img classname="c51" src={} alt="Card Caddie logo" /> */}
                         </div>
                         <div className="C51-description">
                         <div>

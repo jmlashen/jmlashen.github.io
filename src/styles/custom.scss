@@ -84,6 +84,20 @@ a:active {
   text-decoration: underline;
 }
 
+// .caddielogo-top {
+//   padding-bottom: 20px;
+//   display: flex;
+//   justify-content: center;
+//   padding-top: 10px;
+
+// }
+
+// .caddie-img {
+//   width: 700px;
+  
+
+// }
+
 
 @media only screen and (min-width: 1300px) {
 
@@ -101,14 +115,6 @@ a:active {
     justify-content: center;
     padding-top: 30px;
   
-  }
-  
-  .caddielogo-top {
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-    
   }
   
   
@@ -140,8 +146,8 @@ a:active {
     font-size: large;
     padding-top: 20px;
     line-height: 32px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 35px;
+    padding-right: 60px;
   
   }
     .worksection {
@@ -228,7 +234,7 @@ a:active {
   
   .first-box {
     background-color: $maingreen ;
-    width: 550px;
+    width: 1000px;
     max-height: 3000px;
     border-style: solid $maingreen;
     border-radius:0px;
@@ -239,7 +245,7 @@ a:active {
   }
   .first-box-about {
     background-color: $mainyellow ;
-    width: 550px;
+    width: 1000px;
     border: solid 5px $maingreen;
     margin-top: 50px;
     display: flex;
@@ -258,11 +264,7 @@ a:active {
   
   }
     
-  .caddie {
-    width: 500px;
-    padding-top: 5px; 
-  
-  }
+ 
   
   // ABOUT ME MEDIA QUERY =========================
   @media only screen and (min-width: 1300px ) {
@@ -295,7 +297,7 @@ a:active {
   }
   
   .aboutgroup-img {
-    width: 280px;
+    width: 400px;
       
   }
   
@@ -449,12 +451,13 @@ a:active {
     padding-top: 10px;
   }
   .desktop {
-    width: 300px;
+    width: 400px;
     padding-top: 35px;
   }
   
   .mobile {
     width: 140px;
+    padding-top: 30px;
   
   
   }
@@ -646,7 +649,7 @@ h1 {
 
 }
   
-.caddie {
+.caddie-img {
   width: 500px;
   padding-top: 5px; 
 
@@ -1034,7 +1037,7 @@ img.jakeguitar-img {
   
   }
     
-  .caddie {
+  .caddie-img {
     width: 300px;
     padding-top: 5px; 
   
