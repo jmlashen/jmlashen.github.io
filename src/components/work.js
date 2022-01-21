@@ -4,6 +4,7 @@ import React from "react"
 import { Button } from "react-bootstrap"
 import Video from "../video"
 import C51 from "../images/C51.svg"
+import caddielogo from "../images/caddielogo.png"
 import workhead from "../images/workhead.svg"
 import mobile from "../images/mobile.svg"
 import JakeGuitar from "../images/JakeGuitar.svg"
@@ -82,8 +83,12 @@ export const Work = () => {
 
                    
 
+                        {/* <div className="caddielogo-top">
+                            <img classname="caddie" src={caddie} alt="Card Caddie logo" />
+                        </div> */}
+
                         <div className="caddielogo-top">
-                            {/* <img classname="c51" src={} alt="Card Caddie logo" /> */}
+                            <img className="caddie-baby" src={caddielogo}></img>
                         </div>
                         <div className="C51-description">
                         <div>
@@ -145,8 +150,7 @@ export const Work = () => {
 
                         <p className="h6">
                             Based on user data and group planning for the Cohort-51 Website, I created mobile and desktop prototypes for the project using Figma. Prototyping is one of my favorite processes that precede the launch of the final product and helps present a clear vision.
-                            <a classname="h6" target="_blank" href="https://github.com/nss-day-cohort-51/nss-day-cohort-51.github.io">
-                                 <p>View all planning resources for the Cohort-51 Website Group Project here.</p>
+                            <a classname="h6" target="_blank" href="https://github.com/nss-day-cohort-51/nss-day-cohort-51.github.io">View all planning resources for the Cohort-51 Website Group Project here.
                             </a>
                         </p>
                         

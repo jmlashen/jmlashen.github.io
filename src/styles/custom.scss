@@ -37,6 +37,13 @@ h3 {
   font-style: normal;
   color: $maingreen;
 }
+p {
+  font-family: europa,sans-serif;
+  font-weight: 400;
+  font-size: small;
+  font-style: normal;
+  color: $darkpurp;
+}
 h4 {
   font-family: cubano,sans-serif;
   color: $darkpurp;
@@ -84,19 +91,9 @@ a:active {
   text-decoration: underline;
 }
 
-// .caddielogo-top {
-//   padding-bottom: 20px;
-//   display: flex;
-//   justify-content: center;
-//   padding-top: 10px;
 
-// }
 
-// .caddie-img {
-//   width: 700px;
-  
 
-// }
 
 
 @media only screen and (min-width: 1300px) {
@@ -116,6 +113,14 @@ a:active {
     padding-top: 30px;
   
   }
+
+  .caddielogo-top {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+
+}
   
   
   .workmaincontain {
@@ -263,6 +268,12 @@ a:active {
     width: 200px;
   
   }
+
+  .caddie-baby {
+  width: 900px;
+  
+
+}
     
  
   
@@ -405,6 +416,14 @@ a:active {
     padding-bottom: 20px;
   
   }
+
+  .artabout-personas {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+  
+  }
   
   .about-text-art{
     display: flex;
@@ -528,11 +547,11 @@ h1 {
 }
 
 .h6 {
-  font-size: large;
+  
   padding-top: 20px;
   line-height: 32px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
 
 }
   .worksection {
@@ -649,7 +668,7 @@ h1 {
 
 }
   
-.caddie-img {
+.caddie-baby {
   width: 500px;
   padding-top: 5px; 
 
@@ -788,7 +807,15 @@ img.jakeguitar-img {
 }
 
 .artabout-mobile {
-  width: 300px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+
+}
+
+.artabout-personas {
+  width: 460px;
   display: flex;
   align-items: center;
   padding-bottom: 20px;
@@ -916,7 +943,7 @@ img.jakeguitar-img {
   }
   
   .h6 {
-    font-size: large;
+    
     padding-top: 20px;
     line-height: 32px;
     padding-left: 20px;
@@ -1037,7 +1064,7 @@ img.jakeguitar-img {
   
   }
     
-  .caddie-img {
+  .caddie-baby {
     width: 300px;
     padding-top: 5px; 
   
@@ -1187,6 +1214,16 @@ img.jakeguitar-img {
     padding-bottom: 20px;
   
   }
+
+  .artabout-personas {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+  
+  }
+
+  
   
   .about-text-art{
     display: flex;
@@ -1239,6 +1276,7 @@ img.jakeguitar-img {
   
   .mobile {
     width: 70px;
+    padding-top:20px;
   
   
   }
