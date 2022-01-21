@@ -1,41 +1,73 @@
-//NAV MEDIA QUERY
-@media only screen and (min-width: 1300px ) {
-    // NAV SECTION =========================
-
-    .nowork {
-        display: none;
-    }
-
-    .noabout {
-        display: none;
-    }
-
-    .nowork-desk {
-        display: block;
-    }
-
-    .noabout-desk {
-        display: block;
-    }
+//NAV MEDIA QUERY=========================
+@media only screen and (min-width: 1300px ) { 
 
 
-    .navbar-container-mobile {
-        display: none;
+    .nav {
+        background-color: #706993;
+        padding: 10px;
+        // box-shadow: 5px 10px 8px #888888;
+        box-shadow: 0 20px 60px -40px rgb(44, 43, 43);
+        
     }
-    .navbar-container {
-        display: block;
+    
+    .navwork {
+       
+        width: 120px;
+        padding-top: 1px;
+        
+     
+        
     }
+    .navresume {
+        width: 120px;
+        padding-top: 2px;
+        
+        
+    }
+    
+    .navabout {
+        width: 120px;
+        padding-top: 2px;
+    }
+    
+    .navhome {
+        width: 120px;
+        // padding-top: 1px;
+        cursor: pointer;
+    
+    }
+    
+    .navresume:hover, .navhome:hover, .navwork:hover, .navabout:hover {
+       
+        transform: scale(1.1);
+        transition: 2ms;
+    
+    }
+    
+    
+    .navcontain {
+        display: flex;
+        
+    
+    
+    }
+    }
+
+//NAV MEDIA QUERY=========================
+@media only screen and (max-width: 1299px ) { 
+
 
 .nav {
     background-color: #706993;
+    padding: 10px;
+    // box-shadow: 5px 10px 8px #888888;
+    box-shadow: 0 20px 60px -40px rgb(44, 43, 43);
     
 }
 
 .navwork {
    
     width: 120px;
-    margin-right: 30px;
-    margin-left: 20px;
     padding-top: 1px;
     
  
@@ -49,16 +81,13 @@
 }
 
 .navabout {
-    padding-left: 30px;
-    width: 150px;
+    width: 120px;
     padding-top: 2px;
 }
 
 .navhome {
     width: 120px;
-    margin-right: 10px;
-    margin-left: 30px;
-    padding-top: 0px;
+    // padding-top: 1px;
     cursor: pointer;
 
 }
@@ -67,91 +96,74 @@
    
     transform: scale(1.1);
     transition: 2ms;
-    
-    
- 
-    
+
 }
 
 
 .navcontain {
     display: flex;
-    padding-right: 30px;
+    
+
+
 }
 }
 
-//NAV MEDIA QUERY
-@media only screen and (max-width: 1299px ) {
-    // NAV SECTION =========================
+//NAV MEDIA QUERY=========================
+@media only screen and (max-width: 550px ) { 
 
-    .nowork {
-        display: none;
+    .nav {
+        background-color: #706993;
+        padding: 10px;
+        // box-shadow: 5px 10px 8px #888888;
+        box-shadow: 0 20px 60px -40px rgb(44, 43, 43);
+        // width: fit-content;
+        // height: fit-content;
+        
     }
 
-    .noabout {
-        display: none;
+    
+    
+    .navwork {
+       
+        width: 60px;
+        padding-top: 1px;
+        
+     
+        
     }
-
-    .nowork-desk {
-        display: block;
+    .navresume {
+        width: 60px;
+        padding-top: 2px;
+        
+        
     }
-
-    .noabout-desk {
-        display: block;
+    
+    .navabout {
+        width: 60px;
+        padding-top: 2px;
     }
-
-.nav {
-    background-color: #706993;
     
-}
-
-.navwork {
-   
-    width: 120px;
-    margin-right: 30px;
-    margin-left: 20px;
-    padding-top: 1px;
+    .navhome {
+        width: 60px;
+        // padding-top: 1px;
+        cursor: pointer;
     
- 
+    }
     
-}
-.navresume {
-    width: 120px;
-    padding-top: 2px;
+    .navresume:hover, .navhome:hover, .navwork:hover, .navabout:hover {
+       
+        transform: scale(1.1);
+        transition: 2ms;
+    
+    }
     
     
-}
-
-.navabout {
-    padding-left: 30px;
-    width: 150px;
-    padding-top: 2px;
-}
-
-.navhome {
-    width: 120px;
-    margin-right: 10px;
-    margin-left: 30px;
-    padding-top: 0px;
-    cursor: pointer;
-
-}
-
-.navresume:hover, .navhome:hover, .navwork:hover, .navabout:hover {
-   
-    transform: scale(1.1);
-    transition: 2ms;
+    .navcontain {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        
     
     
- 
-    
-}
-
-
-.navcontain {
-    display: flex;
-    padding-right: 30px;
-}
-}
-
-
+    }
+    }

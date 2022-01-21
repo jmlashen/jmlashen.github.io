@@ -43,34 +43,104 @@
 
 }
 
-
-// .linkedin:hover {
-//     transform: scale(1.5);
-//     transition: 250ms;
-//     color: $mainyellow;
-// }
-
-
 @media only screen and (min-width: 1300px ) {
-
-      .aboutdesktop {
-        display: block;
-      }
-    
-      /* VIDEO PLAYER */
-    
-      .aboutmobile {
-        display: none;
-      }
-    
-      .workdesktop {
-        display: block;
-      }
-    
-      .workmobile {
-        display: none;
-      }
+   
     // LANDING PAGE
+    
+    .landcontainer {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 170px;
+        padding-bottom: 45px;
+    }
+    
+    .jakelogo {
+        width: 600px;
+        padding-top: 180px;
+        
+        
+    }
+    
+    .jake-logo-containter {
+        display: flex;
+        flex-direction: column;
+    
+    
+    }
+    // FOOTER
+    
+    .footer-icons {
+        display: flex;
+        align-items: center;
+        
+        
+        
+    }
+    
+    .github {
+        
+        width: 95px;
+        margin-right: -10px;
+        margin-left: -15px;
+        
+        // padding: 15px;
+        
+        
+        
+    }
+    
+    .github:hover {
+        transform: scale(1.1);
+        transition: 2ms;
+    }
+    
+    .mail:hover {
+        transform: scale(1.1);
+        transition: 2ms;
+    }
+    
+    .linkedin:hover {
+        transform: scale(1.1);
+        transition: 2ms;
+    }
+    
+    .linkedin {
+        width: 90px;
+        padding-top: 10px;
+        padding: 15px;
+        margin-left: -10px;
+        
+    }
+    .mail {
+        width: 90px;
+        padding: 15px;
+        padding-top: 17px;
+        margin-right: -5px;
+        margin-left: -5px;
+    
+    }
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+    }
+    
+    .footer-container-top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 70px;
+        padding-bottom: 50px;
+    }
+    
+
+
+
+@media only screen and (max-width: 1299px ) {
+   
+// LANDING PAGE
 
 .landcontainer {
     display: flex;
@@ -89,7 +159,7 @@
 .jake-logo-containter {
     display: flex;
     flex-direction: column;
-    padding-bottom: 150px;
+
 
 }
 // FOOTER
@@ -167,23 +237,7 @@
 
 @media only screen and (max-width: 1299px ) {
 
-    .aboutdesktop {
-        display: none;
-      }
-    
-      /* VIDEO PLAYER */
-    
-      .aboutmobile {
-        display: block;
-      }
-    
-      .workdesktop {
-        display: none;
-      }
-    
-      .workmobile {
-        display: block;
-      }
+
     // LANDING PAGE
 
 .landcontainer {
@@ -206,7 +260,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    // padding-bottom: 150px;
+
 
 }
 // FOOTER
@@ -255,6 +309,103 @@
 }
 .mail {
     width: 90px;
+    padding: 15px;
+    padding-top: 17px;
+    margin-right: -5px;
+    margin-left: -5px;
+
+}
+}
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.footer-container-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+}
+
+
+@media only screen and (max-width: 550px ) {
+
+
+    // LANDING PAGE
+
+.landcontainer {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    // padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.jakelogo {
+    width: 300px;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.jake-logo-containter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+   
+
+}
+// FOOTER
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+
+.github {
+    
+    width: 80px;
+    margin-right: -10px;
+    margin-left: -15px;
+    
+    // padding: 15px;
+    
+    
+    
+}
+
+.github:hover {
+    transform: scale(1.1);
+    transition: 2ms;
+}
+
+.mail:hover {
+    transform: scale(1.1);
+    transition: 2ms;
+}
+
+.linkedin:hover {
+    transform: scale(1.1);
+    transition: 2ms;
+}
+
+.linkedin {
+    width: 80px;
+    padding-top: 10px;
+    padding: 15px;
+    margin-left: -10px;
+    
+}
+.mail {
+    width: 80px;
     padding: 15px;
     padding-top: 17px;
     margin-right: -5px;

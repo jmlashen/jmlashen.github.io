@@ -23,7 +23,7 @@ export const Footer = () => {
             </div>
             <div>
                 <h3>
-                    This website is not a template. Designed and developed by me, for you!
+                    &copy; Jake Lashenik 2022
                 </h3>
             </div>
             </div>

@@ -8,7 +8,7 @@ import work from "../images/work.svg"
 import about from "../images/about.svg"
 import resumenav from "../images/resumenav.svg"
 
-export const NavBarBS = () => {
+export const NavBar = () => {
     return (
         <>
             <Navbar fixed="top" className=" nav d-flex justify-content-center">
@@ -19,30 +19,18 @@ export const NavBarBS = () => {
                         <img className="navhome" src={home} alt="home" />
                     </div>
 
-                    <div className="noabout-desk">
+                    <div>
                         <a href="#about"><img className="navabout" src={about} alt="about" /></a>
                     </div>
 
-                    <div className="noabout">
-                        <a href="#aboutmobile"><img className="navabout" src={about} alt="about" /></a>
-                    </div>
-
-                    <div className="nowork-desk" > 
+                    <div>
                         <a href="#work"><img className="navwork" src={work} alt="work" /></a>
-                    </div>
-
-                    <div className="nowork">
-                        <a href="#workmobile"><img className="navwork" src={work} alt="work" /></a>
                     </div>
 
                     <div>
                         <a target="_blank" href="https://drive.google.com/file/d/1qWfI4xuKsbo4cv1dX5e9IHmsA8XTs-Q3/view?usp=sharing"><img className="navresume" src={resumenav} alt="resume" /></a>
                     </div>
                 </div>
-
-                
-
-
             </Navbar>
            
         </>

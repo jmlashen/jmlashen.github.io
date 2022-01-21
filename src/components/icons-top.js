@@ -21,11 +21,6 @@ export const IconsTop = () => {
                 
               
             </div>
-            <div>
-                <h3>
-                    This website is not a template. Designed and developed by me, for you!
-                </h3>
-            </div>
             </div>
             
         </>

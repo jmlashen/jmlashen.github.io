@@ -22,6 +22,7 @@ h1 {
   color: $darkpurp;
   font-size: xx-large;
 }
+
 h2 {
   font-family: europa,sans-serif;
   font-weight: 700;
@@ -41,6 +42,7 @@ h4 {
   color: $darkpurp;
   font-size: large;
 }
+
 h5 {
 
   font-family: europa,sans-serif;
@@ -49,6 +51,7 @@ h5 {
   font-size: x-large;
 
 }
+
 h6 {
   font-family: europa,sans-serif;
   font-weight: 400;
@@ -61,7 +64,6 @@ h6 {
 a:link {
   color: $darkpurp;
   background-color: transparent;
-  // text-decoration: none;
 }
 
 a:visited {
@@ -82,771 +84,269 @@ a:active {
   text-decoration: underline;
 }
 
-// WORK SECTION =========================
 
-.prototype {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  
- 
+@media only screen and (min-width: 1300px) {
 
-}
-.desktop {
-  width: 200px;
-}
-
-.mobile {
-  width: 80px;
-
-
-}
-
-.C51-description {
-  display: flex;
-  flex-direction: column;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  text-align: left;
-  
-  
-}
-
-.caddie-description {
-  display: flex;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 20px;
-  padding-bottom: 10px;
-  text-align: left;
-}
-
-.C51-title {
-  margin-top: 20px;
-  margin-bottom: 5px;
-}
-
-.worksection {
-  display: flex;
-  justify-content: space-evenly;
-  
-
-  .workbox {
-    
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      // flex-direction: column;
-      
-      
-      .content {
-        background-color: $mainblue ;
-        width: 350px;
-        max-height: 1200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        border-style: solid;
-        border-color: $mainblue;
-        
-      }
-
-      .caddie-content {
-        background-color: $mainblue ;
-        width: 350px;
-        min-height: 700px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        // border-style: solid;
-        
-        // border-radius: 1%;
-      }
-  }
-
- 
-    
-
-// BUTTONS =========================
-  .workbuttons {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  display: flex;
-}
-    
-  .btn-primary {
-    color: $darkpurp;
-    background-color: $mainyellow;
-    border-color: $mainblue;
-    font-family: europa,sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    
-  }
-
-  .btn {
-    margin: 5px;
-  }
-}
-
-
-
-.workcontainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  padding-top: 100px;
-  
-  
-}
-
-
-.mainworkcontainer {
-  display: flex;
-  flex-direction: column;
-}
-.caddie-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  padding-top: 300px;
-  padding-bottom: 10px;
-  
- 
-  
-  
-}
-
-.workhead-container {
-  display: flex;
-  justify-content: center;
-  padding-top: 20px;
-  
-}
-
-
-// WORK SECTION IMAGES =========================
-
-
-.c51 {
-  padding-top: 20px;
-  width: 200px;
-  
-}
-
-.c51logo-top {
-
-    display: flex;
-    justify-content: center;
-    padding-bottom: 50px;
-}
-
-.c51logo-top-caddie {
-    display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
-}
-
-.caddie {
-  width: 300px;
-  padding-top: 20px;
-}
-
-
-.aboutgroup-img {
-  width: 300px;
-  
-}
-
-.aboutgroup {
-  display: flex;
-  justify-content: center;
-  
-}
-// ABOUT SECTION =========================
-.JakeAbout {
-  width: 300px;
-  margin-left: auto;
- margin-right: auto;
- padding-left: 0.75rem;
- padding-right: 0.75rem;
-}
-
-.footer-container {
-  display: flex;
-  justify-content: center;
-}
-
-
-.about-text {
-  display: flex;
-  align-items: flex-start;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  text-align: left;
-  color: $darkpurp;
-
-}
-.about-section {
-  display: flex;
-  justify-content: center;
-  
- 
-  
-  
-
-  .about-box {
-    
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      
-      
-      .about-content {
-        background-color: $mainblue ;
-        width: 350px;
-        height: 800px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        border-style: solid;
-        border-color: $mainblue;
-        // border-radius: 1%;
-        
-      
-      }
-
-      .about-content2 {
-        background-color: $mainblue ;
-        width: 350px;
-        height: 800px;
-        display: flex;
-        // justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        border-style: solid;
-        border-color: $mainblue;
-        // border-radius: 1%;
-        
-      
-      }
-  }
-
-
-
-}
-.jakeguitar {
-  display: flex;
-  justify-content: center;
-  padding-left: 95px;
-  margin-top: -50px;
-}
-
-.aboutme {
-  display: flex;
-  justify-content: center;
-  
-  
-
-}
-
-.aboutme-img {
- width: 150px;
- padding-top: 20px;
-}
-
-.jakeAbout-img {
-  margin-top: 30px;
-  padding-bottom: 30px;
-}
-
-// SCROLL SECTIONS =========================
-
-#work {
-  scroll-margin-top: 95px;
-}
-
-#about {
-  scroll-margin-top: 70px;
-}
-
-// WORK MEDIA QUERY=========================
-
-@media only screen and (min-width: 1300px ) {
-
-
-  .aboutdesktop {
-    display: block;
-  }
-
-  .aboutmobile {
-    display: none;
-  }
-
-  .workdesktop {
-    display: block;
-  }
-
-  .workmobile {
-    display: none;
-  }
-
-  .disclaimer {
-    display: none;
-    background-color: $mainyellow;
-    width:1200px;
-    height: 1200px;
-    padding-top: 300px;
-
-  }
-
-  .disclaimer-text {
-    display: none;
-    font-size: xxx-large;
-  }
-
-
-  .about-text-main {
-    display: flex;
-    flex-direction: column;
-    padding-left: 99px;
-    line-height: 32px;
-  }
 
   h1 {
-    font-size: xx-large;
+    font-size: x-large;
     padding-top: 20px;
-  }
-   .c51logo-top {
-     
-     display: flex;
-     justify-content: center;
-     padding-top: 30px;
-     
-     
-
-}
-
-.c51logo-top-caddie {
-  padding-bottom: 20px;
-  display: flex;
-  justify-content: center;
-  padding-top: 10px;
   
-
-}
-  .workmain-left {
-    display: flex;
-    flex-direction: column;
+  }
   
-    
-    
-  }
-  .workcontain-main {
+  
+  .c51logo-top {
+       
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-left: 100px;
-    
-    
+    justify-content: center;
+    padding-top: 30px;
+  
   }
-
-  .c51-container {
+  
+  .caddielogo-top {
+    padding-bottom: 20px;
     display: flex;
-    
+    justify-content: center;
+    padding-top: 10px;
     
   }
-
+  
+  
   .workmaincontain {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+  
   }
-
-.c51logotext-container {
-  display: flex;
-  flex-direction: column;
-  margin-left: 300px;
   
-  
-}
-
   .C51-description { 
     display: flex;
     flex-direction: column;
-    padding-left: 100px;
-    padding-right: 110px;
-    // padding-top: 70px;
     padding-bottom: 50px;
     text-align: left;
     line-height: 32px;
-
-    
-    
   }
-
-
- .h4 {
-   font-size: xxx-large;
-  //  padding-bottom: 20px;
-  line-height: 32px;
-   
- }
-
- .h6 {
-   font-size: x-large;
-   padding-top: 20px;
-   line-height: 32px;
- }
- 
- .h6-about {
-   display: flex;
-   flex-direction: row;
-   padding-left: 99px;
- }
-
- .list-about {
-   display: flex;
-   flex-direction: column;
-   line-height: 32px;
- }
-
- .h6-about-text {
   
-  padding-top: 20px;
-  line-height: 32px;
- }
   
-  .caddie-description {
+  .h4 {
+    font-size: x-large;
+    line-height: 32px;
     display: flex;
-    padding-left: 10px;
-    padding-right: 10px;
+    justify-content: center;
+     
+  }
+  
+  .h6 {
+    font-size: large;
     padding-top: 20px;
-    padding-bottom: 50px;
-    text-align: left;
-    
+    line-height: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+  
   }
-
-  
-  .C51-title {
-    margin-top: 0px;
-    margin-bottom: 5px;
+    .worksection {
+      display: flex;
+      justify-content: space-evenly;
     
-  }
-  
-  .worksection {
-    display: flex;
-    justify-content: space-evenly;
-  
     .workbox {
-      
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        // flex-direction: column;
         
-        
-        .content {
-          background-color: $mainblue ;
-          width: 1300px;
-          max-height: 1200px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-          border-style: solid;
-          border-color: $mainblue;
-          
-          // border-radius: 1%;
-        }
-  
-        .caddie-content {
-          background-color: $mainblue ;
-          width: 1300px;
-          max-height: 3500px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-          border-style: solid;
-          border-color: $mainblue;
-          padding-bottom: 50px;
-          // border-radius: 10px;
-        }
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
     }
-  
-   
-      
-  
-  // BUTTONS =========================
-    .workbuttons {
+    
+     
+        
+    
+    // BUTTONS =========================
+  .workbuttons {
     padding-top: 30px;
     padding-bottom: 30px;
     display: flex;
-    
-    
+    justify-content: center;
+  
   }
-      
-    .btn-primary {
-      // color: $darkpurp;
-      // background-color: $mainyellow;
-      // border-color: $mainblue;
-      // font-family: europa,sans-serif;
-      // font-weight: 700;
-      // font-style: normal;
-
-      transition: 400ms;
-      padding: 5px 15px;
-      border: transparent;
-      border-radius: 8px;
-      background-color: $mainyellow;
-      cursor: pointer;
-      font-family: europa,sans-serif;
-      font-weight: 600;
-      font-size: 20px;
-      margin: 0 0 0.5rem;
-
-      
-    }
-
-    .btn-primary:hover {
-      transform: scale(1.05);
+        
+  .btn-primary {
+   
+    transition: 400ms;
+    padding: 5px 15px;
+    border: transparent;
+    border-radius: 8px;
+    background-color: $mainyellow;
+    color: $darkpurp;
+    cursor: pointer;
+    font-family: europa,sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 0 0.5rem;
+  
+  }
+  
+  .btn-primary:hover {
+    transform: scale(1.05);
     transition: 2ms;
-    }
-
   
-    .btn {
-      margin: 5px;
-    }
   }
   
+    
+  .btn {
+    margin: 5px;
   
+  }
+  }
   
+  // CONTAINERS =========================
+  
+  .first-box-video {
+    display: flex;
+    justify-content: center;
+  }
+    
+    
   .workcontainer {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
-    
-    
-    
-    
+    justify-content: center; 
   }
-  
-  
+    
   .mainworkcontainer {
     display: flex;
     flex-direction: column;
+  
   }
-  .caddie-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 10px;
-    
-   
-    
-    
-  }
-
   
   .workhead-container {
     padding-top: 100px;
     padding-bottom: 10px;
     justify-content: center;
     display: flex;
+  
   }
   
-  
-  // WORK SECTION IMAGES =========================
-  
-  
-  .c51 {
-    
-    width: 300px;
-    
-    
-  }
-  
-  .caddie {
-    width: 800px;
-    padding-top: 5px;
-    
-  }
-
   .first-box {
     background-color: $maingreen ;
-        width: 1200px;
-        
-        
-        border-style: solid $maingreen;
-        border-radius:0px;
-        margin-top: 50px;
-        border-style: solid;
-        border-color: $mainyellow;
-        
-        
+    width: 550px;
+    max-height: 3000px;
+    border-style: solid $maingreen;
+    border-radius:0px;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: $mainyellow;
+  
   }
   .first-box-about {
     background-color: $mainyellow ;
-        width: 1200px;
-        
-        
-        border: solid 5px $maingreen;
-        
-        margin-top: 50px;
-        
-  }
-  .proto-head {
+    width: 550px;
+    border: solid 5px $maingreen;
+    margin-top: 50px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+          
+  }
+  }
     
+    
+  // WORK SECTION IMAGES =========================
+    
+    
+  .c51 {
+    width: 200px;
+  
+  }
+    
+  .caddie {
+    width: 500px;
+    padding-top: 5px; 
+  
   }
   
-
-}
-// ABOUT ME MEDIA QUERY
-@media only screen and (min-width: 1300px ) {
-  // ABOUT SECTION =========================
-
-  .aboutdesktop {
-    display: block;
+  // ABOUT ME MEDIA QUERY =========================
+  @media only screen and (min-width: 1300px ) {
+  
+  
+  
+  .about-text-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 32px;
+  
   }
-
-  .aboutmobile {
-    display: none;
-  }
-
-  .workdesktop {
-    display: block;
-  }
-
-  .workmobile {
-    display: none;
-  }
-
-
+  
   ul {
-    font-size: x-large;
+    font-size: medium;
     padding-top: 20px;
-
+  
   }
-
-  .tech-text-box{
-    margin-bottom: -200px;
-  }
+  
   .aboutgroup {
     display: flex;
-    flex-direction: row;
-
-    padding-right: 30px;
+    align-items: center;
+  
   }
-
+  
   .planning {
     padding-top: 20px;
-        
     
-    
-
   }
+  
   .aboutgroup-img {
-    width: 400px;
-    
+    width: 280px;
+      
   }
-
-.JakeAbout {
-  width: 400px;
-  margin-right: 50px;
-
- 
-}
-
-.footer-container {
-  display: flex;
-  justify-content: center;
-}
-
-.about-green-box {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-around;
-  padding-top: 40px;
   
-
-}
-.about-text {
-  display: flex;
-  align-items: flex-start;
- 
-  padding-left: 40px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 10px;
-  text-align: left;
-  font-size: x-large;
-  line-height: 32px;
+  .JakeAbout {
+    width: 500px;
+    padding-bottom: 20px;
   
+  }
   
-}
-.about-section {
-  display: flex;
-  justify-content: center;
+  .footer-container {
+    display: flex;
+    justify-content: center;
+  }
   
+  .about-green-box {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    flex-direction: column;
+  }
   
- 
+  .about-section {
+    display: flex;
+    justify-content: center;
   
-  
-
   .about-box {
-    
-      display: flex;
-      // justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      
-      
-      .about-content {
-        background-color: $mainblue ;
-        width: 1300px;
-        display: flex;
-        flex-direction: row;
-        border-style: solid;
-        border-color: $mainblue;
-        padding-top: 50px;
-        // border-radius: 1%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
         
-      
-      }
+        
+        .about-content {
+          background-color: $mainblue ;
+          width: 500px;
+          display: flex;
+          flex-direction: row;
+          border-style: solid;
+          border-color: $mainblue;
+          padding-top: 50px;
+        }
+  
   }
-
-  .about-content2 {
+  
+  .about-content2-mobile {
     background-color: $mainblue ;
-    min-width: 1300px;
-
-    
-
-    min-height: 2750px;
-
+    min-width: 310px;
+    min-height: 2200px;
     display: flex;
     border-style: solid;
     border-color: $mainblue;
-    
   
-
-
   .about-content-new {
     background-color: $mainblue ;
     min-width: 1300px;
@@ -854,521 +354,90 @@ a:active {
     display: flex;
     border-style: solid;
     border-color: $mainblue;
-    // padding-left: 50px;
-    
-    
-    // border-radius: 1%;
   
   }
-  }
   
-
-
-  .about-text2 {
+  
+  } .about-text2 {
     display: flex;
-    align-items: flex-start;
-    padding-left: 100px;
-    padding-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 10px;
-    text-align: left;
-    font-size: x-large;
-    line-height: 32px;
-    
-    
-  }
-
-
-}
-.jakeguitar {
-  display: flex;
-  justify-content: center;
-  padding-left: 0px;
-  margin-top: -50px;
-  cursor: pointer;
-}
-
-.aboutme {
-  display: flex;
-  // justify-content: center;
-  
-  
-
-}
-
-
-.aboutme-img {
- width: 150px;
- padding-top: 20px;
-}
-
-.jakeAbout-img {
-  margin-top: 30px;
-  padding-bottom: 30px;
-  padding-left: 20px;
-  // box-shadow: 10px 0px 0px;
-}
-
-
-}
-
-.artabout {
-  width: 400px;
-  margin-right: 68px;
-  
-  // box-shadow: 10px 0px 20px;
-}
-
-.about-text-art{
-  display: flex;
-    align-items: flex-start;
-    // padding-left: 100px;
-    // padding-right: 50px;
-    // padding-top: 50px;
-    padding-bottom: 10px;
-    text-align: left;
-    
-}
-
-//SCROLL MEDIA QUERY
-@media only screen and (min-width: 1300px ) {
-  // ABOUT SECTION =========================
-  .aboutdesktop {
-    display: block;
-  }
-
-  .aboutmobile {
-    display: none;
-  }
-
-  .workdesktop {
-    display: block;
-  }
-
-  .workmobile {
-    display: none;
-  }
-
-
-#work {
-  scroll-margin-top: 50px;
-}
-
-#about {
-  scroll-margin-top: 120px;
-}}
-
-
-@media only screen and (min-width: 1300px ) {
-  // PROTOTYPES SECTION =========================
-
-  .aboutdesktop {
-    display: block;
-  }
-
-  .aboutmobile {
-    display: none;
-  }
-
-  .workdesktop {
-    display: block;
-  }
-
-  .workmobile {
-    display: none;
-  }
-
-.prototype {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding-left: 50px;
- 
-
-}
-.logo-prototype-desktop {
-  padding-top: 10px;
-}
-.desktop {
-  width: 600px;
-}
-
-.mobile {
-  width: 200px;
-
-
-}
-
-.mobile:hover {
-  transform: scale(1.05);
-  transition: 2ms;
-}
-
-.desktop:hover {
-  transform: scale(1.05);
-  transition: 10ms;
-}
-
-}
-
-#work {
-  scroll-margin-top: 95px;
-}
-
-#about {
-  scroll-margin-top: 70px;
-}
-
-
-
-
-
-
-
-
-// WORK MEDIA QUERY===========1024==============
-
-@media only screen and (max-width: 1299px) {
-
-  .aboutdesktop {
-    display: none;
-  }
-
-  .aboutmobile {
-    display: block;
-  }
-
-  .workdesktop {
-    display: none;
-  }
-
-  .workmobile {
-    display: block;
-  }
-
-  .disclaimer {
-    display: none;
-    background-color: $mainyellow;
-    width:1200px;
-    height: 1200px;
-    padding-top: 300px;
-
-  }
-
-  .disclaimer-text {
-    display: none;
-    font-size: xxx-large;
-  }
-
-  .about-text-main {
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    // padding-left: 99px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: medium;
     line-height: 32px;
+      
   }
-
-  h1 {
-    font-size: x-large;
+  }
+  
+  .jakeguitar {
+    display: none;
+  
+  }
+  
+  img.jakeguitar-img {
+    width: 100px;
+  
+  }
+  
+  
+  #about {
+    display: flex;
+    justify-content: center;
+   
+  }
+  
+  
+  .aboutme-img {
+    width: 150px;
     padding-top: 20px;
-    // padding-left: 20px;
-    // padding-right: 20px;
-  }
-   .c51logo-top {
-     
-     display: flex;
-     justify-content: center;
-     padding-top: 30px;
-     
-     
-
-}
-
-.c51logo-top-caddie {
-  padding-bottom: 20px;
-  display: flex;
-  justify-content: center;
-  padding-top: 10px;
   
-
-}
-  .workmain-left {
-    display: flex;
-    flex-direction: column;
-  
-    
-    
   }
-  .workcontain-main {
+  }
+  
+  .artabout-mobile {
+    width: 300px;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    padding-left: 100px;
-    
-    
+    padding-bottom: 20px;
+  
   }
-
-  .c51-container {
+  
+  .about-text-art{
     display: flex;
-    
-    
+    justify-content: center;
+      
   }
-
-  .c51-media {
-    display: flex;
-    flex-direction: column;
+  
+  //SCROLL MEDIA QUERY =========================
+  @media only screen and (min-width: 1300px ) {
+  
+  
+  #work {
+    scroll-margin-top: 80px;
+  
   }
-
-  .workmaincontain {
+    
+  #about {
+    scroll-margin-top: 130px;
+  
+  }
+  }
+  
+  
+  @media only screen and (min-width: 1300px ) {
+    // PROTOTYPES SECTION =========================
+  
+  
+  .prototype {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    
-  }
-
-.c51logotext-container {
-  display: flex;
-  flex-direction: column;
-  margin-left: 300px;
-  
-  
-}
-
-  .C51-description { 
-    display: flex;
-    flex-direction: column;
-    // padding-left: 100px;
-    // padding-right: 110px;
-    // padding-top: 70px;
-    padding-bottom: 50px;
-    text-align: left;
-    line-height: 32px;
-
-    
-    
-  }
-
-
- .h4 {
-   font-size: x-large;
-  //  padding-bottom: 20px;
-  line-height: 32px;
-  display: flex;
-  justify-content: center;
+    justify-content: center;
    
- }
-
- .h6 {
-   font-size: large;
-   padding-top: 20px;
-   line-height: 32px;
-   padding-left: 20px;
-   padding-right: 20px;
- }
- 
- .h6-about {
-   display: flex;
-   flex-direction: row;
-  //  padding-left: 99px;
- }
-
- .list-about {
-   display: flex;
-   flex-direction: column;
-   line-height: 32px;
- }
-
- .h6-about-text {
   
-  // padding-top: 20px;
-  // line-height: 32px;
- }
-  
-  .caddie-description {
-    display: flex;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 20px;
-    padding-bottom: 50px;
-    text-align: left;
-    
-  }
-
-  
-  .C51-title {
-    margin-top: 0px;
-    margin-bottom: 5px;
-    
   }
   
-  .worksection {
-    display: flex;
-    justify-content: space-evenly;
-  
-    .workbox {
-      
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        // flex-direction: column;
-        
-        
-        .content {
-          background-color: $mainblue ;
-          width: 1300px;
-          max-height: 1200px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          flex-direction: column;
-          border-style: solid;
-          border-color: $mainblue;
-          
-          // border-radius: 1%;
-        }
-  
-        // .caddie-content {
-        //   background-color: $mainblue ;
-        //   width: 500px;
-        //   max-height: 3500px;
-        //   display: flex;
-        //   justify-content: center;
-        //   align-items: center;
-        //   flex-direction: column;
-        //   border-style: solid;
-        //   border-color: $mainblue;
-        //   padding-bottom: 50px;
-        //   // border-radius: 10px;
-        // }
-    }
-  
-   
-      
-  
-  // BUTTONS =========================
-    .workbuttons {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    
-    
-  }
-      
-    .btn-primary {
- 
-      transition: 400ms;
-      padding: 5px 15px;
-      border: transparent;
-      border-radius: 8px;
-      background-color: $mainyellow;
-      cursor: pointer;
-      font-family: europa,sans-serif;
-      font-weight: 600;
-      font-size: 20px;
-      margin: 0 0 0.5rem;
-
-      
-    }
-
-    .btn-primary:hover {
-      transform: scale(1.05);
-    transition: 2ms;
-    }
-
-  
-    .btn {
-      margin: 5px;
-    }
-  }
-  
-  .first-box-video {
-    display: flex;
-    justify-content: center;
-  }
-  
-  
-  .workcontainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    
-    
-    
-    
-  }
-  
-  
-  .mainworkcontainer {
-    display: flex;
-    flex-direction: column;
-  }
-  .caddie-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 10px;
-    
-   
-    
-    
-  }
-
-  
-  .workhead-container {
-    padding-top: 100px;
-    padding-bottom: 10px;
-    justify-content: center;
-    display: flex;
-  }
-  
-  
-  // WORK SECTION IMAGES =========================
-  
-  
-  .c51 {
-    
-    width: 200px;
-    
-    
-  }
-  
-  .caddie {
-    width: 500px;
-    padding-top: 5px;
-    
-  }
-
-  .first-box {
-    background-color: $maingreen ;
-        width: 550px;
-        max-height: 3000px;
-        
-        
-        border-style: solid $maingreen;
-        border-radius:0px;
-        margin-top: 50px;
-        border-style: solid;
-        border-color: $mainyellow;
-        
-        
-  }
-  .first-box-about {
-    background-color: $mainyellow ;
-        width: 550px;
-        
-        
-        border: solid 5px $maingreen;
-        
-        margin-top: 50px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
-  }
   .proto-head {
     display: flex;
     flex-direction: column;
@@ -1376,66 +445,252 @@ a:active {
     padding-right: 50px;
   }
   
-
-}
-// ABOUT ME MEDIA QUERY
-@media only screen and (max-width: 1299px ) {
-  // ABOUT SECTION =========================
-
-  .aboutdesktop {
-    display: none;
+  .logo-prototype-desktop {
+    padding-top: 10px;
   }
-
-  .aboutmobile {
-    display: block;
+  .desktop {
+    width: 300px;
+    padding-top: 35px;
   }
-
-  .workdesktop {
-    display: none;
+  
+  .mobile {
+    width: 140px;
+  
+  
   }
-
-  .workmobile {
-    display: block;
+  
+  .mobile:hover {
+    transform: scale(1.05);
+    transition: 2ms;
   }
-
+  
+  .desktop:hover {
+    transform: scale(1.05);
+    transition: 10ms;
+  }
+  
+  }
   
 
-  ul {
-    font-size: medium;
-    padding-top: 20px;
 
-  }
+@media only screen and (max-width: 1299px) {
 
-  .tech-text-box{
-    // margin-bottom: -200px;
-  }
-  .aboutgroup {
+
+h1 {
+  font-size: x-large;
+  padding-top: 20px;
+
+}
+
+
+.c51logo-top {
+     
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+
+}
+
+.caddielogo-top {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  
+}
+
+
+.workmaincontain {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+.C51-description { 
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  text-align: left;
+  line-height: 32px;
+}
+
+
+.h4 {
+  font-size: x-large;
+  line-height: 32px;
+  display: flex;
+  justify-content: center;
+   
+}
+
+.h6 {
+  font-size: large;
+  padding-top: 20px;
+  line-height: 32px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+  .worksection {
     display: flex;
+    justify-content: space-evenly;
+  
+  .workbox {
+      
+    display: flex;
+    justify-content: center;
     align-items: center;
-    // padding-right: 100px;
-
-    
+  
   }
+  
+   
+      
+  
+  // BUTTONS =========================
+.workbuttons {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
 
-  .planning {
-    padding-top: 20px;
+}
+      
+.btn-primary {
+ 
+  transition: 400ms;
+  padding: 5px 15px;
+  border: transparent;
+  border-radius: 8px;
+  background-color: $mainyellow;
+  color: $darkpurp;
+  cursor: pointer;
+  font-family: europa,sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0 0 0.5rem;
+
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  transition: 2ms;
+
+}
+
+  
+.btn {
+  margin: 5px;
+
+}
+}
+
+// CONTAINERS =========================
+
+.first-box-video {
+  display: flex;
+  justify-content: center;
+}
+  
+  
+.workcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center; 
+}
+  
+.mainworkcontainer {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.workhead-container {
+  padding-top: 100px;
+  padding-bottom: 10px;
+  justify-content: center;
+  display: flex;
+
+}
+
+.first-box {
+  background-color: $maingreen ;
+  width: 550px;
+  max-height: 3000px;
+  border-style: solid $maingreen;
+  border-radius:0px;
+  margin-top: 50px;
+  border-style: solid;
+  border-color: $mainyellow;
+
+}
+.first-box-about {
+  background-color: $mainyellow ;
+  width: 550px;
+  border: solid 5px $maingreen;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
         
-    
-    
+}
+}
+  
+  
+// WORK SECTION IMAGES =========================
+  
+  
+.c51 {
+  width: 200px;
 
-  }
-  .aboutgroup-img {
-    width: 280px;
+}
+  
+.caddie {
+  width: 500px;
+  padding-top: 5px; 
+
+}
+
+// ABOUT ME MEDIA QUERY =========================
+@media only screen and (max-width: 1299px ) {
+
+
+
+.about-text-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 32px;
+
+}
+
+ul {
+  font-size: medium;
+  padding-top: 20px;
+
+}
+
+.aboutgroup {
+  display: flex;
+  align-items: center;
+
+}
+
+.planning {
+  padding-top: 20px;
+  
+}
+
+.aboutgroup-img {
+  width: 280px;
     
-  }
+}
 
 .JakeAbout {
   width: 500px;
-  padding-left: 60px;
-  // margin-right: 50px;
-  
+  padding-bottom: 20px;
 
- 
 }
 
 .footer-container {
@@ -1446,49 +701,18 @@ a:active {
 .about-green-box {
   display: flex;
   align-items: center;
-  // justify-content: center;
   padding-top: 40px;
   flex-direction: column;
-  
-
-}
-.about-text {
-  // display: flex;
-  // // align-items: center;
-  // // flex-direction: column;
- 
-  // // padding-left: 40px;
-  // padding-right: 100px;
-  // // padding-top: 5px;
-  // // padding-bottom: 10px;
-  // text-align: left;
-  // font-size: small;
-  // line-height: 32px;
-  
-  
 }
 
-// .about-text-main {
-//   display: flex;
-//   flex-direction: column;
-//   padding-left: 99px;
-//   line-height: 32px;
-// }
 .about-section {
   display: flex;
   justify-content: center;
-  
-  
- 
-  
-  
 
-  .about-box {
-    
-      display: flex;
-      // justify-content: center;
-      align-items: center;
-      flex-direction: column;
+.about-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
       
       
       .about-content {
@@ -1499,102 +723,65 @@ a:active {
         border-style: solid;
         border-color: $mainblue;
         padding-top: 50px;
-        // border-radius: 1%;
-        
-      
       }
 
-  }
+}
 
-  .about-content2-mobile {
-    background-color: $mainblue ;
-    min-width: 310px;
+.about-content2-mobile {
+  background-color: $mainblue ;
+  min-width: 310px;
+  min-height: 2200px;
+  display: flex;
+  border-style: solid;
+  border-color: $mainblue;
 
-    
-
-    min-height: 2200px;
-
-    display: flex;
-    border-style: solid;
-    border-color: $mainblue;
-   
-    // padding-left: 50px;
-    
-    
-    // border-radius: 1%;
-  
-
-
-  .about-content-new {
-    background-color: $mainblue ;
-    min-width: 1300px;
-    min-height: 1800px;
-    display: flex;
-    border-style: solid;
-    border-color: $mainblue;
-    // padding-left: 50px;
-    
-    
-    // border-radius: 1%;
-  
-  }
-  }
-  
-
-
-  .about-text2 {
-    display: flex;
-    // flex-wrap: wrap;
-    align-items: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    // padding-top: 50px;
-    padding-bottom: 10px;
-    text-align: left;
-    font-size: medium;
-    line-height: 32px;
-    
-    
-  }
-
+.about-content-new {
+  background-color: $mainblue ;
+  min-width: 1300px;
+  min-height: 1800px;
+  display: flex;
+  border-style: solid;
+  border-color: $mainblue;
 
 }
-.jakeguitar {
-  // display: flex;
-  // justify-content: center;
-  // padding-left: 0px;
-  // // padding-top: 500px; 
-  // cursor: pointer;
 
+
+} .about-text2 {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+  text-align: left;
+  font-size: medium;
+  line-height: 32px;
+    
+}
+}
+
+.jakeguitar {
   display: none;
+
 }
 
 img.jakeguitar-img {
   width: 100px;
+
 }
 
-.aboutme {
-  display: flex;
-  // justify-content: center;
-  
-  
 
+#about {
+  display: flex;
+  justify-content: center;
+ 
 }
 
 
 .aboutme-img {
- width: 150px;
- padding-top: 20px;
+  width: 150px;
+  padding-top: 20px;
+
 }
-
-.jakeAbout-img {
-  display: flex;
-  padding-right: 50px;
- 
-  // box-shadow: 10px 0px 0px;
-}
-
-
 }
 
 .artabout-mobile {
@@ -1602,81 +789,50 @@ img.jakeguitar-img {
   display: flex;
   align-items: center;
   padding-bottom: 20px;
-  
-  
-  // box-shadow: 10px 0px 20px;
+
 }
 
 .about-text-art{
   display: flex;
   justify-content: center;
-  
-    // align-items: flex-start;
-    // padding-left: 100px;
-    // padding-right: 50px;
-    // padding-top: 50px;
-    // padding-bottom: 10px;
-    // text-align: left;
     
 }
 
-//SCROLL MEDIA QUERY
+//SCROLL MEDIA QUERY =========================
 @media only screen and (max-width: 1299px ) {
 
-  .aboutdesktop {
-    display: none;
-  }
 
-  .aboutmobile {
-    display: block;
-  }
+#work {
+  scroll-margin-top: 80px;
 
-  .workdesktop {
-    display: none;
-  }
-
-  .workmobile {
-    display: block;
-  }
-  // ABOUT SECTION =========================
-
-  #workmobile {
-    scroll-margin-top: 50px;
-  }
+}
   
-  #aboutmobile {
-    scroll-margin-top: 120px;
-  }}
+#about {
+  scroll-margin-top: 130px;
+
+}
+}
 
 
 @media only screen and (max-width: 1299px ) {
   // PROTOTYPES SECTION =========================
 
-  
-  .aboutdesktop {
-    display: none;
-  }
-
-  .aboutmobile {
-    display: block;
-  }
-
-  .workdesktop {
-    display: none;
-  }
-
-  .workmobile {
-    display: block;
-  }
 
 .prototype {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  // padding-left: 50px;
  
 
 }
+
+.proto-head {
+  display: flex;
+  flex-direction: column;
+  padding-left: 35px;
+  padding-right: 50px;
+}
+
 .logo-prototype-desktop {
   padding-top: 10px;
 }
@@ -1703,6 +859,398 @@ img.jakeguitar-img {
 
 }
 
+
+// WORK MEDIA QUERY MOBILE-TABLET =========================
+@media only screen and (max-width: 550px) {
+
+
+  h1 {
+    font-size: x-large;
+    padding-top: 20px;
+  
+  }
+  
+  
+  .c51logo-top {
+       
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+  
+  }
+  
+  .caddielogo-top {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    
+  }
+  
+  
+  .workmaincontain {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+  }
+  
+  .C51-description { 
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    text-align: left;
+    line-height: 32px;
+  }
+  
+  
+  .h4 {
+    font-size: x-large;
+    line-height: 32px;
+    display: flex;
+    justify-content: center;
+     
+  }
+  
+  .h6 {
+    font-size: large;
+    padding-top: 20px;
+    line-height: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+  }
+    .worksection {
+      display: flex;
+      justify-content: space-evenly;
+    
+    .workbox {
+        
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    
+    }
+    
+     
+        
+    
+    // BUTTONS =========================
+  .workbuttons {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+  
+  }
+        
+  .btn-primary {
+   
+    transition: 400ms;
+    padding: 5px 15px;
+    border: transparent;
+    border-radius: 8px;
+    background-color: $mainyellow;
+    color: $darkpurp;
+    cursor: pointer;
+    font-family: europa,sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 0 0.5rem;
+  
+  }
+  
+  .btn-primary:hover {
+    transform: scale(1.05);
+    transition: 2ms;
+  
+  }
+  
+    
+  .btn {
+    margin: 5px;
+  
+  }
+  }
+  
+  // CONTAINERS =========================
+  
+  .first-box-video {
+    display: flex;
+    justify-content: center;
+  }
+    
+    
+  .workcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center; 
+  }
+    
+  .mainworkcontainer {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .workhead-container {
+    padding-top: 100px;
+    padding-bottom: 10px;
+    justify-content: center;
+    display: flex;
+  
+  }
+  
+  .first-box {
+    background-color: $maingreen ;
+    width: 550px;
+    max-height: 3000px;
+    border-style: solid $maingreen;
+    border-radius:0px;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: $mainyellow;
+  
+  }
+  .first-box-about {
+    background-color: $mainyellow ;
+    width: 550px;
+    border: solid 5px $maingreen;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+          
+  }
+  }
+    
+    
+  // WORK SECTION IMAGES =========================
+    
+    
+  .c51 {
+    width: 200px;
+  
+  }
+    
+  .caddie {
+    width: 300px;
+    padding-top: 5px; 
+  
+  }
+  
+  // ABOUT ME MEDIA QUERY =========================
+  @media only screen and (max-width: 550px ) {
+  
+  
+  
+  .about-text-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 32px;
+  
+  }
+
+  .colleagues {
+    padding-left: 40px;
+    
+  }
+  
+  ul {
+    font-size: medium;
+    padding-top: 20px;
+  
+  }
+  
+  .aboutgroup {
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .planning {
+    padding-top: 20px;
+    
+  }
+  
+  .aboutgroup-img {
+    width: 280px;
+      
+  }
+  
+  .JakeAbout {
+    width: 500px;
+    padding-bottom: 20px;
+  
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .about-green-box {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    flex-direction: column;
+  }
+  
+  .about-section {
+    display: flex;
+    justify-content: center;
+  
+  .about-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+        
+        
+        .about-content {
+          background-color: $mainblue ;
+          width: 500px;
+          display: flex;
+          flex-direction: row;
+          border-style: solid;
+          border-color: $mainblue;
+          padding-top: 50px;
+        }
+  
+  }
+  
+  .about-content2-mobile {
+    background-color: $mainblue ;
+    min-width: 310px;
+    min-height: 2200px;
+    display: flex;
+    border-style: solid;
+    border-color: $mainblue;
+  
+  .about-content-new {
+    background-color: $mainblue ;
+    min-width: 1300px;
+    min-height: 1800px;
+    display: flex;
+    border-style: solid;
+    border-color: $mainblue;
+  
+  }
+  
+  
+  } .about-text2 {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    text-align: left;
+    font-size: medium;
+    line-height: 32px;
+      
+  }
+  }
+  
+  .jakeguitar {
+    display: none;
+  
+  }
+  
+  img.jakeguitar-img {
+    width: 100px;
+  
+  }
+  
+  .aboutme {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  
+  .aboutme-img {
+    width: 150px;
+    padding-top: 20px;
+    
+  
+  }
+  }
+  
+  .artabout-mobile {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+  
+  }
+  
+  .about-text-art{
+    display: flex;
+    justify-content: center;
+      
+  }
+  
+  //SCROLL MEDIA QUERY =========================
+  @media only screen and (max-width: 550px ) {
+  
+  
+  #work {
+    scroll-margin-top: 200px;
+  
+  }
+    
+  #about {
+    scroll-margin-top: 260px;
+  
+  }
+  }
+  
+  
+  @media only screen and (max-width: 550px ) {
+    // PROTOTYPES SECTION =========================
+  
+  
+  .prototype {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+  
+  }
+  
+  .proto-head {
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    padding-right: 50px;
+  }
+  
+  .logo-prototype-desktop {
+    padding-top: 10px;
+  }
+  .desktop {
+    width: 150px;
+    padding-top: 35px;
+  }
+  
+  .mobile {
+    width: 70px;
+  
+  
+  }
+  
+  .mobile:hover {
+    transform: scale(1.05);
+    transition: 2ms;
+  }
+  
+  .desktop:hover {
+    transform: scale(1.05);
+    transition: 10ms;
+  }
+  
+  }
 
 
 
