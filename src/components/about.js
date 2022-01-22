@@ -27,7 +27,7 @@ export const About = () => {
                 <div className="about-text-main">
                     <div><img className="artabout-mobile" src={aboutPro} alt="me image" /></div>
                     <div><h1>Hi, I'm Jake!</h1></div>
-                    <p className="paragraphs">I'm a Software Developer based in Nashville, TN. My colleagues have described me as:</p>
+                    <p className="paragraphs">I'm a Software Developer based in Nashville, TN. My colleagues have described me as:I'm a Software Developer based in Nashville, TN. My colleagues have described me as:I'm a Software Developer based in Nashville, TN. My colleagues have described me as:</p>
                     <ul><li>a motivator</li><li>great in a team</li><li>always striving to be fair</li><li>a true creative</li><li>humble</li><li>an infectious personality</li><li>naturally a leader</li><li>good with challenges</li></ul>
                     <div className="aboutgroup"><img className="aboutgroup-img" src={group} alt="c51 logo" /></div>
                 </div>

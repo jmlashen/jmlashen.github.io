@@ -98,6 +98,7 @@ a:active {
 .paragraphs {
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 20px;
   text-align: left;
 }
 
@@ -170,6 +171,18 @@ img.techtool {
 }
 
 .about-text-main {
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 32px;
+  background-color: $mainyellow ;
+  border: solid 5px $maingreen;
+  margin-top: 50px;
+
+}
+
+.about-main {
   min-width: 320px;
   display: flex;
   flex-direction: column;
