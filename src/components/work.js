@@ -22,10 +22,11 @@ export const Work = () => {
         
             <div id="work" className="mainworkcontainer">
 
-                <div
-                    className="workhead-container"><img className="workhead" src={workhead} alt="Card Caddie logo" />
-                </div>
+                
             </div>
+
+          <div className="workhead-img"><img className="workme" src={workhead} alt="Card Caddie logo" />
+                </div>
 
             <div className="worksection">
 
@@ -41,11 +42,11 @@ export const Work = () => {
                     <div className="C51-description">
 
                         <div>
-                            <h1 className="h4">Cohort-51 Website</h1>
+                            <h1>Cohort-51 Website</h1>
                         </div>
 
-                        <p className="h6">
-                            This group project was the most rewarding project I've ever had the pleasure of working on. Our goal was to showcase our software development and UI/UX skills with a personality and flair to facilitate getting hired quickly by an employer that is a good fit. With significant group planning, data collection, and user testing, we learned a lot about UX and the processes that precede the launch of the final product. We even revealed a pain point in the School curriculum relating to graduation requirements during the process! Everyone in the group equally made significant contributions. My key contributions include logo design, the design and styling of the developer section, and prototyping. One favorite piece of code was the helper function I wrote that changes the colored ring around a developer's photo. The color-coordinated conditional was to help distinguish between one of two developer types. We had such a terrific time creating this website together!
+                        <p className="paragraphs">
+                            The logo above was designed using Figma and was one of my contributions for the most rewarding group project I've ever had the pleasure of working on. Our goal was to showcase our software development and UI/UX skills with a personality and flair to facilitate getting hired quickly by an employer that is a good fit. With significant group planning, data collection, and user testing, we learned a lot about UX and the processes that precede the launch of the final product. We even revealed a pain point in the School curriculum relating to graduation requirements during the process! Everyone in the group equally made significant contributions. My key contributions include logo design, the design and styling of the developer section, and prototyping. One favorite piece of code was the helper function I wrote that changes the colored ring around a developer's photo. The color-coordinated conditional was to help distinguish between one of two developer types. We had such a terrific time creating this website together!
                         </p>
 
 
@@ -92,10 +93,10 @@ export const Work = () => {
                         </div>
                         <div className="C51-description">
                         <div>
-                            <h1 className="h4">Card Caddie</h1>
+                            <h1>Card Caddie</h1>
                         </div>
 
-                        <p className="h6">
+                        <p className="paragraphs">
                             This user-specific app helps golfers keep track of scores and reflections from their rounds. Users can also add a new course and crowdsource courses from other users. Card Caddie has full CRUD capability (React, API fetch calls, React-Routing, and JSON server) with styling achieved through CSS, Cloudinary, and Reactstrap for an approachable user experience.
                         </p>
 
@@ -144,15 +145,19 @@ export const Work = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="proto-head" >
-                            <h1 className="h4">Prototypes</h1>
-                        </div>
+                        <div className="C51-description" >
+                            <div>
+                            <h1>Prototypes</h1>
+                            </div>
+                        
 
-                        <p className="h6">
+                        <p className="paragraphs">
                             Based on user data and group planning for the Cohort-51 Website, I created mobile and desktop prototypes for the project using Figma. Prototyping is one of my favorite processes that precede the launch of the final product and helps present a clear vision.
-                            <a classname="h6" target="_blank" href="https://github.com/nss-day-cohort-51/nss-day-cohort-51.github.io">View all planning resources for the Cohort-51 Website Group Project here.
-                            </a>
+                           
                         </p>
+                        <p className="paragraphs"><a  target="_blank" href="https://github.com/nss-day-cohort-51/nss-day-cohort-51.github.io">View all planning resources for the Cohort-51 Website Group Project here.
+                            </a></p>
+                            </div>
                         
                         
                         
@@ -165,10 +170,10 @@ export const Work = () => {
 
             {/* FOOTER BACK TO TOP IMAGE */}
 
-            <div onClick={() => {
+            {/* <div onClick={() => {
                 window.scrollTo({ top: 0, behavior: "smooth" });
             }} className="jakeguitar"><img src={JakeGuitar} alt="c51 logo" ></img>
-            </div>
+            </div> */}
 
         </>
     )
