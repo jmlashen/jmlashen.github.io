@@ -57,8 +57,9 @@ export const About = () => {
 <div><img className="artabout-uiux" src={uiux} alt="c51 logo" /></div>
 <div><h1>UI/UX</h1></div>
 <div>
-<p className="paragraphs">I find myself naturally drawn to the user experience and client-side. With my experiences in collaboration and leadership as an educator, I have always enjoyed the intrinsic rewards of helping others achieve their goals and overcome challenges. The Nashville Software School program challenged our small group to create the Cohort's website. We gained valuable experience learning the principles and processes of UI/UX. From wireframes to prototypes, user testing, informational architecture, and visual hierarchy–we got our hands dirty with every step.<br></br><p>Based on research and data, here's two examples of personas that helped me create this portfolio:</p></p>
+<p className="paragraphs">I find myself naturally drawn to the user experience and client-side. With my experiences in collaboration and leadership as an educator, I have always enjoyed the intrinsic rewards of helping others achieve their goals and overcome challenges. The Nashville Software School program challenged our small group to create the Cohort's website. We gained valuable experience learning the principles and processes of UI/UX. From wireframes to prototypes, user testing, informational architecture, and visual hierarchy–we got our hands dirty with every step.</p>
 </div>
+<br><p>Based on research and data, here's two examples of personas that helped me create this portfolio:</p></br>
 <div><img className="artabout-personas" src={personas} alt="c51 logo" /></div>
 </div>
 
