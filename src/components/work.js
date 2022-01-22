@@ -18,64 +18,30 @@ import desktop from "../images/desktop.svg"
 
 export const Work = () => {
     return (
-        <>
-        
-            <div id="work" className="mainworkcontainer">
+<>
+<div id="work" className="mainworkcontainer"></div>
+<div className="workhead-img"><img className="workme" src={workhead} alt="Card Caddie logo" /></div>
 
-                
-            </div>
+{/* C-51 WEBSITE SECTION */}
 
-          <div className="workhead-img"><img className="workme" src={workhead} alt="Card Caddie logo" />
-                </div>
-
-            <div className="worksection">
-
-                <div className="first-box">
-
-                    {/* C-51 WEBSITE SECTION */}
-
-                    <div className="c51logo-top">
-                        <img className="c51" src={C51} alt="C-51 logo" />
-                    </div>
-
-
-                    <div className="C51-description">
-
-                        <div>
-                            <h1>Cohort-51 Website</h1>
-                        </div>
-
-                        <p className="paragraphs">
-                            The logo above was designed using Figma and was one of my contributions for the most rewarding group project I've ever had the pleasure of working on. Our goal was to showcase our software development and UI/UX skills with a personality and flair to facilitate getting hired quickly by an employer that is a good fit. With significant group planning, data collection, and user testing, we learned a lot about UX and the processes that precede the launch of the final product. We even revealed a pain point in the School curriculum relating to graduation requirements during the process! Everyone in the group equally made significant contributions. My key contributions include logo design, the design and styling of the developer section, and prototyping. One favorite piece of code was the helper function I wrote that changes the colored ring around a developer's photo. The color-coordinated conditional was to help distinguish between one of two developer types. We had such a terrific time creating this website together!
-                        </p>
-
-
-
-                        <div className="workbuttons">
-                            <div>
-                                <a target="_blank" href="https://nss-day-cohort-51.github.io/">
-                                    <Button size="lg">Try It Out</Button>
-                                </a>
-                            </div>
-
-                            <div>
-                                <a target="_blank" href="https://github.com/nss-day-cohort-51/nss-day-cohort-51.github.io">
-                                    <Button Button size="lg">View Repo</Button>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div className="first-box-video">
-                            <div className="caddie-video-container">
-                                <Video VideoSource="https://res.cloudinary.com/djnk0ey5p/video/upload/v1642519654/c51demo_fjo5ic.mp4" />
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                </div>
-            </div>
+<div className="worksection">
+<div className="first-box">
+<div className="c51logo-top"><img className="c51" src={C51} alt="C-51 logo" /></div>
+<div className="C51-description">
+<div><h1>Cohort-51 Website</h1></div>
+<p className="paragraphs">The logo above was designed using Figma and was one of my contributions for the most rewarding group project I've ever had the pleasure of working on. Our goal was to showcase our software development and UI/UX skills with a personality and flair to facilitate getting hired quickly by an employer that is a good fit. </p>
+<p className="paragraphs">With significant group planning, data collection, and user testing, we learned a lot about UX and the processes that precede the launch of the final product. We even revealed a pain point in the School curriculum relating to graduation requirements during the process! </p>
+<p className="paragraphs">Everyone in the group equally made significant contributions. My key contributions include logo design, the design and styling of the developer section, and prototyping. One favorite piece of code was the helper function I wrote that changes the colored ring around a developer's photo. The color-coordinated conditional was to help distinguish between one of two developer types. We had such a terrific time creating this website together!</p>
+<div className="workbuttons">
+<div><a target="_blank" href="https://nss-day-cohort-51.github.io/"><Button size="lg">Try It Out</Button></a></div>
+<div><a target="_blank" href="https://github.com/nss-day-cohort-51/nss-day-cohort-51.github.io"><Button Button size="lg">View Repo</Button></a></div>
+</div>
+<div className="first-box-video">
+<div className="caddie-video-container"><Video VideoSource="https://res.cloudinary.com/djnk0ey5p/video/upload/v1642519654/c51demo_fjo5ic.mp4" /></div>
+</div>
+</div>
+</div>
+</div>
 
             <div className="worksection">
                 <div className="first-box">

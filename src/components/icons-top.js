@@ -20,8 +20,6 @@ export const IconsTop = () => {
                 <a href = "mailto: jmlashen@gmail.com"><img className="mail" src={mail} alt="footer image" /></a>
                 <a target="_blank" href="https://www.linkedin.com/in/jake-lashenik/"><img className="linkedin" src={linkedin} alt="footer image" /></a>
                 <a target="_blank" href="https://nashvillesoftwareschool.com/"><img className="nss" src={nssicon} alt="footer image" /></a>
-                
-              
             </div>
             </div>
             

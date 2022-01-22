@@ -77,37 +77,3 @@ const useVideoPlayer = (videoElement) => {
 
 export default useVideoPlayer;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  // export const YoutubeEmbed = () => (
-//   <div className="video-responsive">
-//   <iframe 
-//   width="560" 
-//   height="315" 
-//   src="https://www.youtube.com/embed/C_ykrZ-jU0Q?rel=0&amp;modestbranding=1&amp;" 
-//   title="YouTube video player" 
-//   frameborder="0" 
-//   allowfullscreen></iframe>
-//   </div>
-// );

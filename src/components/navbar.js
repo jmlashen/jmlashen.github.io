@@ -7,7 +7,7 @@ import home from "../images/home.svg"
 import work from "../images/work.svg"
 import about from "../images/about.svg"
 import resumenav from "../images/resumenav.svg"
-import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
+
 
 export const NavBar = () => {
     return (
@@ -17,10 +17,7 @@ export const NavBar = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav>
                 <div className="navcontain">
-                    <Nav.Link onClick={() => {
-                        window.scrollTo({ top: 0, behavior: "smooth"});
-                    }}>
-                        <img className="navhome" src={home} alt="home" ></img></Nav.Link>
+                    <Nav.Link onClick={() => {window.scrollTo({ top: 0, behavior: "smooth"});}}><img className="navhome" src={home} alt="home" ></img></Nav.Link>
                  
                         <Nav.Link href="#about"><img className="navabout" src={about} alt="about" /></Nav.Link>
                   
