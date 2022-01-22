@@ -1,14 +1,14 @@
-import { NavBarBS } from './components/NavBarBS';
+// This section displays all the components to the DOM
+
+import { NavBar } from './components/navbar';
 import "./styles/custom.scss"
 import Video from './video';
 import JakeLogo from './images/JakeLogo.svg'
 import { Footer } from './components/footer';
-import { Work } from './components/work';
-import { About } from './components/about';
 import { IconsTop } from './components/icons-top';
-import { AboutMobile } from './components/about-mobile';
-import { WorkMobile } from './components/work-mobile';
-import { NavBarMobile } from './components/NavBar-Mobile';
+import { About } from './components/about';
+import { Work } from './components/work';
+
 
 
 
@@ -19,60 +19,31 @@ import { NavBarMobile } from './components/NavBar-Mobile';
 export const App = () => {
   return (
     <>
-
-
       <div className='navbar-container'>
-        <NavBarBS id="App" />
+        <NavBar id="App" />
       </div>
-
-      {/* <div className='navbar-container-mobile'>
-        <NavBarMobile id="App" />
-      </div> */}
-
-      <div className="disclaimer"><h6 className='disclaimer-text'>Check back soon for mobile view. Best viewed on desktop. Thanks for your paitence!</h6></div>
 
       <div className='landcontainer'>
         <div className='jake-logo-containter'>
           <img className="jakelogo" src={JakeLogo} alt="C51"></img>
         </div>
 
-        <div className="disclaimer"><h6 className='disclaimer-text'>Check back soon for mobile view. Best viewed on desktop. Thanks for your paitence!</h6></div>
-
         <div className='main-video-container'>
-          <Video VideoSource="https://res.cloudinary.com/djnk0ey5p/video/upload/v1642173955/Jake_intro_g2ufsq.mp4" />
+          <Video VideoSource="https://res.cloudinary.com/djnk0ey5p/video/upload/v1642797048/gtkmn_jjelgu.mp4" />
         </div>
       </div>
-      <div className='footer-container'>
 
-        <div className="disclaimer"><h6 className='disclaimer-text'>Check back soon for mobile view. Best viewed on desktop. Thanks for your paitence!</h6></div>
+      <div className='footer-container'>
         <IconsTop />
       </div>
 
-      <div className="disclaimer"><h6 className='disclaimer-text'>Check back soon for mobile view. Best viewed on desktop. Thanks for your paitence!</h6></div>
-
-      <div className='aboutdesktop' >
-        <About className='about'/>
+      <div className='about'>
+        <About className='about' />
       </div>
 
-      <div className='aboutmobile'>
-        <AboutMobile className='aboutmobile' />
-      </div>
-
-      <div className="disclaimer"><h6 className='disclaimer-text'>Check back soon for mobile view. Best viewed on desktop. Thanks for your paitence!</h6></div>
-
-      <div className='workdesktop'>
-
+      <div className='work'>
         <Work className="work" />
-
       </div>
-
-      <div className='workmobile'>
-
-        <WorkMobile className="workmobile" />
-
-      </div>
-
-      <div className="disclaimer"><h6 className='disclaimer-text'>Check back soon for mobile view. Best viewed on desktop. Thanks for your paitence!</h6></div>
 
       <div className='footer-container'>
         <Footer />

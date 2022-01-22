@@ -1,202 +1,323 @@
-// LANDING PAGE
+// // LANDING PAGE
 
-.jakelogo {
-    width: 300px;
-    padding-top: 125px;
+// .jakelogo {
+//     width: 300px;
+//     // padding-top: 125px;
     
     
-}
+// }
 
-.jake-logo-containter {
-    display: flex;
-    justify-content: center;
+// .jake-logo-containter {
+//     display: flex;
+//     justify-content: center;
 
-}
-// FOOTER
-
-.footer-icons {
-    display: flex;
-    padding-top: 20px;
-    
-    
-}
+// }
 
 
-.github {
+// @media only screen and (min-width: 1300px ) {
+   
+//     // LANDING PAGE
     
-    width: 100px;
-    padding: 15px;
+//     .landcontainer {
+//         display: flex;
+//         justify-content: space-evenly;
+//         padding-top: 300px;
+//         padding-bottom: 45px;
+//     }
+    
+//     .jakelogo {
+//         width: 600px;
+//         // padding-bottom: 150px;
+        
+        
+//     }
+    
+//     .jake-logo-containter {
+//         display: flex;
+//         flex-direction: column;
+    
+    
+//     }
+//     // FOOTER
+    
+//     .footer-icons {
+//         display: flex;
+//         align-items: center;
+        
+        
+        
+//     }
+    
+//     .github {
+        
+//         width: 95px;
+//         margin-right: -10px;
+//         margin-left: -15px;
+        
+//         // padding: 15px;
+        
+        
+        
+//     }
+    
+//     .github:hover {
+//         transform: scale(1.1);
+//         transition: 2ms;
+//     }
+    
+//     .mail:hover {
+//         transform: scale(1.1);
+//         transition: 2ms;
+//     }
+    
+//     .linkedin:hover {
+//         transform: scale(1.1);
+//         transition: 2ms;
+//     }
+    
+//     .linkedin {
+//         width: 90px;
+//         padding-top: 10px;
+//         padding: 15px;
+//         margin-left: -10px;
+        
+//     }
+//     .mail {
+//         width: 90px;
+//         padding: 15px;
+//         padding-top: 17px;
+//         margin-right: -5px;
+//         margin-left: -5px;
+    
+//     }
+//     }
+//     .footer-container {
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         padding-bottom: 20px;
+//     }
+    
+//     .footer-container-top {
+//         display: flex;
+//         flex-direction: column;
+//         align-items: center;
+//         padding-top: 70px;
+//         padding-bottom: 50px;
+//     }
+    
+
+
+
+// @media only screen and (min-width: 551px ) {
+   
+// // LANDING PAGE
+
+// .landcontainer {
+//     display: flex;
+//     justify-content: space-evenly;
+//     padding-top: 170px;
+//     padding-bottom: 45px;
+// }
+
+// .jakelogo {
+//     width: 600px;
+//     padding-top: 180px;
+    
+    
+// }
+
+// .jake-logo-containter {
+//     display: flex;
+//     flex-direction: column;
+
+
+// }
+// // FOOTER
+
+// .footer-icons {
+//     display: flex;
+//     align-items: center;
     
     
     
-}
+// }
+
+// .github {
+    
+//     width: 95px;
+//     margin-right: -10px;
+//     margin-left: -15px;
+    
+//     // padding: 15px;
+    
+    
+    
+// }
 
 // .github:hover {
-//     transform: scale(1.5);
-//     transition: 250ms;
-//     color: $mainyellow;
+//     transform: scale(1.1);
+//     transition: 2ms;
 // }
 
-.linkedin {
-    width: 100px;
-    padding: 15px;
-
-}
-
+// .mail:hover {
+//     transform: scale(1.1);
+//     transition: 2ms;
+// }
 
 // .linkedin:hover {
-//     transform: scale(1.5);
-//     transition: 250ms;
-//     color: $mainyellow;
+//     transform: scale(1.1);
+//     transition: 2ms;
+// }
+
+// .linkedin {
+//     width: 90px;
+//     padding-top: 10px;
+//     padding: 15px;
+//     margin-left: -10px;
+    
+// }
+// .mail {
+//     width: 90px;
+//     padding: 15px;
+//     padding-top: 17px;
+//     margin-right: -5px;
+//     margin-left: -5px;
+
+// }
+// }
+// .footer-container {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     padding-bottom: 20px;
+// }
+
+// .footer-container-top {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     padding-top: 70px;
+//     padding-bottom: 50px;
 // }
 
 
-@media only screen and (min-width: 1300px ) {
 
-      .aboutdesktop {
-        display: block;
-      }
-    
-      /* VIDEO PLAYER */
-    
-      .aboutmobile {
-        display: none;
-      }
-    
-      .workdesktop {
-        display: block;
-      }
-    
-      .workmobile {
-        display: none;
-      }
-    // LANDING PAGE
 
-.landcontainer {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 170px;
-    padding-bottom: 45px;
-}
 
-.jakelogo {
-    width: 600px;
-    padding-top: 180px;
+
+// @media only screen and (min-width: 551px ) {
+
+
+//     // LANDING PAGE
+
+// .landcontainer {
+//     display: flex;
+//     flex-direction: column;
+//     // justify-content: center;
+//     padding-top: 50px;
+//     padding-bottom: 0px;
+// }
+
+// .jakelogo {
+//     width: 400px;
+//     padding-top: 180px;
+//     display: flex;
+//     justify-content: center;
     
-    
-}
+// }
 
-.jake-logo-containter {
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 150px;
+// .jake-logo-containter {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
 
-}
-// FOOTER
 
-.footer-icons {
-    display: flex;
-    align-items: center;
+// }
+// // FOOTER
+
+// .footer-icons {
+//     display: flex;
+//     align-items: center;
     
     
     
-}
+// }
 
-.github {
+// .github {
     
-    width: 95px;
-    margin-right: -10px;
-    margin-left: -15px;
+//     width: 95px;
+//     margin-right: -10px;
+//     margin-left: -15px;
     
-    // padding: 15px;
+//     // padding: 15px;
     
     
     
-}
+// }
 
-.github:hover {
-    transform: scale(1.1);
-    transition: 2ms;
-}
+// .github:hover {
+//     transform: scale(1.1);
+//     transition: 2ms;
+// }
 
-.mail:hover {
-    transform: scale(1.1);
-    transition: 2ms;
-}
+// .mail:hover {
+//     transform: scale(1.1);
+//     transition: 2ms;
+// }
 
-.linkedin:hover {
-    transform: scale(1.1);
-    transition: 2ms;
-}
+// .linkedin:hover {
+//     transform: scale(1.1);
+//     transition: 2ms;
+// }
 
-.linkedin {
-    width: 90px;
-    padding-top: 10px;
-    padding: 15px;
-    margin-left: -10px;
+// .linkedin {
+//     width: 90px;
+//     padding-top: 10px;
+//     padding: 15px;
+//     margin-left: -10px;
     
-}
-.mail {
-    width: 90px;
-    padding: 15px;
-    padding-top: 17px;
-    margin-right: -5px;
-    margin-left: -5px;
+// }
+// .mail {
+//     width: 90px;
+//     padding: 15px;
+//     padding-top: 17px;
+//     margin-right: -5px;
+//     margin-left: -5px;
 
-}
-}
-.footer-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
-}
+// }
+// }
+// .footer-container {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     padding-bottom: 20px;
+// }
 
-.footer-container-top {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 70px;
-    padding-bottom: 50px;
-}
-
+// .footer-container-top {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     padding-top: 0px;
+// }
 
 
 
 
 
-@media only screen and (max-width: 1299px ) {
-
-    .aboutdesktop {
-        display: none;
-      }
-    
-      /* VIDEO PLAYER */
-    
-      .aboutmobile {
-        display: block;
-      }
-    
-      .workdesktop {
-        display: none;
-      }
-    
-      .workmobile {
-        display: block;
-      }
     // LANDING PAGE
 
 .landcontainer {
     display: flex;
     flex-direction: column;
-    // justify-content: center;
+    justify-content: center;
     padding-top: 50px;
     padding-bottom: 0px;
 }
 
 .jakelogo {
-    width: 400px;
-    padding-top: 180px;
+    width: 300px;
+    
     display: flex;
     justify-content: center;
     
@@ -206,29 +327,33 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    // padding-bottom: 150px;
+    padding-top: 150px;
+   
 
 }
-// FOOTER
+
 
 .footer-icons {
     display: flex;
     align-items: center;
-    
-    
+    padding-top: 20px;
     
 }
 
 .github {
-    
-    width: 95px;
+  
+    width: 90px;
     margin-right: -10px;
     margin-left: -15px;
+    padding: 15px;
     
+}
+
+.nss {
+    width: 50px;
+    margin-right: 15px;
+    // margin-left: -5px;
     // padding: 15px;
-    
-    
-    
 }
 
 .github:hover {
@@ -247,26 +372,38 @@
 }
 
 .linkedin {
-    width: 90px;
+    width: 85px;
     padding-top: 10px;
     padding: 15px;
     margin-left: -10px;
     
 }
 .mail {
-    width: 90px;
+    width: 85px;
     padding: 15px;
     padding-top: 17px;
     margin-right: -5px;
     margin-left: -5px;
 
 }
-}
+
 .footer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20px;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-top: 100px;
+}
+
+.footer-container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // padding-bottom: 100px;
+    // padding-left: 10px;
+    // padding-top: 100px;
+    margin: 0;
 }
 
 .footer-container-top {
@@ -275,5 +412,231 @@
     align-items: center;
     padding-top: 0px;
 }
+
+
+
+@media only screen and (min-width: 550px ) {
+
+
+    // LANDING PAGE TABLET 
+
+.landcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.jakelogo {
+    width: 450px;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.jake-logo-containter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+   
+
+}
+
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+
+.github {
+  
+    width: 90px;
+    margin-right: -10px;
+    margin-left: -15px;
+    padding: 15px;
+    
+}
+
+.nss {
+    width: 50px;
+    margin-right: 15px;
+    // margin-left: -5px;
+    // padding: 15px;
+}
+
+.github:hover {
+    transform: scale(1.1);
+    transition: 2ms;
+}
+
+.mail:hover {
+    transform: scale(1.1);
+    transition: 2ms;
+}
+
+.linkedin:hover {
+    transform: scale(1.1);
+    transition: 2ms;
+}
+
+.linkedin {
+    width: 85px;
+    padding-top: 15px;
+    padding: 15px;
+    margin-left: -10px;
+    
+}
+.mail {
+    width: 85px;
+    padding: 15px;
+    padding-top: 17px;
+    margin-right: -5px;
+    margin-left: -5px;
+
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
+    padding-left: 10px;
+    padding-top: 75px;
+}
+
+.footer-container-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // padding-bottom: 100px;
+    // padding-left: 10px;
+    // padding-top: 100px;
+    margin: 0;
+}
+
+.footer-container-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+}
+}
+
+
+@media only screen and (min-width: 1024px ) {
+
+
+    // LANDING PAGE DESKTOP 1024 
+
+
+    // .footer-container {
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     // padding-bottom: 100px;
+    //     // padding-left: 10px;
+    //     // padding-top: 75px;
+    // }
+    
+    // .footer-container-footer {
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     // padding-bottom: 100px;
+    //     // padding-left: 10px;
+    //     // padding-top: 100px;
+    //     margin: 0;
+    // }
+    
+
+.landcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+}
+
+.jakelogo {
+    width: 550px;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.jake-logo-containter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 125px;
+    // padding-right: 20px;
+   
+
+}
+
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+
+.github {
+  
+    width: 90px;
+    margin-right: -10px;
+    margin-left: -15px;
+    padding: 15px;
+    
+}
+
+.nss {
+    width: 50px;
+    margin-right: 15px;
+    // margin-left: -5px;
+    // padding: 15px;
+}
+
+
+.github:hover {
+    transform: scale(1.1);
+    transition: 2ms;
+}
+
+.mail:hover {
+    transform: scale(1.1);
+    transition: 2ms;
+}
+
+.linkedin:hover {
+    transform: scale(1.1);
+    transition: 2ms;
+}
+
+.linkedin {
+    width: 85px;
+    padding-top: 15px;
+    padding: 15px;
+    margin-left: -10px;
+    
+}
+.mail {
+    width: 85px;
+    padding: 15px;
+    padding-top: 17px;
+    margin-right: -5px;
+    margin-left: -5px;
+
+}
+}
+
+
 
 
