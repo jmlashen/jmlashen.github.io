@@ -34,7 +34,7 @@ export const App = () => {
         </div>
       </div>
 
-      <div className='main-video-container-mobile'>
+      <div className='main-video-container-main'>
         <EmbedVideo/>
       </div>
 
