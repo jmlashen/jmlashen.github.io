@@ -98,21 +98,17 @@ a:active {
 .paragraphs {
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 20px;
   text-align: left;
 }
 
 
-// WORK MEDIA QUERY MOBILE=========================
+// ABOUT MEDIA QUERY MOBILE=========================
 
 .aboutsection {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-#work {
-  scroll-margin-top: 50px;
-
 }
   
 #about {
@@ -124,13 +120,6 @@ a:active {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.workhead-img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 50px;
 }
 
   
@@ -181,13 +170,22 @@ img.techtool {
 
 }
 
+.about-main {
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 32px;
+  background-color: $mainyellow ;
+  border: solid 5px $maingreen;
+  margin-top: 50px;
+
+}
+
 .aboutsection {
   display: flex;
   
 }
-
-
-
 
   .artabout-personas {
   width: 300px;
@@ -198,96 +196,10 @@ img.techtool {
 
   }
 
-
-  // h1 {
-  //   font-size: x-large;
-  //   padding-top: 20px;
-  
-  // }
-
-  
-  
-  
-  .c51logo-top {
-       
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  
-  }
-  
-  .caddielogo-top {
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
-    
-  }
-  
-  
-  .workmaincontain {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  
-  }
-  
-  .C51-description { 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 50px;
-    text-align: left;
-    line-height: 32px;
-  }
-  
-  
-  .h4 {
-    font-size: x-large;
-    line-height: 32px;
-    display: flex;
-    justify-content: center;
-     
-  }
-
   .colleagues {
-    // padding-left: 30px;
     display: flex;
   }
-  
-  // .h6 {
-    
-  //   padding-top: 20px;
-  //   line-height: 32px;
-  //   padding-left: 30px;
-  //   padding-right: 30px;
-  
-  // }
-    .worksection {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-
-
      
-    
-    .workbox {
-        
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    
-
-      
-    }
-  
-     
-        
-    
-   
-  
-  
   // CONTAINERS =========================
   
   .first-box-video {
@@ -321,19 +233,67 @@ img.techtool {
     border-color: $mainyellow;
   
   }
-  // .first-box-about {
-   
-  //   display: flex;
-  //   flex-direction: column;
-  //   align-items: center;
-          
-  // }
 
- 
+  // WORK SECTION =========================
+
+  #work {
+    scroll-margin-top: 50px;
   
+  }
+
+  .workhead-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+
+  .c51logo-top {
+       
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  
+  }
+  
+  .caddielogo-top {
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
     
-    
-  // WORK SECTION IMAGES =========================
+  }
+
+  
+  .C51-description { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+    text-align: left;
+    line-height: 32px;
+  }
+
+  .worksection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  .workbox {
+      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  .workhead-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
     
     
   .c51 {
@@ -386,9 +346,6 @@ img.techtool {
       
   }
   
-
-  
-  
   .prototype {
     display: flex;
     flex-direction: column;
@@ -408,7 +365,6 @@ img.techtool {
   }
   .desktop {
     width: 300px;
-    // padding-top: 10px;
   }
   
   .mobile {
