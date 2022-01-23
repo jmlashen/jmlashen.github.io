@@ -3,14 +3,24 @@
   /* VIDEO PLAYER */
 
 .main-video-container {
+display: none;
+  
+  
+
+}
+
+.main-video-container-mobile {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-right: 2px;
   padding-top: 150px;
   
-  
 
+}
+
+.caddie-video-container {
+  display: none;
 }
 
 
