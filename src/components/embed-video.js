@@ -6,7 +6,7 @@ export const EmbedVideo = () => {
 
 
 
-<iframe src='https://res.cloudinary.com/djnk0ey5p/video/upload/v1642797048/gtkmn_jjelgu.mp4'
+<iframe src='https://streamable.com/p4mlqr'
         frameborder='0'
         allow='autoplay; encrypted-media'
         allowfullscreen
