@@ -6,7 +6,7 @@ export const EmbedVideo = () => {
 
 
 
-<iframe src='https://res.cloudinary.com/djnk0ey5p/video/upload/v1642964781/qyclti2k7kr1vo5m6zdf.mp4'
+<iframe src='https://res.cloudinary.com/djnk0ey5p/video/upload/v1642797048/gtkmn_jjelgu.mp4'
         frameborder='0'
         allow='autoplay; encrypted-media'
         allowfullscreen
