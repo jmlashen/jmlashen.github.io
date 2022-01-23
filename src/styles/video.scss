@@ -9,6 +9,7 @@ display: none;
 
 }
 
+
 .caddie-video-container {
   display: none;
 }
@@ -148,6 +149,22 @@ input[type="range"]::-moz-range-progress {
 
 @media only screen and (min-width: 550px) {
 
+    
+.caddie-video-container {
+    display: block;
+  }   
+.main-video-container-mobile {
+  display: none;
+      
+    
+  }
+
+.main-video-container-main {
+  display: none;
+        
+      
+  }
+
 
 
 .main-video-container {
@@ -279,6 +296,23 @@ input[type="range"]::-moz-range-progress {
 @media only screen and (min-width: 1024px) {
 
   /* VIDEO PLAYER */
+  
+.caddie-video-container {
+  display: block;
+}  
+
+.main-video-container-mobile {
+  display: none;
+        
+      
+}
+  
+.main-video-container-main {
+  display: none;
+          
+        
+}
+
 
 .main-video-container {
   display: flex;

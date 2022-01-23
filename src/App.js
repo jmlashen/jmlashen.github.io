@@ -30,7 +30,7 @@ export const App = () => {
         </div>
 
         <div className='main-video-container'>
-          <Video VideoSource="https://res.cloudinary.com/djnk0ey5p/video/upload/v1642797048/gtkmn_jjelgu.mp4" />
+          <Video VideoSource="https://res.cloudinary.com/djnk0ey5p/video/upload/v1642979476/edmzui0jzoebjui0j7fz.mp4" />
         </div>
       </div>
 
