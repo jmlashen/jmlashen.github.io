@@ -29,7 +29,7 @@ export const App = () => {
         </div>
 
         <div className='main-video-container'>
-          <Video VideoSource="https://res.cloudinary.com/djnk0ey5p/video/upload/v1642951908/Hang_-_30902_dwkuq9.mp4" />
+          <Video VideoSource="https://streamable.com/p4mlqr" />
         </div>
       </div>
 
