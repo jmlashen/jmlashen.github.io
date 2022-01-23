@@ -8,6 +8,7 @@ import { Footer } from './components/footer';
 import { IconsTop } from './components/icons-top';
 import { About } from './components/about';
 import { Work } from './components/work';
+import { EmbedVideo } from './components/embed-video';
 
 
 
@@ -29,8 +30,12 @@ export const App = () => {
         </div>
 
         <div className='main-video-container'>
-          <Video VideoSource="https://streamable.com/p4mlqr" />
+          <Video VideoSource="https://res.cloudinary.com/djnk0ey5p/video/upload/v1642797048/gtkmn_jjelgu.mp4" />
         </div>
+      </div>
+
+      <div>
+        <EmbedVideo/>
       </div>
 
       <div className='footer-container'>
