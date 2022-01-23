@@ -6,8 +6,8 @@ export const EmbedVideo = () => {
 
 
 
-<iframe src='https://streamable.com/p4mlqr'
-           width='75%' 
+<iframe src='https://streamable.com/ovqr71'
+           width='70%' 
            height='140'
            padding='20'
            frameborder='0'
