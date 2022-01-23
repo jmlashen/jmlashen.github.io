@@ -3,19 +3,29 @@
   /* VIDEO PLAYER */
 
 .main-video-container {
+display: none;
+  
+  
+
+}
+
+.main-video-container-mobile {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-right: 2px;
   padding-top: 150px;
   
-  
 
+}
+
+.caddie-video-container {
+  display: none;
 }
 
 
 .container-video {
- width: 250px;
+ width: 280px;
  margin-left: auto;
  margin-right: auto;
  padding-left: 0.75rem;

@@ -9,6 +9,7 @@ const useVideoPlayer = (videoElement) => {
     progress: 0,
     speed: 1,
     isMuted: false,
+    playsinline: true,
 
 
   });
