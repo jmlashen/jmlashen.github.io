@@ -526,3 +526,48 @@ input[type="range"]::-moz-range-progress {
  
 
 }}
+
+@media only screen and (min-width: 2560px) {
+
+  /* VIDEO PLAYER */
+  
+.caddie-video-container {
+  display: block;
+}  
+
+.main-video-container-mobile {
+  display: none;
+        
+      
+}
+  
+.main-video-container-main {
+  display: none;
+          
+        
+}
+
+
+.main-video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 2px;
+  padding-top: 20px;
+  
+  
+
+}
+
+
+.container-video {
+ width: 850px;
+ margin-left: auto;
+ margin-right: auto;
+ padding-left: 0.75rem;
+ padding-right: 0.75rem;
+ margin: 0 !important;
+ padding: 0 !important;
+ 
+
+}}
