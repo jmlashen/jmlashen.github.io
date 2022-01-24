@@ -665,6 +665,21 @@ img.techtool {
       
       }
 
+      img.techtool {
+        width: 300px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+    
+      .artabout-uiux {
+        width: 300px;
+        display: flex;
+        align-items: center;
+        padding-bottom: 10px;
+        padding-top: 20px;
+      
+      }
+
   }
 
   @media only screen and (min-width: 2560px) {
@@ -705,7 +720,7 @@ img.techtool {
     p {
       font-family: europa,sans-serif;
       font-weight: 400;
-      font-size: large;
+      font-size: x-large;
       font-style: normal;
       color: $darkpurp;
     }
@@ -721,10 +736,10 @@ img.techtool {
 
 
 .artabout-mobile {
-  width: 500px;
+  width: 1000px;
   display: flex;
   align-items: center;
-  padding-bottom: 10px;
+  padding-bottom: 50px;
   padding-top: 40px;
 
 }
@@ -738,5 +753,81 @@ img.techtool {
   scroll-margin-top: 165px;
 
 }
+
+.artabout-personas {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+
+  }
+
+  h1 {
+    font-family: cubano,sans-serif;
+    color: $darkpurp;
+    font-size: xxx-large;
+  }
+  ul {
+    font-size: x-large;
+  }
+
+  .aboutgroup-img {
+    width: 580px;
+      
+  }
+  
+  img.techtool {
+    width: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .artabout-uiux {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 20px;
+  
+  }
+
+  .prototype {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+  }
+  
+  .proto-head {
+    display: flex;
+    flex-direction: column;
+    padding-left: 35px;
+    padding-right: 50px;
+  }
+  
+  .logo-prototype-desktop {
+    padding-top: 10px;
+  }
+  .desktop {
+    width: 500px;
+  }
+  
+  .mobile {
+    width: 400px;
+    padding-top:20px;
+  
+  
+  }
+  .c51 {
+    width: 400px;
+  
+  }
+    
+  .caddie-baby {
+    width: 400px;
+    padding-top: 5px; 
+  
+  }
+  
 
   }
