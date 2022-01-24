@@ -23,7 +23,7 @@ export const Work = () => {
             <div id="work" className="mainworkcontainer"></div>
             <div className="workhead-img"><img className="workme" src={workhead} alt="Card Caddie logo" /></div>
 
-            {/* C-51 WEBSITE SECTION */}
+            
 
             <div className="worksection">
                 <div className="first-box">
@@ -46,7 +46,7 @@ export const Work = () => {
                 </div>
             </div>
 
-            {/* CARD CADDIE SECTION */}
+           
 
             <div className="worksection">
                 <div className="first-box">
@@ -67,7 +67,7 @@ export const Work = () => {
                 </div>
             </div>
 
-            {/* PROTOTYPE SECTION */}
+           
 
             <div className="worksection">
                 <div className="first-box">

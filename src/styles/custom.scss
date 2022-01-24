@@ -103,6 +103,7 @@ a:active {
 }
 
 
+
 // ABOUT MEDIA QUERY MOBILE=========================
 
 .aboutsection {
@@ -279,6 +280,7 @@ img.techtool {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
 
   .workbox {
       
@@ -419,6 +421,48 @@ img.techtool {
 .btn {
   margin: 5px;
 
-}}
+}
 
+  
+@media only screen and (min-width: 426px) {
+
+
+  .paragraphs {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-top: 20px;
+    text-align: left;
+  }
+  .first-box {
+    background-color: $maingreen ;
+    width: 550px;
+    max-height: 3000px;
+    border-style: solid $maingreen;
+    border-radius:0px;
+    margin-top: 50px;
+    border-style: solid;
+    border-color: $mainyellow;
+  
+  }
+  
+  .about-text-main {
+    max-width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 32px;
+    background-color: $mainyellow ;
+    border: solid 5px $maingreen;
+    margin-top: 50px;
+  
+  }
+  .prototype {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  }
   
