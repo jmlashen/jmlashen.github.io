@@ -10,7 +10,7 @@ export const EmbedVideoC51 = () => {
 <iframe src='https://streamable.com/dyjila'
         width='85%' 
         height='140'
-        allowfullscreen
+        allowFullScreen
         title='video'
         
 />
