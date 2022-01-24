@@ -18,12 +18,12 @@ export const About = () => {
             <div id="about" >
             </div>
 
-            <div className="abouthead-img"><img className="aboutme-img" src={aboutme} alt="about image" /></div>
+            <div className="abouthead-img"><img className="aboutme-img" src={aboutme} alt="about" /></div>
 
             <div className="aboutsection">
 
                 <div className="about-text-main">
-                    <div><img className="artabout-mobile" src={aboutPro} alt="me image" /></div>
+                    <div><img className="artabout-mobile" src={aboutPro} alt="me" /></div>
                     <div><h1>Hi, I'm Jake!</h1></div>
                     <p className="paragraphs">I'm a Software Developer based in Nashville, TN. My focus is on Front-End Web Developement, UI/UX, and Design. My colleagues have described me as:</p>
                     <ul><li>a motivator</li><li>great in a team</li><li>always striving to be fair</li><li>a true creative</li><li>humble</li><li>an infectious personality</li><li>naturally a leader</li><li>good with challenges</li></ul>
@@ -32,11 +32,10 @@ export const About = () => {
 
 
                 <div className="about-text-main">
-                    <div><img className="techtool" src={techToolsMobile} alt="computer image" /></div>
+                    <div><img className="techtool" src={techToolsMobile} alt="computer" /></div>
                     <div><h1>Tech and Tools</h1></div>
-                    <p className="paragraphs">I enjoy the challenge and ongoing learning process of being a developer. I have established a solid foundation with JavaScript and React.<br></br>&nbsp;
-                    <p>My desgin and styling skills are achieved through my knowledge of CSS, SASS, Figma, and Photoshop.</p><br></br>
-                    I also have experience building CRUD-based applications using ERDs, JSON server, fetch calls, and testing APIs using Postman. Other tools include Cloudinary and the best practices when using Git.</p>
+                    <p className="paragraphs">I enjoy the challenge and ongoing learning process of being a developer. I have established a solid foundation with JavaScript and React.My desgin and styling skills are achieved through my knowledge of CSS, SASS, Figma, and Photoshop.</p>
+                    <p className="paragraphs">I also have experience building CRUD-based applications using ERDs, JSON server, fetch calls, and testing APIs using Postman. Other tools include Cloudinary and the best practices when using Git.</p>
                 </div>
 
 
@@ -55,7 +54,7 @@ export const About = () => {
                     <div><h1 >Art and Design</h1></div>
                     <p className="paragraphs">My background in design comes from working as a freelance graphic designer. I mostly design album art for several musical artists, including Jason Wade, of Lifehouse.</p>
                     <p className="paragraphs">Through these interactions, I have gained experience passionately working with clients to best represent their ideas with a finished product we can both be proud of.</p>
-                    <p className="paragraphs"><a target="_blank" href="https://www.instagram.com/jake_diggity/?hl=en">Check out some of my artwork here.</a></p>
+                    <p className="paragraphs"><a target="_blank" rel="noreferrer" href="https://www.instagram.com/jake_diggity/?hl=en">Check out some of my artwork here.</a></p>
                 </div>
             </div>
 
