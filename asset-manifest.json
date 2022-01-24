@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.69b1abb0.chunk.css",
-    "main.js": "/static/js/main.4f7c2323.chunk.js",
-    "main.js.map": "/static/js/main.4f7c2323.chunk.js.map",
+    "main.css": "/static/css/main.9f5ed058.chunk.css",
+    "main.js": "/static/js/main.93c796bb.chunk.js",
+    "main.js.map": "/static/js/main.93c796bb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cb672f2e.js",
     "runtime-main.js.map": "/static/js/runtime-main.cb672f2e.js.map",
     "static/js/2.5050f68c.chunk.js": "/static/js/2.5050f68c.chunk.js",
     "static/js/2.5050f68c.chunk.js.map": "/static/js/2.5050f68c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.69b1abb0.chunk.css.map": "/static/css/main.69b1abb0.chunk.css.map",
+    "static/css/main.9f5ed058.chunk.css.map": "/static/css/main.9f5ed058.chunk.css.map",
     "static/js/2.5050f68c.chunk.js.LICENSE.txt": "/static/js/2.5050f68c.chunk.js.LICENSE.txt",
     "static/media/C51.d726f1e0.svg": "/static/media/C51.d726f1e0.svg",
     "static/media/JakeLogo.be099d23.svg": "/static/media/JakeLogo.be099d23.svg",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.cb672f2e.js",
     "static/js/2.5050f68c.chunk.js",
-    "static/css/main.69b1abb0.chunk.css",
-    "static/js/main.4f7c2323.chunk.js"
+    "static/css/main.9f5ed058.chunk.css",
+    "static/js/main.93c796bb.chunk.js"
   ]
 }
