@@ -565,6 +565,15 @@ img.techtool {
     
     }
 
+    .artabout-mobile {
+      width: 450px;
+      display: flex;
+      align-items: center;
+      padding-bottom: 50px;
+      padding-top: 40px;
+    
+    }
+
     .paragraphs {
       padding-left: 20px;
       padding-right: 20px;
@@ -644,6 +653,15 @@ img.techtool {
       font-size: large;
       font-style: normal;
       color: $darkpurp;
+    }
+
+    .artabout-mobile {
+      width: 500px;
+      display: flex;
+      align-items: center;
+      padding-bottom: 50px;
+      padding-top: 40px;
+    
     }
 
     .artabout-personas {
