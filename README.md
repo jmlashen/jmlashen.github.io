@@ -1,6 +1,6 @@
 # Jake's Portfolio
 
-**My Portfolio** is an app designed for hiring officals and give the best representation of myself as a Developer. 
+**My Portfolio** an app designed for hiring officals and give the best representation of myself as a Developer to get hired with an employer. 
 
 ## Setup
 
@@ -19,6 +19,6 @@ Please visit me on LinkedIn to ask any questions you may have about my app.
  - [Jake Lashenik](https://www.linkedin.com/in/jake-lashenik/)
 
 
-<!-- ### Wireframe
+### Planning 
 
-[Card Caddie Wireframe in Figma](https://www.figma.com/file/bSRLihpiWx5IbP0kPT9NlH/Card-Caddie?node-id=0%3A1) -->
+[View wireframe, case study, and planning materials here in Figma](https://www.figma.com/file/k7Jm78kVpu0ltkZjg6o7bj/Jake's-Portfolio-Planning?node-id=0%3A1)
