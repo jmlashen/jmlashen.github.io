@@ -23,7 +23,7 @@ export const NavBar = () => {
                   
                         <Nav.Link href="#work"><img className="navwork" src={work} alt="work" /></Nav.Link>
                 
-                        <Nav.Link target="_blank" href="https://drive.google.com/file/d/1qWfI4xuKsbo4cv1dX5e9IHmsA8XTs-Q3/view?usp=sharing"><img className="navresume" src={resumenav} alt="resume" /></Nav.Link>
+                        <Nav.Link target="_blank" href="https://drive.google.com/file/d/1fyYNI-sko8b0IgMP6ZUcmIgHE1Xv01Of/view?usp=sharing"><img className="navresume" src={resumenav} alt="resume" /></Nav.Link>
                     </div>
                 
                 </Nav>
