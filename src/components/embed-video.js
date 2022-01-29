@@ -1,3 +1,5 @@
+
+
 export const EmbedVideo = () => {
     return (
 
@@ -6,12 +8,13 @@ export const EmbedVideo = () => {
 
 
 
-<iframe src='https://streamable.com/ij1y94'
-           width='65%' 
-           height='140'
-           allowFullScreen
-           title='video'
-        
-/>
+        <iframe src='https://res.cloudinary.com/djnk0ey5p/video/upload/v1643040057/sxhprvndi3ztnot2kadk.mp4'
+            width='65%'
+            height='140'
+            allowFullScreen
+            title='video'
 
-    )}
+        />
+
+    )
+}

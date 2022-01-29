@@ -20,17 +20,17 @@ import { EmbedVideoC51 } from "./embed-video-c51"
 export const Work = () => {
     return (
         <>
-            <div id="work" className="mainworkcontainer"></div>
+            <div className="mainworkcontainer"></div>
             <div className="workhead-img"><img className="workme" src={workhead} alt="Card Caddie logo" /></div>
 
             
 
             <div className="worksection">
-                <div className="first-box">
+                <div className="first-box-top">
                     <div className="c51logo-top"><img className="c51" src={C51} alt="C-51 logo" /></div>
                     <div className="C51-description">
                         <div><h1>Cohort-51 Website</h1></div>
-                        <p className="paragraphs">The logo above was designed using Figma and was one of my contributions for the most rewarding group project I've ever had the pleasure of working on. Our goal was to showcase our software development and UI/UX skills with a personality and flair to facilitate getting hired quickly by an employer that is a good fit. </p>
+                        <p className="paragraphs">The logo above was designed using Figma and was one of many of my contributions for the most rewarding group project I've ever had the pleasure of working on. Our goal was to showcase our software development and UI/UX skills with a personality and flair to facilitate getting hired quickly by an employer that is a good fit. </p>
                         <p className="paragraphs">With significant group planning, data collection, and user testing, we learned a lot about UX and the processes that precede the launch of the final product. We even revealed a pain point in the School curriculum relating to graduation requirements during the process! </p>
                         <p className="paragraphs">Everyone in the group equally made significant contributions. My key contributions include logo design, the design and styling of the developer section, and prototyping. One favorite piece of code was the helper function I wrote that changes the colored ring around a developer's photo. The color-coordinated conditional was to help distinguish between one of two developer types. We had such a terrific time creating this website together!</p>
                         <div className="main-video-container-mobile"><EmbedVideoC51/></div>
@@ -85,8 +85,8 @@ export const Work = () => {
                         </div>
                             <div><h1>Prototypes</h1></div>
                             <p className="paragraphs">
-                                Based on user data and group planning for the Cohort-51 Website, I created mobile and desktop prototypes for the project using Figma. Prototyping is one of my favorite processes that precede the launch of the final product and helps present a clear vision.</p>
-                            <p className="paragraphs"><a target="_blank" rel="noreferrer" href="https://github.com/nss-day-cohort-51/nss-day-cohort-51.github.io">View all planning resources for the Cohort-51 Website Group Project here.</a></p>
+                                Based on user data and group planning for the Cohort-51 Website, I created mobile and desktop prototypes for the project using Figma. Prototyping is one of my favorite processes that precede the launch of the final product and helps present a clear vision.
+                            <b> <a target="_blank" rel="noreferrer" href="https://github.com/nss-day-cohort-51/nss-day-cohort-51.github.io">View all planning resources for the Cohort-51 Website Group Project here.</a></b></p>
                     </div>
                 </div>
             </div>
