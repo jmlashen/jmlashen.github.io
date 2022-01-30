@@ -17,8 +17,9 @@ export const About = () => {
 
             <div>
             </div>
-            <div className="highimjakepro"><img className="hihimjakepro-img" src={aboutPro} alt="me" /></div>
             <div className="abouthead-img"><img className="aboutme-img" src={aboutme} alt="about" /></div>
+            <div className="highimjakepro"><img className="hihimjakepro-img" src={aboutPro} alt="me" /></div>
+            
             
             <div className="aboutsection">
 

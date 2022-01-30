@@ -122,7 +122,7 @@ a:active {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding-top: 150px;
+  padding-top: 0px;
 }
 
 .hihimjakepro-img {
@@ -130,14 +130,14 @@ a:active {
   display: flex;
   align-items: center;
   padding-bottom: 50px;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
-.workhead-img {
-  display: none;
-}
+// .workhead-img {
+//   display: none;
+// }
 .about-hi-main {
-  width: 425px;
+  width: 320px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -165,7 +165,11 @@ a:active {
 }
 
 .abouthead-img {
-  display: none;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 75px;
 }
 
   
@@ -176,7 +180,7 @@ a:active {
 }
 
 .aboutgroup-img {
-  width: 280px;
+  display: none;
     
 }
 
@@ -269,12 +273,24 @@ img.techtool {
 
   
   .first-box {
-    background-color: $maingreen ;
-    min-width: 320px;
+    background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
+    width: 320px;
     max-height: 3000px;
     border-style: solid $maingreen;
     border-radius:0px;
-    margin-top: 50px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: $mainyellow;
+  
+  }
+
+  .first-box-top {
+    background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
+    width: 320px;
+    max-height: 3000px;
+    border-style: solid $maingreen;
+    border-radius:0px;
+    margin-top: px;
     border-style: solid;
     border-color: $mainyellow;
   
@@ -287,12 +303,14 @@ img.techtool {
   
   }
 
-  .workhead-img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
-  }
+.workhead-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
 
   .c51logo-top {
        
@@ -339,7 +357,7 @@ img.techtool {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
+    margin-top: 20px;
   }
     
     
