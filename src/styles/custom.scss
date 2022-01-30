@@ -78,13 +78,13 @@ a:link {
 }
 
 a:visited {
-  color: $mainpurp;
+  color: $darkpurp;
   background-color: transparent;
   text-decoration: none;
 }
 
 a:hover {
-  color: $mainpurp;
+  color: $darkpurp;
   background-color: transparent;
   text-decoration: underline;
 }
@@ -106,6 +106,53 @@ a:active {
 
 // ABOUT MEDIA QUERY MOBILE=========================
 
+.hiimjake {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.hiimjakegroup {
+  display: flex;
+  
+}
+
+.highimjakepro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 0px;
+}
+
+.hihimjakepro-img {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+// .workhead-img {
+//   display: none;
+// }
+.about-hi-main {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 32px;
+  background-image: linear-gradient(#F4E8C1,#f7efd6,#F4E8C1) ;
+  border: solid 5px $maingreen;
+  margin-top: 10px;
+}
+
+.aboutgroup-img {
+  width: 300px;
+  padding-left: 20px;
+    
+}
+
 .aboutsection {
   display: flex;
   flex-direction: column;
@@ -119,8 +166,10 @@ a:active {
 
 .abouthead-img {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 75px;
 }
 
   
@@ -131,7 +180,7 @@ a:active {
 }
 
 .aboutgroup-img {
-  width: 280px;
+  display: none;
     
 }
 
@@ -224,12 +273,24 @@ img.techtool {
 
   
   .first-box {
-    background-color: $maingreen ;
-    min-width: 320px;
+    background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
+    width: 320px;
     max-height: 3000px;
     border-style: solid $maingreen;
     border-radius:0px;
-    margin-top: 50px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: $mainyellow;
+  
+  }
+
+  .first-box-top {
+    background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
+    width: 320px;
+    max-height: 3000px;
+    border-style: solid $maingreen;
+    border-radius:0px;
+    margin-top: px;
     border-style: solid;
     border-color: $mainyellow;
   
@@ -242,12 +303,14 @@ img.techtool {
   
   }
 
-  .workhead-img {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 50px;
-  }
+.workhead-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
 
   .c51logo-top {
        
@@ -294,7 +357,7 @@ img.techtool {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
+    margin-top: 20px;
   }
     
     
@@ -401,8 +464,8 @@ img.techtool {
   padding: 5px 15px;
   border: transparent;
   border-radius: 8px;
-  background-color: $mainyellow;
-  color: $darkpurp;
+  background-color: $darkpurp;
+  color: $mainyellow;
   cursor: pointer;
   font-family: europa,sans-serif;
   font-weight: 600;
@@ -414,6 +477,8 @@ img.techtool {
 .btn-primary:hover {
   transform: scale(1.05);
   transition: 2ms;
+  background-color: $mainpurp;
+  color: $mainyellow;
 
 }
 
@@ -436,12 +501,24 @@ img.techtool {
     text-align: left;
   }
   .first-box {
-    background-color: $maingreen ;
+    background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
     width: 550px;
     max-height: 3000px;
     border-style: solid $maingreen;
     border-radius:0px;
-    margin-top: 50px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: $mainyellow;
+  
+  }
+
+  .first-box-top {
+    background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
+    width: 550px;
+    max-height: 3000px;
+    border-style: solid $maingreen;
+    border-radius:0px;
+    margin-top: 200px;
     border-style: solid;
     border-color: $mainyellow;
   
@@ -458,6 +535,58 @@ img.techtool {
     margin-top: 50px;
   
   }
+
+  .hiimjake {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .hiimjakegroup {
+    display: flex;
+    
+  }
+
+  .highimjakepro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 150px;
+  }
+
+  .hihimjakepro-img {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 40px;
+  }
+
+  .workhead-img {
+    display: none;
+  }
+  .about-hi-main {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 32px;
+    background-image: linear-gradient(#F4E8C1,#f7efd6,#F4E8C1) ;
+    border: solid 5px $maingreen;
+    margin-top: 10px;
+  }
+
+  .aboutgroup-img {
+    width: 300px;
+    padding-left: 20px;
+      
+  }
+
+  .abouthead-img {
+    display: none;
+  }
+
   .prototype {
     display: flex;
     flex-direction: row;
@@ -478,12 +607,24 @@ img.techtool {
   @media only screen and (min-width: 769px) {
 
     .first-box {
-      background-color: $maingreen ;
+      background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
       width: 750px;
       max-height: 3000px;
       border-style: solid $maingreen;
       border-radius:0px;
-      margin-top: 50px;
+      margin-top: 20px;
+      border-style: solid;
+      border-color: $mainyellow;
+    
+    }
+
+    .first-box-top {
+      background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
+      width: 750px;
+      max-height: 3000px;
+      border-style: solid $maingreen;
+      border-radius:0px;
+      margin-top: 200px;
       border-style: solid;
       border-color: $mainyellow;
     
@@ -499,6 +640,57 @@ img.techtool {
       border: solid 5px $maingreen;
       margin-top: 50px;
     
+    }
+
+    .hiimjake {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10px;
+    }
+
+    .hiimjakegroup {
+      display: flex;
+      
+    }
+
+    .highimjakepro {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-top: 150px;
+    }
+
+    .hihimjakepro-img {
+      width: 300px;
+      display: flex;
+      align-items: center;
+      padding-bottom: 50px;
+      padding-top: 40px;
+    }
+
+    .workhead-img {
+      display: none;
+    }
+    .about-hi-main {
+      width: 750px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 32px;
+      background-image: linear-gradient(#F4E8C1,#f7efd6,#F4E8C1) ;
+      border: solid 5px $maingreen;
+      margin-top: 10px;
+    }
+
+    .aboutgroup-img {
+      width: 400px;
+      padding-left: 20px;
+        
+    }
+
+    .abouthead-img {
+      display: none;
     }
 
     .paragraphs {
@@ -541,27 +733,41 @@ img.techtool {
 
   @media only screen and (min-width: 1025px) {
 
+
     .first-box {
-      background-color: $maingreen ;
+      background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
       width: 750px;
       max-height: 3000px;
       border-style: solid $maingreen;
       border-radius:0px;
-      margin-top: 50px;
+      margin-top: 20px;
+      border-style: solid;
+      border-color: $mainyellow;
+    
+    }
+
+    .first-box-top {
+      background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
+      width: 750px;
+      max-height: 3000px;
+      border-style: solid $maingreen;
+      border-radius:0px;
+      margin-top: 200px;
       border-style: solid;
       border-color: $mainyellow;
     
     }
     
+
     .about-text-main {
       max-width: 750px;
       display: flex;
       flex-direction: column;
       align-items: center;
       line-height: 32px;
-      background-color: $mainyellow ;
+      background-image: linear-gradient(#F4E8C1,#f7efd6,#F4E8C1) ;
       border: solid 5px $maingreen;
-      margin-top: 50px;
+      margin-top: 20px;
     
     }
 
@@ -581,6 +787,57 @@ img.techtool {
       margin-right: 40px;
       padding-top: 20px;
       text-align: left;
+    }
+
+    .hihimjakepro-img {
+      width: 300px;
+      display: flex;
+      align-items: center;
+      padding-bottom: 50px;
+      padding-top: 40px;
+    }
+
+    .hiimjake {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10px;
+    }
+
+    .hiimjakegroup {
+      display: flex;
+      
+    }
+
+    .highimjakepro {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-top: 150px;
+    }
+
+    .workhead-img {
+      display: none;
+    }
+    .about-hi-main {
+      width: 750px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 32px;
+      background-image: linear-gradient(#F4E8C1,#f7efd6,#F4E8C1) ;
+      border: solid 5px $maingreen;
+      margin-top: 10px;
+    }
+
+    .aboutgroup-img {
+      width: 400px;
+      padding-left: 20px;
+        
+    }
+
+    .abouthead-img {
+      display: none;
     }
 
     p {
@@ -609,18 +866,32 @@ img.techtool {
       
       }
 
+   
+
   }
 
 
   @media only screen and (min-width: 1440px) {
 
     .first-box {
-      background-color: $maingreen ;
+      background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
       width: 1000px;
       max-height: 3000px;
       border-style: solid $maingreen;
       border-radius:0px;
-      margin-top: 50px;
+      margin-top: 20px;
+      border-style: solid;
+      border-color: $mainyellow;
+    
+    }
+
+    .first-box-top {
+      background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
+      width: 1000px;
+      max-height: 3000px;
+      border-style: solid $maingreen;
+      border-radius:0px;
+      margin-top: 200px;
       border-style: solid;
       border-color: $mainyellow;
     
@@ -632,9 +903,9 @@ img.techtool {
       flex-direction: column;
       align-items: center;
       line-height: 32px;
-      background-color: $mainyellow ;
+      background-image: linear-gradient(#F4E8C1,#f7efd6,#F4E8C1) ;
       border: solid 5px $maingreen;
-      margin-top: 50px;
+      margin-top: 20px;
     
     }
 
@@ -645,6 +916,7 @@ img.techtool {
       margin-right: 40px;
       padding-top: 20px;
       text-align: left;
+      padding-bottom: 20px;
     }
 
     p {
@@ -662,6 +934,56 @@ img.techtool {
       padding-bottom: 50px;
       padding-top: 40px;
     
+    }
+
+    .hihimjakepro-img {
+      width: 400px;
+      display: flex;
+      align-items: center;
+      padding-bottom: 50px;
+      padding-top: 40px;
+    }
+
+    .hiimjake {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10px;
+    }
+
+    .hiimjakegroup {
+      display: flex;
+      
+    }
+
+    .highimjakepro {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding-top: 150px;
+    }
+    .workhead-img {
+      display: none;
+    }
+    .about-hi-main {
+      width: 1000px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 32px;
+      background-image: linear-gradient(#F4E8C1,#f7efd6,#F4E8C1) ;
+      border: solid 5px $maingreen;
+      margin-top: 10px;
+    }
+
+    .aboutgroup-img {
+      width: 400px;
+      padding-left: 20px;
+        
+    }
+
+    .abouthead-img {
+      display: none;
     }
 
     .artabout-personas {
@@ -698,17 +1020,37 @@ img.techtool {
       
       }
 
+      .caddie-baby {
+        width: 500px;
+      }
+
   }
 
   @media only screen and (min-width: 2560px) {
 
+    .caddie-baby {
+      width: 700px;
+    }
+
     .first-box {
-      background-color: $maingreen ;
+      background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
       width: 1316px;
       max-height: 3000px;
       border-style: solid $maingreen;
       border-radius:0px;
-      margin-top: 50px;
+      margin-top: 20px;
+      border-style: solid;
+      border-color: $mainyellow;
+    
+    }
+
+    .first-box-top {
+      background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
+      width: 1316px;
+      max-height: 3000px;
+      border-style: solid $maingreen;
+      border-radius:0px;
+      margin-top: 200px;
       border-style: solid;
       border-color: $mainyellow;
     
@@ -720,10 +1062,29 @@ img.techtool {
       flex-direction: column;
       align-items: center;
       line-height: 32px;
+      background-image: linear-gradient(#F4E8C1,#f7efd6,#F4E8C1) ; ;
+      border: solid 5px $maingreen;
+      margin-top: 20px;
+    
+    }
+
+    .about-hi-main {
+      width: 1316px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 32px;
       background-color: $mainyellow ;
       border: solid 5px $maingreen;
       margin-top: 50px;
-    
+    }
+
+    .hihimjakepro-img {
+      width: 600px;
+      display: flex;
+      align-items: center;
+      padding-bottom: 50px;
+      padding-top: 40px;
     }
 
     .paragraphs {
@@ -754,13 +1115,21 @@ img.techtool {
 
 
 .artabout-mobile {
-  width: 1000px;
+  width: 400px;
   display: flex;
   align-items: center;
   padding-bottom: 50px;
   padding-top: 40px;
 
 }
+
+.hiimjake {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
 
 #work {
   scroll-margin-top: 150px;
@@ -841,11 +1210,7 @@ img.techtool {
   
   }
     
-  .caddie-baby {
-    width: 400px;
-    padding-top: 5px; 
-  
-  }
+
   
 
   }

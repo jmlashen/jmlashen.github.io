@@ -7,7 +7,7 @@ export const EmbedVideoCaddie = () => {
 
 
 
-<iframe src='https://streamable.com/juurbo'
+<iframe src='https://res.cloudinary.com/djnk0ey5p/video/upload/v1641503833/My_Movie_2_aagjvj.mp4'
         width='85%' 
         height='140'
         allowFullScreen

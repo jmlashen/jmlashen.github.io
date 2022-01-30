@@ -4,13 +4,10 @@
 
 
     .nav {
-        background-color: #706993;
+        background-color: #331E38;
         padding: 10px;
-    
         box-shadow: 0 20px 60px -40px rgb(44, 43, 43);
-      
-        
-        
+         
     }
 
     .navbar-toggler {
@@ -84,7 +81,7 @@
 @media only screen and (min-width: 550px ) { 
 
     .nav {
-        background-color: #706993;
+        background-color: #331E38;
         padding: 10px;
         box-shadow: 0 20px 60px -40px rgb(44, 43, 43);
         
@@ -121,12 +118,16 @@
        
         width: 60px;
         padding-top: 1px;
+        margin-right: 20px;
+        
           
         
     }
     .navresume {
         width: 60px;
         padding-top: 2px;
+        margin-right: 20px;
+        
         
         
     }
@@ -134,12 +135,14 @@
     .navabout {
         width: 60px;
         padding-top: 2px;
+        margin-right: 20px;
     }
     
     .navhome {
         width: 60px;
         // padding-top: 1px;
         cursor: pointer;
+        margin-right: 20px;
     
     }
     
@@ -165,7 +168,7 @@
 @media only screen and (min-width: 1024px ) { 
 
     .nav {
-        background-color: #706993;
+        background-color: #331E38;
         padding: 10px;
         box-shadow: 0 20px 60px -40px rgb(44, 43, 43);
         
@@ -200,30 +203,36 @@
     
     .navwork {
        
-        width: 100px;
+        width: 125px;
         padding-top: 1px;
+        padding-left: 20px;
+        padding-right: 20px;
         
         
      
         
     }
     .navresume {
-        width: 100px;
+        width: 85px;
         padding-top: 2px;
+        // padding-left: 20px;
     
         
         
     }
     
     .navabout {
-        width: 100px;
+        width: 105px;
         padding-top: 2px;
+        padding-left: 20px;
+        // padding-right: 20px;
     
     }
     
     .navhome {
         width: 100px;
         cursor: pointer;
+        padding-left: 20px;
     
     
     }
@@ -248,7 +257,7 @@
 @media only screen and (min-width: 1440px ) { 
 
     .nav {
-        background-color: #706993;
+        background-color: #331E38;
         padding: 10px;
         box-shadow: 0 20px 60px -40px rgb(44, 43, 43);
         
@@ -283,7 +292,7 @@
     
     .navwork {
        
-        width: 120px;
+        width: 150px;
         padding-top: 1px;
         margin-left: 50px;
         margin-right: 50px;
@@ -292,7 +301,7 @@
         
     }
     .navresume {
-        width: 120px;
+        width: 105px;
         padding-top: 2px;
         margin-left: 50px;
         margin-right: 50px;
@@ -301,14 +310,14 @@
     }
     
     .navabout {
-        width: 120px;
+        width: 125px;
         padding-top: 2px;
         margin-left: 50px;
         margin-right: 50px;
     }
     
     .navhome {
-        width: 120px;
+        width: 125px;
         cursor: pointer;
         margin-left: 50px;
         margin-right: 50px;
@@ -335,7 +344,7 @@
 @media only screen and (min-width: 2560px ) { 
 
     .nav {
-        background-color: #706993;
+        background-color: #331E38;
         padding: 10px;
         box-shadow: 0 20px 60px -40px rgb(44, 43, 43);
         
@@ -370,7 +379,7 @@
     
     .navwork {
        
-        width: 120px;
+        width: 140px;
         padding-top: 1px;
         margin-left: 50px;
         margin-right: 50px;
@@ -379,7 +388,7 @@
         
     }
     .navresume {
-        width: 120px;
+        width: 100px;
         padding-top: 2px;
         margin-left: 50px;
         margin-right: 50px;

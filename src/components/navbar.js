@@ -3,6 +3,7 @@
 import React from "react";
 import "../styles/nav.scss";
 import { Nav, Navbar } from "react-bootstrap"
+import { Link } from "react-router-dom";
 import home from "../images/home.svg"
 import work from "../images/work.svg"
 import about from "../images/about.svg"
@@ -17,13 +18,13 @@ export const NavBar = () => {
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav>
                 <div className="navcontain">
-                    <Nav.Link onClick={() => {window.scrollTo({ top: 0, behavior: "smooth"});}}><img className="navhome" src={home} alt="home" ></img></Nav.Link>
+                    <Link to="/home" onClick={() => {window.scrollTo({ top: 0, behavior: "smooth"});}}><img className="navhome" src={home} alt="home" ></img></Link>
                  
-                        <Nav.Link href="#about"><img className="navabout" src={about} alt="about" /></Nav.Link>
+                        <Link to="/about" onClick={() => {window.scrollTo({ top: 0, behavior: "smooth"});}}><img className="navabout" src={about} alt="about" /></Link>
                   
-                        <Nav.Link href="#work"><img className="navwork" src={work} alt="work" /></Nav.Link>
+                        <Link to="/work" onClick={() => {window.scrollTo({ top: 0, behavior: "smooth"});}}><img className="navwork" src={work} alt="work" /></Link>
                 
-                        <Nav.Link target="_blank" href="https://drive.google.com/file/d/1fyYNI-sko8b0IgMP6ZUcmIgHE1Xv01Of/view?usp=sharing"><img className="navresume" src={resumenav} alt="resume" /></Nav.Link>
+                        <Link to="/resume" target="_blank" ><img className="navresume" src={resumenav} alt="resume" /></Link>
                     </div>
                 
                 </Nav>
