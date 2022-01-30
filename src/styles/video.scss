@@ -5,7 +5,20 @@
 
 
 .main-video-container {
-display: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 2px;
+  padding-top: 20px;
+
+}
+
+.main-video-container-desktop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-right: 2px;
+  padding-top: 20px;
 
 }
 
@@ -170,7 +183,8 @@ input[type="range"]::-moz-range-progress {
   flex-direction: column;
   align-items: center;
   padding-right: 2px;
-  padding-top: 75px;
+  padding-top: 20px;
+  width: auto;
   
   
 
@@ -313,11 +327,11 @@ input[type="range"]::-moz-range-progress {
 
 
 .main-video-container {
+
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-right: 2px;
-  padding-top: 20px;
+  justify-content: center;
+  overflow: hidden;
   
   
 

@@ -5,16 +5,13 @@ export const EmbedVideo = () => {
 
 
 
+<>
 
 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wdRuIlRQu5Q" title="YouTube video player" controls="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
 
-        <iframe src='https://res.cloudinary.com/djnk0ey5p/video/upload/v1643040057/sxhprvndi3ztnot2kadk.mp4'
-            width='65%'
-            height='140'
-            allowFullScreen
-            title='video'
-
-        />
+        
+</>
 
     )
 }

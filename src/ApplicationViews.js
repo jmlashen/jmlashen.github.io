@@ -1,5 +1,4 @@
 import React from "react";
-import { Navbar } from "react-bootstrap";
 import { Route } from "react-router-dom"
 import { About } from "./components/about";
 import { Footer } from "./components/footer";
@@ -11,9 +10,7 @@ export const ApplicationViews = () => {
 
     return (
         <>
-            <Route exact path="/">
-                <Navbar />
-            </Route>
+            
             <Route exact path="/about">
                 <About />
             </Route>
@@ -22,7 +19,7 @@ export const ApplicationViews = () => {
                 <Work />
             </Route>
 
-            <Route exact path="/home">
+            <Route exact path="/">
             <Home />
             </Route>
            
