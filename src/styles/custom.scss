@@ -106,6 +106,53 @@ a:active {
 
 // ABOUT MEDIA QUERY MOBILE=========================
 
+.hiimjake {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.hiimjakegroup {
+  display: flex;
+  
+}
+
+.highimjakepro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.hihimjakepro-img {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+  padding-top: 40px;
+}
+
+.workhead-img {
+  display: none;
+}
+.about-hi-main {
+  width: 425px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 32px;
+  background-image: linear-gradient(#F4E8C1,#f7efd6,#F4E8C1) ;
+  border: solid 5px $maingreen;
+  margin-top: 10px;
+}
+
+.aboutgroup-img {
+  width: 300px;
+  padding-left: 20px;
+    
+}
+
 .aboutsection {
   display: flex;
   flex-direction: column;
@@ -118,10 +165,7 @@ a:active {
 }
 
 .abouthead-img {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 150px;
+  display: none;
 }
 
   

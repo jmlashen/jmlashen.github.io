@@ -1,6 +1,6 @@
 import React from "react";
 import Video from "../video";
-// import EmbedVideo from "../embed-video"
+import { EmbedVideo } from "./embed-video";
 import JakeLogo from "../images/JakeLogo.svg"
 
 
@@ -18,9 +18,9 @@ export const Home = () => {
                 </div>
             </div>
 
-            {/* <div className='main-video-container-main'>
+            <div className='main-video-container-main'>
                 <EmbedVideo />
-            </div> */}
+            </div>
         </>
     )
 }
