@@ -102,6 +102,13 @@ a:active {
   text-align: left;
 }
 
+.paragraphs-me {
+  margin-left: 10px;
+  padding-right: 5px;
+  padding-top: 20px;
+  text-align: left;
+}
+
 
 
 // ABOUT MEDIA QUERY MOBILE=========================
@@ -463,7 +470,7 @@ img.techtool {
 .btn-primary:hover {
   transform: scale(1.05);
   transition: 2ms;
-  background-color: $mainpurp;
+  background-color: #4b2c53;
   color: $mainyellow;
 
 }
@@ -769,7 +776,7 @@ img.techtool {
 .btn-primary:hover {
   transform: scale(1.05);
   transition: 2ms;
-  background-color: $mainpurp;
+  background-color: #4b2c53;
   color: $mainyellow;
 
 }
@@ -961,7 +968,7 @@ img.techtool {
 .btn-primary:hover {
   transform: scale(1.05);
   transition: 2ms;
-  background-color: $mainpurp;
+  background-color: #4b2c53;
   color: $mainyellow;
 
 }
@@ -1423,7 +1430,7 @@ img.techtool {
 .btn-primary:hover {
   transform: scale(1.05);
   transition: 2ms;
-  background-color: $mainpurp;
+  background-color: #4b2c53;
   color: $mainyellow;
 
 }
