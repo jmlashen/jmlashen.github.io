@@ -2,14 +2,12 @@
 
 import React from "react"
 import { Button } from "react-bootstrap"
-import Video from "../video"
 import C51 from "../images/C51.svg"
 import caddielogo from "../images/caddielogo.png"
 import workhead from "../images/workhead.svg"
 import mobile from "../images/mobile.svg"
 import desktop from "../images/desktop.svg"
-import { EmbedVideoCaddie } from "./embed-video-caddie"
-import { EmbedVideoC51 } from "./embed-video-c51"
+
 
 
 
@@ -30,17 +28,17 @@ export const Work = () => {
                     <div className="c51logo-top"><img className="c51" src={C51} alt="C-51 logo" /></div>
                     <div className="C51-description">
                         <div><h1>Cohort-51 Website</h1></div>
-                        <p className="paragraphs">The logo above was designed using Figma and was one of many of my contributions for the most rewarding group project I've ever had the pleasure of working on. Our goal was to showcase our Cohort's software development and UI/UX skills with a personality and flair to facilitate getting hired quickly by an employer that is a good fit. </p>
-                        <p className="paragraphs">With significant group planning, data collection, and user testing, we learned a lot about UX and the processes that precede the launch of the final product. We even revealed a pain point in the School curriculum relating to graduation requirements during the process! </p>
-                        <p className="paragraphs">Everyone in the group equally made significant contributions. My key contributions include logo design, the design and styling of the developer section, and prototyping. One favorite piece of code was the helper function I wrote that changes the colored ring around a developer's photo. The color-coordinated conditional was to help distinguish between one of two developer types. We had such a terrific time creating this website together!</p>
-                        <div className="main-video-container-mobile"><EmbedVideoC51/></div>
+                        <p className="paragraphs">The logo above was designed using Figma and was one of many of my contributions for the most rewarding group project I've ever had the pleasure of working on. Our goal was to showcase our Cohort's software development and UI/UX skills with a personality and flair to facilitate getting hired quickly by an employer that is a good fit. 
+                        With significant group planning, data collection, and user testing, we learned a lot about UX and the processes that precede the launch of the final product. We even revealed a pain point in the School curriculum relating to graduation requirements during the process! 
+                        Everyone in the group equally made significant contributions. My key contributions include logo design, the design and styling of the developer section, and prototyping. One favorite piece of code was the helper function I wrote that changes the colored ring around a developer's photo. The color-coordinated conditional was to help distinguish between one of two developer types. We had such a terrific time creating this website together!</p>
+                        
                         <div className="workbuttons">
                             <div><a target="_blank" rel="noreferrer" href="https://nss-day-cohort-51.github.io/"><Button size="lg">Try It Out</Button></a></div>
+                            <div><a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=YRP9lQ8Z5LA"><Button size="lg">Watch Demo</Button></a></div>
                             <div><a target="_blank" rel="noreferrer" href="https://github.com/nss-day-cohort-51/nss-day-cohort-51.github.io"><Button size="lg">View Repo</Button></a></div>
                         </div>
                         <div className="first-box-video">
                             
-                            <div className="caddie-video-container"><Video VideoSource="https://res.cloudinary.com/djnk0ey5p/video/upload/v1642519654/c51demo_fjo5ic.mp4" /></div>
                         </div>
                     </div>
                 </div>
@@ -54,14 +52,14 @@ export const Work = () => {
                     <div className="C51-description">
                         <div><h1>Card Caddie</h1></div>
                         <p className="paragraphs">
-                            This user-specific app helps golfers keep track of scores and reflections from their rounds. Users can also add a new course and crowdsource courses from other users. Card Caddie has full CRUD capability (React, API fetch calls, React-Routing, and JSON server) with styling achieved through CSS, Cloudinary, and Reactstrap for an approachable user experience.</p>
-                            <div className="main-video-container-mobile"><EmbedVideoCaddie/></div>
+                            This was my first crud based app and front-end capstone for Nashville Software School. This user-specific app helps golfers keep track of scores and reflections from their rounds. Users can also add a new course and crowdsource courses from other users. Card Caddie has full CRUD capability (React, API fetch calls, React-Routing, and JSON server) with styling achieved through CSS, Cloudinary, and Reactstrap for an approachable user experience.Use <b>user@me.com</b> for login to try it out.</p>
+                    
                         <div className="workbuttons">
                             <div><a target="_blank" rel="noreferrer" href="https://card-caddie.herokuapp.com/"><Button size="lg">Try It Out</Button></a></div>
+                            <div><a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=9MFtiffrt-E"><Button size="lg">Watch Demo</Button></a></div>
                             <div><a target="_blank" rel="noreferrer" href="https://github.com/jmlashen/cardcaddie"><Button size="lg">View Repo</Button></a></div>
                         </div>
                         <div className="first-box-video">
-                            <div className="caddie-video-container"><Video VideoSource="https://res.cloudinary.com/djnk0ey5p/video/upload/v1641503833/My_Movie_2_aagjvj.mp4" /></div>
                         </div>
                     </div>
                 </div>

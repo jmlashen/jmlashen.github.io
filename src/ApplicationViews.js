@@ -4,7 +4,6 @@ import { About } from "./components/about";
 import { Footer } from "./components/footer";
 import { Work } from "./components/work";
 import { Home } from "./components/home";
-import { Resume } from "./components/resume";
 
 export const ApplicationViews = () => {
 
@@ -23,10 +22,6 @@ export const ApplicationViews = () => {
             <Home />
             </Route>
            
-            <Route exact path="/resume">
-            <Resume/>
-            </Route>
-
             <div className='footer-container'>
                 <Footer />
             </div>
