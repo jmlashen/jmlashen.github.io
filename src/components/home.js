@@ -19,7 +19,7 @@ export const Home = () => {
                     <h5>Get to know me in less than 60 seconds!</h5>
                 </div>
                 <div className="homebutton">
-                    <div><a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=wdRuIlRQu5Q"><Button size="l">Watch Intro</Button></a></div>
+                    <div><a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=8jeH5a_94DE"><Button size="l">Watch Intro</Button></a></div>
                 </div>
             </div>
 
