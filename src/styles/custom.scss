@@ -54,8 +54,8 @@ h5 {
 
   font-family: europa,sans-serif;
   font-weight: 400;
-  color: $darkpurp;
-  font-size: x-large;
+  color: $mainyellow;
+  font-size: medium;
 
 }
 
@@ -133,11 +133,9 @@ a:active {
   padding-top: 20px;
 }
 
-// .workhead-img {
-//   display: none;
-// }
+
 .about-hi-main {
-  width: 320px;
+  min-width: 320px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -147,11 +145,7 @@ a:active {
   margin-top: 10px;
 }
 
-.aboutgroup-img {
-  width: 300px;
-  padding-left: 20px;
-    
-}
+
 
 .aboutsection {
   display: flex;
@@ -172,6 +166,10 @@ a:active {
     padding-bottom: 75px;
 }
 
+.aboutgroup-img {
+ display: none;
+    
+}
   
 .aboutgroup {
   display: flex;
@@ -179,10 +177,6 @@ a:active {
 
 }
 
-.aboutgroup-img {
-  display: none;
-    
-}
 
 img.techtool {
   width: 200px;
@@ -274,7 +268,7 @@ img.techtool {
   
   .first-box {
     background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
-    width: 320px;
+    min-width: 320px;
     max-height: 3000px;
     border-style: solid $maingreen;
     border-radius:0px;
@@ -286,7 +280,7 @@ img.techtool {
 
   .first-box-top {
     background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
-    width: 320px;
+    min-width: 320px;
     max-height: 3000px;
     border-style: solid $maingreen;
     border-radius:0px;
@@ -457,6 +451,15 @@ img.techtool {
   justify-content: center;
 
 }
+
+.homebutton {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: center;
+
+}
+      
       
 .btn-primary {
  
@@ -469,7 +472,7 @@ img.techtool {
   cursor: pointer;
   font-family: europa,sans-serif;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 12px;
   margin: 0 0 0.5rem;
 
 }
@@ -502,7 +505,7 @@ img.techtool {
   }
   .first-box {
     background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
-    width: 550px;
+    max-width: 550px;
     max-height: 3000px;
     border-style: solid $maingreen;
     border-radius:0px;
@@ -514,7 +517,7 @@ img.techtool {
 
   .first-box-top {
     background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
-    width: 550px;
+    max-width: 550px;
     max-height: 3000px;
     border-style: solid $maingreen;
     border-radius:0px;
@@ -567,7 +570,7 @@ img.techtool {
     display: none;
   }
   .about-hi-main {
-    width: 550px;
+    max-width: 550px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -578,13 +581,27 @@ img.techtool {
   }
 
   .aboutgroup-img {
+    display: none;
     width: 300px;
     padding-left: 20px;
       
   }
+    
+  .aboutgroup {
+    display: flex;
+    align-items: center;
+  
+  }
 
   .abouthead-img {
     display: none;
+  }
+
+  .aboutdesk-img {
+    width: 200px;
+    padding-left: 20px;
+    display: block;
+      
   }
 
   .prototype {
@@ -608,7 +625,7 @@ img.techtool {
 
     .first-box {
       background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
-      width: 750px;
+      max-width: 750px;
       max-height: 3000px;
       border-style: solid $maingreen;
       border-radius:0px;
@@ -620,7 +637,7 @@ img.techtool {
 
     .first-box-top {
       background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
-      width: 750px;
+      max-width: 750px;
       max-height: 3000px;
       border-style: solid $maingreen;
       border-radius:0px;
@@ -673,7 +690,7 @@ img.techtool {
       display: none;
     }
     .about-hi-main {
-      width: 750px;
+      max-width: 750px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -684,13 +701,16 @@ img.techtool {
     }
 
     .aboutgroup-img {
-      width: 400px;
+      display: block;
+      width: 300px;
       padding-left: 20px;
         
     }
-
-    .abouthead-img {
-      display: none;
+      
+    .aboutgroup {
+      display: flex;
+      align-items: center;
+    
     }
 
     .paragraphs {
@@ -729,6 +749,54 @@ img.techtool {
       
       }
 
+       // BUTTONS =========================
+ .workbuttons {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.homebutton {
+  padding-top: 0px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+
+}
+      
+      
+.btn-primary {
+ 
+  transition: 400ms;
+  padding: 5px 15px;
+  border: transparent;
+  border-radius: 8px;
+  background-color: $darkpurp;
+  color: $mainyellow;
+  cursor: pointer;
+  font-family: europa,sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0 0 0.5rem;
+
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  transition: 2ms;
+  background-color: $mainpurp;
+  color: $mainyellow;
+
+}
+
+  
+.btn {
+  margin: 5px;
+
+}
+
   }
 
   @media only screen and (min-width: 1025px) {
@@ -736,7 +804,7 @@ img.techtool {
 
     .first-box {
       background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
-      width: 750px;
+      max-width: 750px;
       max-height: 3000px;
       border-style: solid $maingreen;
       border-radius:0px;
@@ -748,7 +816,7 @@ img.techtool {
 
     .first-box-top {
       background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
-      width: 750px;
+      max-width: 750px;
       max-height: 3000px;
       border-style: solid $maingreen;
       border-radius:0px;
@@ -820,7 +888,7 @@ img.techtool {
       display: none;
     }
     .about-hi-main {
-      width: 750px;
+      max-width: 750px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -831,9 +899,16 @@ img.techtool {
     }
 
     .aboutgroup-img {
-      width: 400px;
+      display: block;
+      width: 300px;
       padding-left: 20px;
         
+    }
+      
+    .aboutgroup {
+      display: flex;
+      align-items: center;
+    
     }
 
     .abouthead-img {
@@ -866,6 +941,54 @@ img.techtool {
       
       }
 
+       // BUTTONS =========================
+ .workbuttons {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.homebutton {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+
+}
+      
+      
+.btn-primary {
+ 
+  transition: 400ms;
+  padding: 5px 15px;
+  border: transparent;
+  border-radius: 8px;
+  background-color: $darkpurp;
+  color: $mainyellow;
+  cursor: pointer;
+  font-family: europa,sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0 0 0.5rem;
+
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  transition: 2ms;
+  background-color: $mainpurp;
+  color: $mainyellow;
+
+}
+
+  
+.btn {
+  margin: 5px;
+
+}
+
    
 
   }
@@ -875,7 +998,7 @@ img.techtool {
 
     .first-box {
       background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
-      width: 1000px;
+      max-width: 1000px;
       max-height: 3000px;
       border-style: solid $maingreen;
       border-radius:0px;
@@ -887,7 +1010,7 @@ img.techtool {
 
     .first-box-top {
       background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
-      width: 1000px;
+      max-width: 1000px;
       max-height: 3000px;
       border-style: solid $maingreen;
       border-radius:0px;
@@ -966,7 +1089,7 @@ img.techtool {
       display: none;
     }
     .about-hi-main {
-      width: 1000px;
+      max-width: 1000px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -977,9 +1100,16 @@ img.techtool {
     }
 
     .aboutgroup-img {
-      width: 400px;
+      display: block;
+      width: 300px;
       padding-left: 20px;
         
+    }
+      
+    .aboutgroup {
+      display: flex;
+      align-items: center;
+    
     }
 
     .abouthead-img {
@@ -1024,9 +1154,62 @@ img.techtool {
         width: 500px;
       }
 
+       // BUTTONS =========================
+ .workbuttons {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.homebutton {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+
+}
+      
+      
+.btn-primary {
+ 
+  transition: 400ms;
+  padding: 5px 15px;
+  border: transparent;
+  border-radius: 8px;
+  background-color: $darkpurp;
+  color: $mainyellow;
+  cursor: pointer;
+  font-family: europa,sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0 0 0.5rem;
+  box-shadow: black 0px 5px 15px -5px;
+
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  transition: 500ms;
+  background-color: #4b2c53;
+  color: $mainyellow;
+
+}
+
+  
+.btn {
+  margin: 5px;
+
+}
+
+  
+
   }
 
   @media only screen and (min-width: 2560px) {
+
+   
 
     .caddie-baby {
       width: 700px;
@@ -1034,7 +1217,7 @@ img.techtool {
 
     .first-box {
       background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
-      width: 1316px;
+      max-width: 1316px;
       max-height: 3000px;
       border-style: solid $maingreen;
       border-radius:0px;
@@ -1046,7 +1229,7 @@ img.techtool {
 
     .first-box-top {
       background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
-      width: 1316px;
+      max-width: 1316px;
       max-height: 3000px;
       border-style: solid $maingreen;
       border-radius:0px;
@@ -1057,7 +1240,7 @@ img.techtool {
     }
     
     .about-text-main {
-      max-width: 1316px;
+      max-width: 1300px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -1069,7 +1252,7 @@ img.techtool {
     }
 
     .about-hi-main {
-      width: 1316px;
+      max-width: 1300px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -1160,8 +1343,16 @@ img.techtool {
   }
 
   .aboutgroup-img {
-    width: 580px;
+    display: block;
+    width: 300px;
+    padding-left: 20px;
       
+  }
+    
+  .aboutgroup {
+    display: flex;
+    align-items: center;
+  
   }
   
   img.techtool {
@@ -1209,6 +1400,56 @@ img.techtool {
     width: 400px;
   
   }
+
+   // BUTTONS =========================
+ .workbuttons {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.homebutton {
+  // padding-top: 50px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+
+}
+      
+      
+.btn-primary {
+ 
+  transition: 400ms;
+  padding: 5px 15px;
+  border: transparent;
+  border-radius: 8px;
+  background-color: $darkpurp;
+  color: $mainyellow;
+  cursor: pointer;
+  font-family: europa,sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0 0 0.5rem;
+
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  transition: 2ms;
+  background-color: $mainpurp;
+  color: $mainyellow;
+
+}
+
+  
+.btn {
+  margin: 5px;
+
+}
+
+
     
 
   

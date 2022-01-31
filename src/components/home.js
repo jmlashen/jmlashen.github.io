@@ -1,7 +1,7 @@
 import React from "react";
-import Video from "../video";
-import { EmbedVideo } from "./embed-video";
 import JakeLogo from "../images/JakeLogo.svg"
+import { Button } from "react-bootstrap";
+import JakeStand from "../images/JakeStand.svg"
 
 
 export const Home = () => {
@@ -12,15 +12,18 @@ export const Home = () => {
                 <div className='jake-logo-containter'>
                     <img className="jakelogo" src={JakeLogo} alt="C51"></img>
                 </div>
-
-                <div className='main-video-container'>
-                    <Video VideoSource="https://res.cloudinary.com/djnk0ey5p/video/upload/v1643040057/sxhprvndi3ztnot2kadk.mp4" />
+                <div className="jakestandcontainer">
+                    <img src={JakeStand} className="jakestand" alt="jake"></img>
+                </div>
+                <div className="gtkm">
+                    <h5>Get to know me in less than 60 seconds!</h5>
+                </div>
+                <div className="homebutton">
+                    <div><a target="_blank" rel="noreferrer" href="https://www.youtube.com/watch?v=wdRuIlRQu5Q"><Button size="l">Watch Intro</Button></a></div>
                 </div>
             </div>
 
-            <div className='main-video-container-main'>
-                <EmbedVideo />
-            </div>
+
         </>
     )
 }
