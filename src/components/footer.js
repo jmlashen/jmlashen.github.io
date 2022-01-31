@@ -24,7 +24,7 @@ export const Footer = () => {
 
                 <div>
                     <h3>
-                        Designed and built by me, for you! &copy; Jake Lashenik 2022
+                        Designed and built by me–for you! &copy; Jake Lashenik 2022
                     </h3>
                 </div>
             </div>
