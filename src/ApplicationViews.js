@@ -9,7 +9,7 @@ export const ApplicationViews = () => {
 
     return (
         <>
-            
+
             <Route exact path="/about">
                 <About />
             </Route>
@@ -19,9 +19,9 @@ export const ApplicationViews = () => {
             </Route>
 
             <Route exact path="/">
-            <Home />
+                <Home />
             </Route>
-           
+
             <div className='footer-container'>
                 <Footer />
             </div>

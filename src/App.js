@@ -4,13 +4,6 @@ import { NavBar } from './components/navbar';
 import "./styles/custom.scss"
 import { ApplicationViews } from './ApplicationViews';
 
-
-
-
-
-
-
-
 export const App = () => {
   return (
     <>
