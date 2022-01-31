@@ -25,7 +25,7 @@ export const About = () => {
                     <div className="hiimjake">
 
                         <div><h1>Hi, I'm Jake!</h1></div>
-                        <p className="paragraphs">I am a UX/UI Designer and Front-End Developer based in Nashville, TN.<b> My colleagues have described me as:</b></p>
+                        <p className="paragraphs-me">I am a UX/UI Designer and Front-End Developer based in Nashville, TN.<b> My colleagues have described me as:</b></p>
                     </div>
                     <div className="hiimjakegroup">
                         <div>
