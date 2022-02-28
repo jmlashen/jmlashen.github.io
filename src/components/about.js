@@ -6,8 +6,13 @@ import group from "../images/group.svg"
 import art2 from "../images/art2.PNG"
 import aboutPro from "../images/aboutPro.png"
 import techToolsMobile from "../images/techToolsMobile.svg"
-import uiux from "../images/uiux.svg"
+import artboard from "../images/artboard.svg"
+import guitar from "../images/guitar.svg"
+import coll from "../images/coll.svg"
+import bubbs from "../images/bubbs.svg"
 import personas from "../images/personas.png"
+import { Button } from "react-bootstrap"
+
 
 
 
@@ -16,53 +21,58 @@ export const About = () => {
         <>
 
             <div className="abouthead-img"><img className="aboutme-img" src={aboutme} alt="about" /></div>
-            <div className="highimjakepro"><img className="hihimjakepro-img" src={aboutPro} alt="me" /></div>
+            <div className="topabout"></div>
 
 
             <div className="aboutsection">
 
-                <div className="about-text-main">
-
-                    <div className="hiimjake">
-
-                        <div><h1>Hi, I'm Jake!</h1></div>
-                        <p className="paragraphs-me">I am a UX/UI Designer and Front-End Developer based in Nashville, TN.<b> My colleagues have described me as:</b></p>
+                <div className="about-white">
+                    <div className="hijake1">
                     </div>
-                    <div className="hiimjakegroup">
-                        <div>
-                            <ul><li>a motivator</li><li>great in a team</li><li>always striving to be fair</li><li>a true creative</li><li>humble</li><li>an infectious personality</li><li>naturally a leader</li><li>good with challenges</li></ul>
+                    <div className="jakecloud">
+                        <div className="highimjakepro"><img className="hihimjakepro-img" src={aboutPro} alt="me" /></div>
+                        <div className="highimjakebubs"><img className="hihimjakepro-img" src={bubbs} alt="me" /></div>
+                    </div>
+                    <div className="coll"><img className="coll-img" src={coll} alt="me" /></div>
+                   
+
+                    <div className="hijake2"><h1>Tech and Tools</h1></div>        
+                    <div><img className="techtool" src={techToolsMobile} alt="computer" /></div>
+                    <div className="white-box">
+                        <p className="paragraphs">I enjoy the challenge and ongoing learning process of being a desinger and developer. I have established a solid foundation with JavaScript and React. My desgin and styling skills are achieved through my knowledge of CSS, SASS, Figma, and Photoshop.
+                            I also have experience building CRUD-based applications using ERDs, JSON server, fetch calls, testing APIs using Postman, and the best practices when using Git/GitHub.</p>
+                        <div className="artbutton">
+                            <div ><a target="_blank" rel="noreferrer" href="https://github.com/jmlashen"><Button size="lg">View GitHub</Button></a></div>
                         </div>
                     </div>
-                    <div className="aboutgroup">
-                        <img className="aboutgroup-img" src={group} alt="c51 logo" />
+
+
+                    <div className="hijake3"><h1>UI/UX</h1></div>
+                    <div><img className="artabout-uiux" src={guitar} alt="uiux logo" /></div>
+                    <div className="white-box">
+                        <div>
+                            <p className="paragraphs">I find myself naturally drawn to the user experience and client-side. With my experiences in collaboration and leadership as an educator, I have always enjoyed the intrinsic rewards of helping others achieve their goals and overcome challenges.
+                                During my time at Nashville Software School I have gained valuable experience learning the principles and processes of UI/UX. A group project revealed a pain point in the School's requirements relating to graduation and I personally gained real world UX experience working closely with the Department of Human Services for my final project. From wireframes to prototypes, user testing, informational architecture, and visual hierarchy–we got our hands dirty with every step.
+                            </p>
+                            <div className="artbutton">
+                                <div ><a target="_blank" rel="noreferrer" href="https://www.instagram.com/jake_diggity/"><Button size="lg">View Case Study</Button></a></div>
+                            </div>
+                        </div>
                     </div>
 
-                    
 
-                    <div><img className="techtool" src={techToolsMobile} alt="computer" /></div>
-                    <div><h1>Tech and Tools</h1></div>
-                    <p className="paragraphs">I enjoy the challenge and ongoing learning process of being a desinger and developer. I have established a solid foundation with JavaScript and React. My desgin and styling skills are achieved through my knowledge of CSS, SASS, Figma, and Photoshop.
-                        I also have experience building CRUD-based applications using ERDs, JSON server, fetch calls, testing APIs using Postman, and the best practices when using Git/GitHub.</p>
-                    <hr></hr>
-
-
-
-                    <div><img className="artabout-uiux" src={uiux} alt="uiux logo" /></div>
-                    <div><h1>UI/UX</h1></div>
-                    <p className="paragraphs">I find myself naturally drawn to the user experience and client-side. With my experiences in collaboration and leadership as an educator, I have always enjoyed the intrinsic rewards of helping others achieve their goals and overcome challenges.
-                        The Nashville Software School's program challenged our small group to create the Cohort's website. We gained valuable experience learning the principles and processes of UI/UX. We even revealed a pain point in the School curriculum relating to graduation requirements during the process! From wireframes to prototypes, user testing, informational architecture, and visual hierarchy–we got our hands dirty with every step.
-                        <b> Based on research and data, here's two examples of personas that helped me create this portfolio:</b></p>
-                    <div><img className="artabout-personas" src={personas} alt="c51 logo" /></div>
-
-
-
-
-                    <div><img className="artabout-mobile" src={art2} alt="artwork" /></div>
-                    <div><h1 >Art and Design</h1></div>
-                    <p className="paragraphs">My background in design comes from working as a freelance graphic designer. I mostly design album art for several musical artists, including Jason Wade, of Lifehouse.
-                        Through these interactions, I have gained experience passionately working with clients to best represent their ideas with a finished product we can both be proud of. <b> <a target="_blank" rel="noreferrer" href="https://www.instagram.com/jake_diggity/?hl=en">Check out some of my artwork here.</a></b></p>
+                    <div className="hijake4"><h1 >Art and Design</h1></div>
+                    <div><img className="techtool" src={artboard} alt="computer" /></div>
+                    <div className="white-box">
+                        <p className="paragraphs">My background in design comes from working as a freelance graphic designer.
+                            Through these interactions, I have gained experience passionately working with clients to best represent their ideas with a finished product we can both be proud of. </p>
+                        <div className="artbutton">
+                            <div ><a target="_blank" rel="noreferrer" href="https://www.instagram.com/jake_diggity/"><Button size="lg">View Art</Button></a></div>
+                        </div>
+                    </div>
 
                 </div>
+
             </div>
 
 
