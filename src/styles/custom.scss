@@ -205,18 +205,6 @@ img.techtool {
 
 }
 
-.about-text-main {
-  min-width: 320px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  line-height: 32px;
-  background-color: $mainyellow ;
-  border: solid 5px $maingreen;
-  margin-top: 50px;
-
-}
-
 .about-main {
   min-width: 320px;
   display: flex;
@@ -481,21 +469,12 @@ img.techtool {
 
 }
 
-  
-@media only screen and (min-width: 426px) {
+@media only screen and (min-width: 200px) {
 
 
-  .paragraphs {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-top: 20px;
-    text-align: left;
-  }
   .first-box {
     background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
-    max-width: 550px;
+    max-width: 1000px;
     max-height: 3000px;
     border-style: solid $maingreen;
     border-radius:0px;
@@ -507,7 +486,7 @@ img.techtool {
 
   .first-box-top {
     background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
-    max-width: 550px;
+    max-width: 1000px;
     max-height: 3000px;
     border-style: solid $maingreen;
     border-radius:0px;
@@ -516,18 +495,134 @@ img.techtool {
     border-color: $mainyellow;
   
   }
+
+  // .aboutsection {
+  //   background-color: $maingreen;
+  //   // border-radius: 50px;
+  //   margin: 50px;
+  //   padding: 50px;
+  // }
+
+
+// .abouthead-img {
+//   display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     padding-top: 100px;
+//     padding-bottom: 75px;
+// }
+  ul {
+    font-family: europa,sans-serif;
+    font-weight: 400;
+    font-size: small;
+    font-style: normal;
+    color: $darkpurp;
+  }
   
-  .about-text-main {
-    max-width: 550px;
+  .ul-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .about-white {
     display: flex;
     flex-direction: column;
     align-items: center;
-    line-height: 32px;
-    background-color: $mainyellow ;
-    border: solid 5px $maingreen;
-    margin-top: 50px;
+    background-color: $maingreen;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: $darkpurp 10px 8px 30px;
+    border-color: $darkpurp;
+    // border-style: solid;
+    border-width: thick;
+    
+  }
+
+  .white-box {
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+    
+  }
+
+  // .highimjakebubs {
+  //   display: none;
+  // }
+
+  .list-container {
+    margin-bottom: 50px;
+  }
+
+  .jakecloud {
+    display: flex;
+    // flex-direction: column;
+  }
+
+  .coll-img {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+
+  .topabout {
+    margin-top: 75px;
+  }
+
+  h1 {
+    font-size: small;
+  }
+
+  .artbutton {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px;
+  }
+
+  .paragraphs {
+    margin: 10px;
+    padding: auto;
+    text-align: left;
+  }
+
+  // .paragraphs-jake {
+  //   margin: 20px;
+  //   // padding: auto;
+  //   text-align: left;
+  // }
+
+  p {
+    font-family: europa,sans-serif;
+    font-weight: 400;
+    font-size: small;
+    font-style: normal;
+    color: $darkpurp;
+  }
+
+  .artabout-mobile {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 40px;
   
   }
+
+  .hihimjakepro-img {
+    width: 140px;
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    margin: 5px;
+  }
+
+  img.hihimjakepro-img {
+    padding-bottom: 5px;
+  }
+
+
 
   .hiimjake {
     display: flex;
@@ -541,26 +636,12 @@ img.techtool {
     
   }
 
-  .highimjakepro {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 150px;
-  }
-
-  .hihimjakepro-img {
-    width: 300px;
-    display: flex;
-    align-items: center;
-    padding-bottom: 50px;
-    padding-top: 40px;
-  }
-
+ 
   .workhead-img {
     display: none;
   }
   .about-hi-main {
-    max-width: 550px;
+    min-width: 1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -571,9 +652,10 @@ img.techtool {
   }
 
   .aboutgroup-img {
-    display: none;
-    width: 300px;
+    display: block;
+    width: 500px;
     padding-left: 20px;
+    padding-bottom: 75px;
       
   }
     
@@ -587,35 +669,649 @@ img.techtool {
     display: none;
   }
 
-  .aboutdesk-img {
-    width: 200px;
-    padding-left: 20px;
-    display: block;
-      
+  .artabout-personas {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  
+    }
+
+    #work {
+      scroll-margin-top: 150px;
+    
+    }
+    
+    #about {
+      scroll-margin-top: 160px;
+    
+    }
+
+    img.techtool {
+      width: 125px;
+    
+    }
+  
+    .artabout-uiux {
+      width: 200px;
+      display: flex;
+      align-items: center;
+    
+    }
+
+    .caddie-baby {
+      width: 300px;
+    }
+
+     // BUTTONS =========================
+.workbuttons {
+padding-top: 30px;
+padding-bottom: 30px;
+display: flex;
+justify-content: center;
+
+}
+
+.homebutton {
+padding-top: 10px;
+padding-bottom: 30px;
+display: flex;
+justify-content: center;
+
+}
+    
+    
+.btn-primary {
+
+transition: 400ms;
+padding: 5px 15px;
+border: transparent;
+border-radius: 8px;
+background-color: $darkpurp;
+color: $mainyellow;
+cursor: pointer;
+font-family: europa,sans-serif;
+font-weight: 600;
+margin: 0 0 0.5rem;
+box-shadow: black 0px 5px 15px -5px;
+
+}
+
+.btn-primary:hover {
+transform: scale(1.05);
+transition: 500ms;
+background-color: #4b2c53;
+color: $mainyellow;
+
+}
+
+
+.btn {
+margin: 5px;
+
+}
+
+
+
+}
+
+
+@media only screen and (min-width: 425px) {
+
+
+  .first-box {
+    background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
+    max-width: 1000px;
+    max-height: 3000px;
+    border-style: solid $maingreen;
+    border-radius:0px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: $mainyellow;
+  
   }
 
-  .prototype {
+  .first-box-top {
+    background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
+    max-width: 1000px;
+    max-height: 3000px;
+    border-style: solid $maingreen;
+    border-radius:0px;
+    margin-top: 200px;
+    border-style: solid;
+    border-color: $mainyellow;
+  
+  }
+
+  // .aboutsection {
+  //   background-color: $maingreen;
+  //   // border-radius: 50px;
+  //   margin: 50px;
+  //   padding: 50px;
+  // }
+
+
+// .abouthead-img {
+//   display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     padding-top: 100px;
+//     padding-bottom: 75px;
+// }
+  
+  .ul-group {
     display: flex;
     flex-direction: row;
+    justify-content: center;
   }
-  #work {
-    scroll-margin-top: 90px;
-  
-  }
-  
-  #about {
-    scroll-margin-top: 140px;
-  
-  }
-  
-  }
-  
 
-  @media only screen and (min-width: 769px) {
+  .list-container {
+    margin-bottom: 50px;
+  }
+
+  .about-white {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $maingreen;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: $darkpurp 10px 8px 30px;
+    border-color: $darkpurp;
+    // border-style: solid;
+    border-width: thick;
+  }
+
+  .white-box {
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+    
+  }
+
+  .jakecloud {
+    display: flex;
+  }
+
+  .coll-img {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .topabout {
+    margin-top: 75px;
+  }
+
+  h1 {
+    font-size: large;
+  }
+
+  .artbutton {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px;
+  }
+
+  .paragraphs {
+    margin: 40px;
+    padding: auto;
+    text-align: left;
+  }
+
+  .paragraphs-jake {
+    display: none;
+  }
+
+  p {
+    font-family: europa,sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    font-style: normal;
+    color: $darkpurp;
+  }
+
+  .artabout-mobile {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 40px;
+  
+  }
+
+  .hihimjakepro-img {
+    width: 180px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    margin: 5px;
+  }
+
+
+
+  .hiimjake {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .hiimjakegroup {
+    display: flex;
+    
+  }
+
+ 
+  .workhead-img {
+    display: none;
+  }
+  .about-hi-main {
+    min-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 32px;
+    background-image: linear-gradient(#F4E8C1,#f7efd6,#F4E8C1) ;
+    border: solid 5px $maingreen;
+    margin-top: 10px;
+  }
+
+  .aboutgroup-img {
+    display: block;
+    width: 500px;
+    padding-left: 20px;
+    padding-bottom: 75px;
+      
+  }
+    
+  .aboutgroup {
+    display: flex;
+    align-items: center;
+  
+  }
+
+  .abouthead-img {
+    display: none;
+  }
+
+  .artabout-personas {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  
+    }
+
+    #work {
+      scroll-margin-top: 150px;
+    
+    }
+    
+    #about {
+      scroll-margin-top: 160px;
+    
+    }
+
+    img.techtool {
+      width: 175px;
+    
+    }
+  
+    .artabout-uiux {
+      width: 200px;
+      display: flex;
+      align-items: center;
+    
+    }
+
+    .caddie-baby {
+      width: 500px;
+    }
+
+     // BUTTONS =========================
+.workbuttons {
+padding-top: 30px;
+padding-bottom: 30px;
+display: flex;
+justify-content: center;
+
+}
+
+.homebutton {
+padding-top: 10px;
+padding-bottom: 30px;
+display: flex;
+justify-content: center;
+
+}
+    
+    
+.btn-primary {
+
+transition: 400ms;
+padding: 5px 15px;
+border: transparent;
+border-radius: 8px;
+background-color: $darkpurp;
+color: $mainyellow;
+cursor: pointer;
+font-family: europa,sans-serif;
+font-weight: 600;
+font-size: 15px;
+margin: 0 0 0.5rem;
+box-shadow: black 0px 5px 15px -5px;
+
+}
+
+.btn-primary:hover {
+transform: scale(1.05);
+transition: 500ms;
+background-color: #4b2c53;
+color: $mainyellow;
+
+}
+
+
+.btn {
+margin: 5px;
+
+}
+
+
+
+}
+
+@media only screen and (min-width: 620px) {
+
+
+  .first-box {
+    background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
+    max-width: 1000px;
+    max-height: 3000px;
+    border-style: solid $maingreen;
+    border-radius:0px;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: $mainyellow;
+  
+  }
+
+  .first-box-top {
+    background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
+    max-width: 1000px;
+    max-height: 3000px;
+    border-style: solid $maingreen;
+    border-radius:0px;
+    margin-top: 200px;
+    border-style: solid;
+    border-color: $mainyellow;
+  
+  }
+
+  // .aboutsection {
+  //   background-color: $maingreen;
+  //   // border-radius: 50px;
+  //   margin: 50px;
+  //   padding: 50px;
+  // }
+
+
+// .abouthead-img {
+//   display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     padding-top: 100px;
+//     padding-bottom: 75px;
+// }
+  
+  .ul-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .about-white {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $maingreen;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 50px;
+    box-shadow: $darkpurp 10px 8px 30px;
+    border-color: $darkpurp;
+    // border-style: solid;
+    border-width: thick;
+  }
+
+  .white-box {
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+    
+  }
+
+  .jakecloud {
+    display: flex;
+  }
+
+  .coll-img {
+    width: 400px;
+  }
+
+  .topabout {
+    margin-top: 80px;
+  }
+
+  h1 {
+    font-size: x-large;
+  }
+
+  .artbutton {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px;
+  }
+
+  .paragraphs {
+    margin: 40px;
+    padding: auto;
+    text-align: left;
+  }
+
+  .paragraphs-jake {
+    display: none;
+  }
+
+  ul {
+
+    font-family: europa,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: $darkpurp;
+    font-size: large;
+    margin-bottom: 100px;
+
+  }
+
+  p {
+    font-family: europa,sans-serif;
+    font-weight: 400;
+    font-size: large;
+    font-style: normal;
+    color: $darkpurp;
+  }
+
+  .artabout-mobile {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 40px;
+  
+  }
+
+  .hihimjakepro-img {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-left: 10px;
+  }
+
+
+
+  .hiimjake {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .hiimjakegroup {
+    display: flex;
+    
+  }
+
+ 
+  .workhead-img {
+    display: none;
+  }
+  .about-hi-main {
+    min-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 32px;
+    background-image: linear-gradient(#F4E8C1,#f7efd6,#F4E8C1) ;
+    border: solid 5px $maingreen;
+    margin-top: 10px;
+  }
+
+  .aboutgroup-img {
+    display: block;
+    width: 500px;
+    padding-left: 20px;
+    padding-bottom: 75px;
+      
+  }
+    
+  .aboutgroup {
+    display: flex;
+    align-items: center;
+  
+  }
+
+  .abouthead-img {
+    display: none;
+  }
+
+  .artabout-personas {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  
+    }
+
+    #work {
+      scroll-margin-top: 150px;
+    
+    }
+    
+    #about {
+      scroll-margin-top: 160px;
+    
+    }
+
+    img.techtool {
+      width: 200px;
+    
+    }
+  
+    .artabout-uiux {
+      width: 200px;
+      display: flex;
+      align-items: center;
+    
+    }
+
+    .caddie-baby {
+      width: 500px;
+    }
+
+     // BUTTONS =========================
+.workbuttons {
+padding-top: 30px;
+padding-bottom: 30px;
+display: flex;
+justify-content: center;
+
+}
+
+.homebutton {
+padding-top: 10px;
+padding-bottom: 30px;
+display: flex;
+justify-content: center;
+
+}
+    
+    
+.btn-primary {
+
+transition: 400ms;
+padding: 5px 15px;
+border: transparent;
+border-radius: 8px;
+background-color: $darkpurp;
+color: $mainyellow;
+cursor: pointer;
+font-family: europa,sans-serif;
+font-weight: 600;
+font-size: 20px;
+margin: 0 0 0.5rem;
+box-shadow: black 0px 5px 15px -5px;
+
+}
+
+.btn-primary:hover {
+transform: scale(1.05);
+transition: 500ms;
+background-color: #4b2c53;
+color: $mainyellow;
+
+}
+
+
+.btn {
+margin: 5px;
+
+}
+
+
+
+}
+
+
+
+
+  @media only screen and (min-width: 620px) {
+
 
     .first-box {
       background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
-      max-width: 750px;
+      max-width: 1000px;
       max-height: 3000px;
       border-style: solid $maingreen;
       border-radius:0px;
@@ -627,7 +1323,7 @@ img.techtool {
 
     .first-box-top {
       background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
-      max-width: 750px;
+      max-width: 1000px;
       max-height: 3000px;
       border-style: solid $maingreen;
       border-radius:0px;
@@ -636,397 +1332,88 @@ img.techtool {
       border-color: $mainyellow;
     
     }
+
+    // .aboutsection {
+    //   background-color: $maingreen;
+    //   // border-radius: 50px;
+    //   margin: 50px;
+    //   padding: 50px;
+    // }
     
-    .about-text-main {
-      max-width: 750px;
+    .ul-group {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .about-white {
       display: flex;
       flex-direction: column;
       align-items: center;
-      line-height: 32px;
-      background-color: $mainyellow ;
-      border: solid 5px $maingreen;
+      background-color: $maingreen;
+      border-radius: 15px;
+      margin: 30px;
+      padding: 50px;
+      box-shadow: $darkpurp 10px 8px 30px;
+      border-color: $darkpurp;
+      border-width: thick;
+    }
+  
+    .white-box {
+      background-color: white;
+      border-radius: 15px;
       margin-top: 50px;
-    
-    }
-
-    .hiimjake {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-top: 10px;
-    }
-
-    .hiimjakegroup {
-      display: flex;
+      margin-bottom: 50px;
+      
       
     }
 
-    .highimjakepro {
+    .jakecloud {
       display: flex;
-      flex-direction: row;
-      justify-content: center;
-      padding-top: 150px;
     }
 
-    .hihimjakepro-img {
-      width: 300px;
-      display: flex;
-      align-items: center;
-      padding-bottom: 50px;
-      padding-top: 40px;
+    .coll-img {
+      width: 400px;
+      margin-bottom: 0px;
     }
 
-    .workhead-img {
-      display: none;
-    }
-    .about-hi-main {
-      max-width: 750px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      line-height: 32px;
-      background-image: linear-gradient(#F4E8C1,#f7efd6,#F4E8C1) ;
-      border: solid 5px $maingreen;
-      margin-top: 10px;
+    .topabout {
+      margin-top: 75px;
     }
 
-    .aboutgroup-img {
-      display: block;
-      width: 300px;
-      padding-left: 20px;
-        
+    h1 {
+      font-size: x-large;
     }
-      
-    .aboutgroup {
+
+    .artbutton {
       display: flex;
-      align-items: center;
-    
+      justify-content: flex-end;
+      margin: 15px;
     }
 
     .paragraphs {
-      padding-left: 20px;
-      padding-right: 20px;
-      margin-left: 40px;
-      margin-right: 40px;
-      padding-top: 20px;
+      margin: 40px;
+      padding: auto;
       text-align: left;
     }
 
-    p {
+    .paragraphs-jake {
+      display: none;
+    }
+
+    ul {
+
       font-family: europa,sans-serif;
       font-weight: 400;
-      font-size: large;
       font-style: normal;
       color: $darkpurp;
-    }
-
-    .artabout-personas {
-      width: 600px;
-      display: flex;
-      align-items: center;
-      padding-bottom: 20px;
-      padding-top: 20px;
-    
-      }
-
-      #work {
-        scroll-margin-top: 120px;
-      
-      }
-      
-      #about {
-        scroll-margin-top: 160px;
-      
-      }
-
-       // BUTTONS =========================
- .workbuttons {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  display: flex;
-  justify-content: center;
-
-}
-
-.homebutton {
-  padding-top: 0px;
-  padding-bottom: 30px;
-  display: flex;
-  justify-content: center;
-
-}
-      
-      
-.btn-primary {
- 
-  transition: 400ms;
-  padding: 5px 15px;
-  border: transparent;
-  border-radius: 8px;
-  background-color: $darkpurp;
-  color: $mainyellow;
-  cursor: pointer;
-  font-family: europa,sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  margin: 0 0 0.5rem;
-
-}
-
-.btn-primary:hover {
-  transform: scale(1.05);
-  transition: 2ms;
-  background-color: #4b2c53;
-  color: $mainyellow;
-
-}
-
-  
-.btn {
-  margin: 5px;
-
-}
-
-  }
-
-  @media only screen and (min-width: 1025px) {
-
-
-    .first-box {
-      background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
-      max-width: 750px;
-      max-height: 3000px;
-      border-style: solid $maingreen;
-      border-radius:0px;
-      margin-top: 20px;
-      border-style: solid;
-      border-color: $mainyellow;
-    
-    }
-
-    .first-box-top {
-      background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
-      max-width: 750px;
-      max-height: 3000px;
-      border-style: solid $maingreen;
-      border-radius:0px;
-      margin-top: 200px;
-      border-style: solid;
-      border-color: $mainyellow;
-    
-    }
-    
-
-    .about-text-main {
-      max-width: 750px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      line-height: 32px;
-      background-image: linear-gradient(#F4E8C1,#f7efd6,#F4E8C1) ;
-      border: solid 5px $maingreen;
-      margin-top: 20px;
-    
-    }
-
-    .artabout-mobile {
-      width: 450px;
-      display: flex;
-      align-items: center;
-      padding-bottom: 50px;
-      padding-top: 40px;
-    
-    }
-
-    .paragraphs {
-      padding-left: 20px;
-      padding-right: 20px;
-      margin-left: 40px;
-      margin-right: 40px;
-      padding-top: 20px;
-      text-align: left;
-    }
-
-    .hihimjakepro-img {
-      width: 300px;
-      display: flex;
-      align-items: center;
-      padding-bottom: 50px;
-      padding-top: 40px;
-    }
-
-    .hiimjake {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      padding-top: 10px;
-    }
-
-    .hiimjakegroup {
-      display: flex;
-      
-    }
-
-    .highimjakepro {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      padding-top: 150px;
-    }
-
-    .workhead-img {
-      display: none;
-    }
-    .about-hi-main {
-      max-width: 750px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      line-height: 32px;
-      background-image: linear-gradient(#F4E8C1,#f7efd6,#F4E8C1) ;
-      border: solid 5px $maingreen;
-      margin-top: 10px;
-    }
-
-    .aboutgroup-img {
-      display: block;
-      width: 300px;
-      padding-left: 20px;
-        
-    }
-      
-    .aboutgroup {
-      display: flex;
-      align-items: center;
-    
-    }
-
-    .abouthead-img {
-      display: none;
-    }
-
-    p {
-      font-family: europa,sans-serif;
-      font-weight: 400;
       font-size: large;
-      font-style: normal;
-      color: $darkpurp;
+      margin-bottom: 100px;
+
     }
 
-    .artabout-personas {
-      width: 600px;
-      display: flex;
-      align-items: center;
-      padding-bottom: 20px;
-      padding-top: 20px;
-    
-      }
-      #work {
-        scroll-margin-top: 120px;
-      
-      }
-      
-      #about {
-        scroll-margin-top: 200px;
-      
-      }
-
-       // BUTTONS =========================
- .workbuttons {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  display: flex;
-  justify-content: center;
-
-}
-
-.homebutton {
-  padding-top: 50px;
-  padding-bottom: 30px;
-  display: flex;
-  justify-content: center;
-
-}
-      
-      
-.btn-primary {
- 
-  transition: 400ms;
-  padding: 5px 15px;
-  border: transparent;
-  border-radius: 8px;
-  background-color: $darkpurp;
-  color: $mainyellow;
-  cursor: pointer;
-  font-family: europa,sans-serif;
-  font-weight: 600;
-  font-size: 20px;
-  margin: 0 0 0.5rem;
-
-}
-
-.btn-primary:hover {
-  transform: scale(1.05);
-  transition: 2ms;
-  background-color: #4b2c53;
-  color: $mainyellow;
-
-}
-
-  
-.btn {
-  margin: 5px;
-
-}
-  }
-
-
-  @media only screen and (min-width: 1440px) {
-
-    .first-box {
-      background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
-      max-width: 1000px;
-      max-height: 3000px;
-      border-style: solid $maingreen;
-      border-radius:0px;
-      margin-top: 20px;
-      border-style: solid;
-      border-color: $mainyellow;
-    
-    }
-
-    .first-box-top {
-      background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
-      max-width: 1000px;
-      max-height: 3000px;
-      border-style: solid $maingreen;
-      border-radius:0px;
-      margin-top: 200px;
-      border-style: solid;
-      border-color: $mainyellow;
-    
-    }
-    
-    .about-text-main {
-      max-width: 1000px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      line-height: 32px;
-      background-image: linear-gradient(#F4E8C1,#f7efd6,#F4E8C1) ;
-      border: solid 5px $maingreen;
-      margin-top: 20px;
-    
-    }
-
-    .paragraphs {
-      padding-left: 20px;
-      padding-right: 20px;
-      margin-left: 40px;
-      margin-right: 40px;
-      padding-top: 20px;
-      text-align: left;
-      padding-bottom: 20px;
+    .header {
+      margin-top: 50px;
     }
 
     p {
@@ -1046,13 +1433,15 @@ img.techtool {
     
     }
 
-    .hihimjakepro-img {
-      width: 400px;
+    img.hihimjakepro {
+      width: 250px;
       display: flex;
       align-items: center;
       padding-bottom: 50px;
       padding-top: 40px;
     }
+
+  
 
     .hiimjake {
       display: flex;
@@ -1066,12 +1455,7 @@ img.techtool {
       
     }
 
-    .highimjakepro {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      padding-top: 150px;
-    }
+   
     .workhead-img {
       display: none;
     }
@@ -1088,8 +1472,9 @@ img.techtool {
 
     .aboutgroup-img {
       display: block;
-      width: 300px;
+      width: 500px;
       padding-left: 20px;
+      padding-bottom: 75px;
         
     }
       
@@ -1123,17 +1508,292 @@ img.techtool {
       }
 
       img.techtool {
-        width: 300px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        width: 180px;
+      
       }
     
       .artabout-uiux {
         width: 300px;
         display: flex;
         align-items: center;
-        padding-bottom: 10px;
-        padding-top: 20px;
+      
+      }
+
+      .caddie-baby {
+        width: 500px;
+      }
+
+       // BUTTONS =========================
+ .workbuttons {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.homebutton {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+
+}
+      
+      
+.btn-primary {
+ 
+  transition: 400ms;
+  padding: 5px 15px;
+  border: transparent;
+  border-radius: 8px;
+  background-color: $darkpurp;
+  color: $mainyellow;
+  cursor: pointer;
+  font-family: europa,sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0 0 0.5rem;
+  box-shadow: black 0px 5px 15px -5px;
+
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  transition: 500ms;
+  background-color: #4b2c53;
+  color: $mainyellow;
+
+}
+
+  
+.btn {
+  margin: 5px;
+
+}
+
+  
+
+  }
+
+
+
+  @media only screen and (min-width: 1000px) {
+
+    .first-box {
+      background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
+      max-width: 1000px;
+      max-height: 3000px;
+      border-style: solid $maingreen;
+      border-radius:0px;
+      margin-top: 20px;
+      border-style: solid;
+      border-color: $mainyellow;
+    
+    }
+
+    .first-box-top {
+      background-image: linear-gradient(#A0C1B9,#b5c2be,#A0C1B9);
+      max-width: 1000px;
+      max-height: 3000px;
+      border-style: solid $maingreen;
+      border-radius:0px;
+      margin-top: 200px;
+      border-style: solid;
+      border-color: $mainyellow;
+    
+    }
+
+    
+    .ul-group {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .about-white {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: $maingreen;
+      border-radius: 15px;
+      margin: 30px;
+      padding: 50px;
+      box-shadow: $darkpurp 10px 8px 30px;
+      border-color: $darkpurp;
+      border-width: thick;
+    }
+  
+    .white-box {
+      background-color: white;
+      border-radius: 15px;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      
+      
+    }
+
+    .jakecloud {
+      display: flex;
+    }
+
+    .coll-img {
+      width: 500px;
+      margin-bottom: 50px;
+    }
+
+    .topabout {
+      margin-top: 130px;
+    }
+
+    h1 {
+      font-size: xx-large;
+    }
+
+
+    .artbutton {
+      display: flex;
+      justify-content: flex-end;
+      margin: 15px;
+    }
+
+    .paragraphs {
+      margin: 40px;
+      padding: auto;
+      text-align: left;
+    }
+
+    .paragraphs-jake {
+      display: none;
+    }
+
+    ul {
+
+      font-family: europa,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: $darkpurp;
+      font-size: xx-large;
+      margin-top: 50px;
+
+    }
+
+    .header {
+      margin-top: 0px;
+    }
+
+    p {
+      font-family: europa,sans-serif;
+      font-weight: 400;
+      font-size: x-large;
+      font-style: normal;
+      color: $darkpurp;
+    }
+
+    .artabout-mobile {
+      width: 500px;
+      display: flex;
+      align-items: center;
+      padding-bottom: 50px;
+      padding-top: 40px;
+    
+    }
+
+    .hihimjakepro-img {
+      width: 400px;
+      display: flex;
+      align-items: center;
+      padding-bottom: 50px;
+      padding-top: 40px;
+    }
+
+    .highimjakebubs {
+      width: 400px;
+      display: flex;
+      align-items: center;
+      padding-bottom: 150px;
+      padding-left: 20px;
+      padding-top: 0px;
+    }
+
+    .hiimjake {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10px;
+    }
+
+    .hiimjakegroup {
+      display: flex;
+      
+    }
+
+    .highimjakepro {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      // padding-top: 150px;
+    }
+    .workhead-img {
+      display: none;
+    }
+    .about-hi-main {
+      min-width: 1000px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 32px;
+      background-image: linear-gradient(#F4E8C1,#f7efd6,#F4E8C1) ;
+      border: solid 5px $maingreen;
+      margin-top: 10px;
+    }
+
+    .aboutgroup-img {
+      display: block;
+      width: 500px;
+      padding-left: 20px;
+      padding-bottom: 75px;
+        
+    }
+      
+    .aboutgroup {
+      display: flex;
+      align-items: center;
+    
+    }
+
+    .abouthead-img {
+      display: none;
+    }
+
+    .artabout-personas {
+      width: 600px;
+      display: flex;
+      align-items: center;
+      padding-bottom: 20px;
+      padding-top: 20px;
+    
+      }
+
+      #work {
+        scroll-margin-top: 150px;
+      
+      }
+      
+      #about {
+        scroll-margin-top: 160px;
+      
+      }
+
+      img.techtool {
+        width: 250px;
+      
+      }
+    
+      .artabout-uiux {
+        width: 300px;
+        display: flex;
+        align-items: center;
       
       }
 
@@ -1196,7 +1856,9 @@ img.techtool {
 
   @media only screen and (min-width: 2560px) {
 
-   
+    .coll-box {
+      display: flex;
+    }
 
     .caddie-baby {
       width: 700px;
@@ -1231,27 +1893,9 @@ img.techtool {
     
     }
     
-    .about-text-main {
-      max-width: 1300px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      line-height: 32px;
-      background-image: linear-gradient(#F4E8C1,#f7efd6,#F4E8C1) ; ;
-      border: solid 5px $maingreen;
-      margin-top: 20px;
-    
-    }
-
-    .about-hi-main {
-      max-width: 1300px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      line-height: 32px;
-      background-color: $mainyellow ;
-      border: solid 5px $maingreen;
-      margin-top: 50px;
+    .coll-img {
+      width: 900px;
+      margin-bottom: 50px;
     }
 
     .hihimjakepro-img {
@@ -1260,6 +1904,27 @@ img.techtool {
       align-items: center;
       padding-bottom: 50px;
       padding-top: 40px;
+    }
+
+    .highimjakebubs {
+      width: 1000px;
+      display: flex;
+      align-items: center;
+      padding-bottom: 150px;
+      padding-left: 20px;
+      padding-top: 0px;
+    }
+
+
+    .about-hi-main {
+      min-width: 2500px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      line-height: 32px;
+      background-color: $mainyellow ;
+      border: solid 5px $maingreen;
+      margin-top: 50px;
     }
 
     .paragraphs {
@@ -1271,10 +1936,29 @@ img.techtool {
       text-align: left;
     }
 
+    .paragraphs-jake {
+      display: none;
+    }
+    
+    ul {
+
+      font-family: europa,sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: $darkpurp;
+      font-size: xxx-large;
+
+    }
+
+    .header {
+      margin-top: 50px;
+    }
+   
+
     p {
       font-family: europa,sans-serif;
       font-weight: 400;
-      font-size: x-large;
+      font-size: xxx-large;
       font-style: normal;
       color: $darkpurp;
     }
@@ -1328,11 +2012,9 @@ img.techtool {
   h1 {
     font-family: cubano,sans-serif;
     color: $darkpurp;
-    font-size: xxx-large;
+    font-size: 75px;
   }
-  ul {
-    font-size: x-large;
-  }
+ 
 
   .aboutgroup-img {
     display: block;

@@ -1,19 +1,16 @@
 
-
+@import "./_colors.scss";
 //NAV MEDIA QUERY MOBILE=========================
 
 
     .nav {
-        background-color: #331E38;
+        background-color: $mainpurp;
         padding: 10px;
         box-shadow: 0 20px 60px -40px rgb(44, 43, 43);
          
     }
 
-    .navbar-toggler {
-        border: none !important;
-        
-    }
+
 
     .navbar-toggler-icon {
         border: none !important;
@@ -82,7 +79,7 @@
 @media only screen and (min-width: 550px ) { 
 
     .nav {
-        background-color: #331E38;
+        background-color: $darkpurp;
         padding: 10px;
         box-shadow: 0 20px 60px -40px rgb(44, 43, 43);
         
