@@ -2,15 +2,13 @@
 
 import React from "react"
 import aboutme from "../images/aboutme.svg"
-import group from "../images/group.svg"
-import art2 from "../images/art2.PNG"
 import aboutPro from "../images/aboutPro.png"
 import techToolsMobile from "../images/techToolsMobile.svg"
 import artboard from "../images/artboard.svg"
 import guitar from "../images/guitar.svg"
 import coll from "../images/coll.svg"
 import bubbs from "../images/bubbs.svg"
-import personas from "../images/personas.png"
+
 import { Button } from "react-bootstrap"
 
 
@@ -32,11 +30,48 @@ export const About = () => {
                     <div className="jakecloud">
                         <div className="highimjakepro"><img className="hihimjakepro-img" src={aboutPro} alt="me" /></div>
                         <div className="highimjakebubs"><img className="hihimjakepro-img" src={bubbs} alt="me" /></div>
+                        
                     </div>
                     <div className="coll"><img className="coll-img" src={coll} alt="me" /></div>
+                    <div className="header"><h1>My colleauges have described me as:</h1></div>
+                    
+                    <div className="coll-box">
+                    
                    
-
-                    <div className="hijake2"><h1>Tech and Tools</h1></div>        
+                        <div className="list-container">
+                        <ul>
+                            <li>
+                            A motivator
+                            </li>
+                            <li>
+                            Great on a team
+                            </li>
+                            <li>
+                            An infectious personality
+                            </li>
+                            <li>
+                            Always striving to be fair
+                            </li>
+                            <li>
+                            A true creative
+                            </li>
+                            <li>
+                            Naturally a leader
+                            </li>
+                            <li>
+                            Humble
+                            </li>
+                            <li>
+                            Inspiring
+                            </li>
+                            <li>
+                            Good with challenges
+                            </li>
+                        </ul>
+                        </div>
+                       
+                    </div>
+                    <div className="header"><h1>Tech and Tools</h1></div>        
                     <div><img className="techtool" src={techToolsMobile} alt="computer" /></div>
                     <div className="white-box">
                         <p className="paragraphs">I enjoy the challenge and ongoing learning process of being a desinger and developer. I have established a solid foundation with JavaScript and React. My desgin and styling skills are achieved through my knowledge of CSS, SASS, Figma, and Photoshop.
@@ -47,7 +82,7 @@ export const About = () => {
                     </div>
 
 
-                    <div className="hijake3"><h1>UI/UX</h1></div>
+                    <div className="header"><h1>UI/UX</h1></div>
                     <div><img className="artabout-uiux" src={guitar} alt="uiux logo" /></div>
                     <div className="white-box">
                         <div>
@@ -61,7 +96,7 @@ export const About = () => {
                     </div>
 
 
-                    <div className="hijake4"><h1 >Art and Design</h1></div>
+                    <div className="header"><h1 >Art and Design</h1></div>
                     <div><img className="techtool" src={artboard} alt="computer" /></div>
                     <div className="white-box">
                         <p className="paragraphs">My background in design comes from working as a freelance graphic designer.
