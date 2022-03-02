@@ -113,6 +113,10 @@ a:active {
 
 // ABOUT MEDIA QUERY MOBILE=========================
 
+.top {
+  margin-top: 150px;
+}
+
 .hiimjake {
   display: flex;
   flex-direction: column;
@@ -271,7 +275,6 @@ img.techtool {
     max-height: 3000px;
     border-style: solid $maingreen;
     border-radius:0px;
-    margin-top: px;
     border-style: solid;
     border-color: $mainyellow;
   
@@ -351,6 +354,9 @@ img.techtool {
     width: 300px;
     padding-top: 5px; 
   
+  }
+  .zkhool {
+    width: 300px;
   }
   
   .planning {
@@ -490,7 +496,7 @@ img.techtool {
     max-height: 3000px;
     border-style: solid $maingreen;
     border-radius:0px;
-    margin-top: 200px;
+    margin-top: 20px;
     border-style: solid;
     border-color: $mainyellow;
   
@@ -704,6 +710,10 @@ img.techtool {
       width: 300px;
     }
 
+    .zkhool {
+      width: 300px;
+    }
+
      // BUTTONS =========================
 .workbuttons {
 padding-top: 30px;
@@ -778,7 +788,7 @@ margin: 5px;
     max-height: 3000px;
     border-style: solid $maingreen;
     border-radius:0px;
-    margin-top: 200px;
+    margin-top: 20px;
     border-style: solid;
     border-color: $mainyellow;
   
@@ -971,7 +981,11 @@ margin: 5px;
     }
 
     .caddie-baby {
-      width: 500px;
+      width: 300px;
+    }
+
+    .zkhool {
+      width: 300px;
     }
 
      // BUTTONS =========================
@@ -1048,7 +1062,7 @@ margin: 5px;
     max-height: 3000px;
     border-style: solid $maingreen;
     border-radius:0px;
-    margin-top: 200px;
+    margin-top: 20px;
     border-style: solid;
     border-color: $mainyellow;
   
@@ -1250,6 +1264,10 @@ margin: 5px;
       width: 500px;
     }
 
+    .zkhool {
+      width: 400px;
+    }
+
      // BUTTONS =========================
 .workbuttons {
 padding-top: 30px;
@@ -1327,7 +1345,7 @@ margin: 5px;
       max-height: 3000px;
       border-style: solid $maingreen;
       border-radius:0px;
-      margin-top: 200px;
+      margin-top: 20px;
       border-style: solid;
       border-color: $mainyellow;
     
@@ -1522,6 +1540,9 @@ margin: 5px;
       .caddie-baby {
         width: 500px;
       }
+      .zkhool {
+        width: 400px;
+      }
 
        // BUTTONS =========================
  .workbuttons {
@@ -1598,7 +1619,7 @@ margin: 5px;
       max-height: 3000px;
       border-style: solid $maingreen;
       border-radius:0px;
-      margin-top: 200px;
+      margin-top: 20px;
       border-style: solid;
       border-color: $mainyellow;
     
@@ -1806,6 +1827,10 @@ margin: 5px;
         width: 500px;
       }
 
+      .zkhool {
+        width: 500px;
+      }
+
        // BUTTONS =========================
  .workbuttons {
   padding-top: 30px;
@@ -1859,7 +1884,7 @@ margin: 5px;
 
   }
 
-  @media only screen and (min-width: 2560px) {
+  @media only screen and (min-width: 2613px) {
 
     .coll-box {
       display: flex;
@@ -1867,6 +1892,10 @@ margin: 5px;
 
     .caddie-baby {
       width: 700px;
+    }
+
+    .zkhool {
+      width: 500px;
     }
 
     h5 {
@@ -1892,7 +1921,7 @@ margin: 5px;
       max-width: 2500px;
       border-style: solid $maingreen;
       border-radius:0px;
-      margin-top: 200px;
+      margin-top: 20px;
       border-style: solid;
       border-color: $mainyellow;
     
