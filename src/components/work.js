@@ -4,6 +4,7 @@ import React from "react"
 import { Button } from "react-bootstrap"
 import C51 from "../images/C51.svg"
 import caddielogo from "../images/caddielogo.png"
+import zkhoollogo from "../images/zkhoollogo.svg"
 import workhead from "../images/workhead.svg"
 import mobile from "../images/mobile.svg"
 import desktop from "../images/desktop.svg"
@@ -18,10 +19,32 @@ import desktop from "../images/desktop.svg"
 export const Work = () => {
     return (
         <>
+
+
             <div className="mainworkcontainer"></div>
             <div className="workhead-img"><img className="workme" src={workhead} alt="Card Caddie logo" /></div>
 
+            <div className="top"></div>
 
+            <div className="worksection">
+                <div className="first-box">
+                    
+                    <div className="C51-description">
+                    <div className="caddielogo-top"><img className="zkhool" src={zkhoollogo} alt="Card Caddie logo"></img></div>
+                        <div><h1>Zkhool</h1></div>
+                        <p className="paragraphs">
+                        This app was my final UI/UX Capstone project with the Nashville Software School. Zkhool was created to help a child care facility easily conduct emergency drills and make a smooth transition away from their paper-based applications while adhering to DHS guidelines and approval. Use the login:<b>user@zkhool.com</b> and passowrd:<b>Cullabies713</b> to try it out. Please give Heroku a min to warm up.</p>
+                        <div className="workbuttons">
+                            <div><a target="_blank" rel="noreferrer" href="https://zkhool.herokuapp.com/"><Button size="lg">Try It Out</Button></a></div>
+                            <div><a target="_blank" rel="noreferrer" href="https://www.figma.com/proto/RURS8HzpA1C3o7l1RbOtyk/ZKHOOL-PRESENTATION?page-id=0%3A1&node-id=1%3A583&starting-point-node-id=1%3A583"><Button size="lg">View Case Study</Button></a></div>
+                            <div><a target="_blank" rel="noreferrer" href="https://github.com/jmlashen/finalcapstone"><Button size="lg">View Repo</Button></a></div>
+                        </div>
+                        <div className="first-box-video">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
 
             <div className="worksection">
                 <div className="first-box-top">
@@ -83,8 +106,10 @@ export const Work = () => {
                         </div>
                         <div><h1>Prototypes</h1></div>
                         <p className="paragraphs">
-                            Based on user data and group planning for the Cohort-51 Website, I created mobile and desktop prototypes for the project using Figma. Prototyping is one of my favorite processes that precede the launch of the final product and helps present a clear vision.
-                            <b> <a target="_blank" rel="noreferrer" href="https://github.com/nss-day-cohort-51/nss-day-cohort-51.github.io">View all planning resources for the Cohort-51 Website Group Project here.</a></b></p>
+                            Based on user data and group planning for the Cohort-51 Website, I created mobile and desktop prototypes for the project using Figma. Prototyping is one of my favorite processes that precede the launch of the final product and helps present a clear vision.</p>
+                            {/* <b> <a target="_blank" rel="noreferrer" href="https://github.com/nss-day-cohort-51/nss-day-cohort-51.github.io">View all planning resources for the Cohort-51 Website Group Project here.</a></b></p> */}
+
+                            <div><a target="_blank" rel="noreferrer" href="https://www.figma.com/proto/RjPnJ4xrvjgEBBPvwayI9M/C-51-Prototype---Desktop?page-id=0%3A1&node-id=54%3A700&viewport=241%2C48%2C0.18&scaling=scale-down&starting-point-node-id=54%3A700&show-proto-sidebar=1"><Button size="lg">View Prototypes</Button></a></div>
                     </div>
                 </div>
             </div>

@@ -90,7 +90,7 @@ export const About = () => {
                                 During my time at Nashville Software School I have gained valuable experience learning the principles and processes of UI/UX. A group project revealed a pain point in the School's requirements relating to graduation and I personally gained real world UX experience working closely with the Department of Human Services for my final project. From wireframes to prototypes, user testing, informational architecture, and visual hierarchy–we got our hands dirty with every step.
                             </p>
                             <div className="artbutton">
-                                <div ><a target="_blank" rel="noreferrer" href="https://www.instagram.com/jake_diggity/"><Button size="lg">View Case Study</Button></a></div>
+                                <div ><a target="_blank" rel="noreferrer" href="https://www.figma.com/proto/RURS8HzpA1C3o7l1RbOtyk/ZKHOOL-PRESENTATION?page-id=0%3A1&node-id=1%3A583&starting-point-node-id=1%3A583"><Button size="lg">View Case Study</Button></a></div>
                             </div>
                         </div>
                     </div>
