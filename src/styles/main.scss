@@ -1,6 +1,16 @@
 
 
     // LANDING PAGE
+.youtube-video {
+    display: flex;
+    justify-content: center;
+}
+
+iframe {
+    width: 320px;
+    height: 180px;
+}
+
 
 .landcontainer {
     display: flex;
@@ -13,6 +23,7 @@
 .gtkm {
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 
 img.jakestand {
@@ -128,8 +139,12 @@ h3 {
     align-items: center;
     padding-top: 0px;
 }
-
-
+@media only screen and (max-width: 426px ) {
+iframe {
+    width: 220px;
+    height: 115px;
+}
+}
 
 @media only screen and (min-width: 426px ) {
 
@@ -147,6 +162,7 @@ h3 {
 .gtkm {
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .jakelogo {
@@ -271,6 +287,7 @@ img.jakestand {
 .gtkm {
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 
 .jakelogo {
@@ -360,7 +377,7 @@ img.jakestand {
     align-items: center;
     padding-bottom: 100px;
     padding-left: 10px;
-    padding-top: 150px;
+    // padding-top: 150px;
 }
 
 h3 {
@@ -587,6 +604,11 @@ h3 {
 
 
             @media only screen and (min-width: 2560px ) {
+
+                .youtube-video {
+                    display: flex;
+                    justify-content: center;
+                }
 
                 .landcontainer {
                     display: flex;

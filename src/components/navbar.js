@@ -14,9 +14,9 @@ export const NavBar = () => {
     return (
         <>
             <Navbar collapseOnSelect expand="sm" fixed="top"  className="nav d-flex justify-content-end">
-                <Navbar.Toggle />
+                <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                     <Navbar.Collapse id="responsive-navbar-nav" >
-                        <Nav>
+                        <Nav expand="false">
                 <div className="navcontain">
                     <Link to="/" onClick={() => {window.scrollTo({ top: 0, behavior: "smooth"});}}><img className="navhome" src={home} alt="home" ></img></Link>
                  
