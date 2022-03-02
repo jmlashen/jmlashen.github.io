@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.26dde32e.chunk.css",
-    "main.js": "/static/js/main.22eafdba.chunk.js",
-    "main.js.map": "/static/js/main.22eafdba.chunk.js.map",
+    "main.css": "/static/css/main.08aeda7f.chunk.css",
+    "main.js": "/static/js/main.410b18c7.chunk.js",
+    "main.js.map": "/static/js/main.410b18c7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.cb672f2e.js",
     "runtime-main.js.map": "/static/js/runtime-main.cb672f2e.js.map",
     "static/js/2.e9b6ec3d.chunk.js": "/static/js/2.e9b6ec3d.chunk.js",
     "static/js/2.e9b6ec3d.chunk.js.map": "/static/js/2.e9b6ec3d.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.26dde32e.chunk.css.map": "/static/css/main.26dde32e.chunk.css.map",
+    "static/css/main.08aeda7f.chunk.css.map": "/static/css/main.08aeda7f.chunk.css.map",
     "static/js/2.e9b6ec3d.chunk.js.LICENSE.txt": "/static/js/2.e9b6ec3d.chunk.js.LICENSE.txt",
     "static/media/C51.d726f1e0.svg": "/static/media/C51.d726f1e0.svg",
     "static/media/JakeLogo.be099d23.svg": "/static/media/JakeLogo.be099d23.svg",
@@ -16,27 +16,28 @@
     "static/media/about.f1aa6c9a.svg": "/static/media/about.f1aa6c9a.svg",
     "static/media/aboutPro.ea1bbe15.png": "/static/media/aboutPro.ea1bbe15.png",
     "static/media/aboutme.be708712.svg": "/static/media/aboutme.be708712.svg",
-    "static/media/art2.ed540134.PNG": "/static/media/art2.ed540134.PNG",
+    "static/media/artboard.7fe17afa.svg": "/static/media/artboard.7fe17afa.svg",
+    "static/media/bubbs.d577d5af.svg": "/static/media/bubbs.d577d5af.svg",
     "static/media/caddielogo.84c153fb.png": "/static/media/caddielogo.84c153fb.png",
+    "static/media/coll.d92cb9c2.svg": "/static/media/coll.d92cb9c2.svg",
     "static/media/desktop.a6c7a507.svg": "/static/media/desktop.a6c7a507.svg",
     "static/media/git.0f039362.svg": "/static/media/git.0f039362.svg",
-    "static/media/group.b856c356.svg": "/static/media/group.b856c356.svg",
+    "static/media/guitar.580a8db5.svg": "/static/media/guitar.580a8db5.svg",
     "static/media/home.3b69b258.svg": "/static/media/home.3b69b258.svg",
     "static/media/linkedin.231ac21d.svg": "/static/media/linkedin.231ac21d.svg",
     "static/media/mail.fffbb8d7.svg": "/static/media/mail.fffbb8d7.svg",
     "static/media/mobile.2c907cc0.svg": "/static/media/mobile.2c907cc0.svg",
     "static/media/nssicon.f2fe87e7.svg": "/static/media/nssicon.f2fe87e7.svg",
-    "static/media/personas.3c8e2606.png": "/static/media/personas.3c8e2606.png",
     "static/media/resumenav.64247ac3.svg": "/static/media/resumenav.64247ac3.svg",
-    "static/media/techToolsMobile.fcafd2bb.svg": "/static/media/techToolsMobile.fcafd2bb.svg",
-    "static/media/uiux.64bf3c66.svg": "/static/media/uiux.64bf3c66.svg",
+    "static/media/techToolsMobile.0328dada.svg": "/static/media/techToolsMobile.0328dada.svg",
     "static/media/work.dcab95a0.svg": "/static/media/work.dcab95a0.svg",
-    "static/media/workhead.25d95ff3.svg": "/static/media/workhead.25d95ff3.svg"
+    "static/media/workhead.25d95ff3.svg": "/static/media/workhead.25d95ff3.svg",
+    "static/media/zkhoollogo.8666ed4b.svg": "/static/media/zkhoollogo.8666ed4b.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.cb672f2e.js",
     "static/js/2.e9b6ec3d.chunk.js",
-    "static/css/main.26dde32e.chunk.css",
-    "static/js/main.22eafdba.chunk.js"
+    "static/css/main.08aeda7f.chunk.css",
+    "static/js/main.410b18c7.chunk.js"
   ]
 }
