@@ -33,7 +33,7 @@ export const Work = () => {
                     <div className="caddielogo-top"><img className="zkhool" src={zkhoollogo} alt="Card Caddie logo"></img></div>
                         <div><h1>Zkhool</h1></div>
                         <p className="paragraphs">
-                        This moblie app was my final UI/UX Capstone project with the Nashville Software School. Zkhool was created to help a child care facility easily conduct emergency drills and make a smooth transition away from their paper-based applications while adhering to DHS guidelines and approval. Use the login:<b>user@zkhool.com</b> and passowrd:<b>Cullabies713</b> to try it out. Please view in mobile or tablet view with your browser's developer tool and give Heroku a min to warm up.</p>
+                        This moblie app was my final UI/UX Capstone project with the Nashville Software School. Zkhool was created to help a child care facility easily conduct emergency drills and make a smooth transition away from their paper-based applications while adhering to DHS guidelines and approval.</p>Please view in mobile or tablet view with your browser's developer tool and give Heroku a min to warm up.<b>Login: user@zkhool.com</b> <b>Password: Cullabies713</b>
                         <div className="workbuttons">
                             <div><a target="_blank" rel="noreferrer" href="https://zkhool.herokuapp.com/"><Button size="lg">Try It Out</Button></a></div>
                             <div><a target="_blank" rel="noreferrer" href="https://www.figma.com/proto/RURS8HzpA1C3o7l1RbOtyk/ZKHOOL-PRESENTATION?page-id=0%3A1&node-id=1%3A583&starting-point-node-id=1%3A583"><Button size="lg">View Case Study</Button></a></div>
@@ -75,7 +75,7 @@ export const Work = () => {
                     <div className="C51-description">
                         <div><h1>Card Caddie</h1></div>
                         <p className="paragraphs">
-                            This was my first crud based app and front-end capstone for Nashville Software School. This user-specific app helps golfers keep track of scores and reflections from their rounds. Users can also add a new course and crowdsource courses from other users. Card Caddie has full CRUD capability (React, API fetch calls, React-Routing, and JSON server) with styling achieved through CSS, Cloudinary, and Reactstrap for an approachable user experience. Use <b>user@me.com</b> for login to try it out.</p>
+                            This was my first crud based app and front-end capstone for Nashville Software School. This user-specific app helps golfers keep track of scores and reflections from their rounds. Users can also add a new course and crowdsource courses from other users. Card Caddie has full CRUD capability (React, API fetch calls, React-Routing, and JSON server) with styling achieved through CSS, Cloudinary, and Reactstrap for an approachable user experience.</p> <b>Login: user@me.com</b>
 
                         <div className="workbuttons">
                             <div><a target="_blank" rel="noreferrer" href="https://card-caddie.herokuapp.com/"><Button size="lg">Try It Out</Button></a></div>
