@@ -35,7 +35,7 @@ export const About = () => {
                     </div>                   
                 
                     <div className="coll"><img className="coll-img" src={coll} alt="me" /></div>
-                    <div className="header"><h1>My colleauges have described me as:</h1></div>
+                    <div className="header"><h1>HI HI:</h1></div>
                     
                     <div className="coll-box">
                     
